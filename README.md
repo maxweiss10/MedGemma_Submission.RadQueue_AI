@@ -36,13 +36,13 @@ Upload this project folder to Google Drive, then open each notebook in Colab:
 
 | # | Notebook | Purpose | GPU Required |
 |---|----------|---------|:---:|
-| 04 | `04_emr_generator.ipynb` | Generate longitudinal EMRs from the RUQ pain dataset | Yes (T4+) |
-| 03 | `03_ruq_triage.ipynb` | Triage generated EMRs against ACR criteria | Yes (T4+) |
+| 04 | `04_emr_generator.ipynb` | Generate longitudinal EMRs from the RUQ pain dataset | Yes (A100+) |
+| 03 | `03_ruq_triage.ipynb` | Triage generated EMRs against ACR criteria | Yes (A100+) |
 | 05 | `05_radqueue_app.ipynb` | Build the RadQueue AI web app from triage results | No |
 
 **Execution order:** Run 04 first (generates EMRs), then 03 (triages them), then 05 (builds the viewer). Pre-generated data is included, so you can skip to notebook 05 if you just want the app.
 
-Set runtime to **T4 GPU**: Runtime > Change runtime type > T4 GPU.
+Set runtime to **A100 GPU**: Runtime > Change runtime type > A100 GPU.
 
 ## Project Structure
 
@@ -120,7 +120,7 @@ ruq_pain_dataset_2.xlsx (92 cases)
 
 - **Model**: [google/medgemma-27b-text-it](https://huggingface.co/google/medgemma-27b-text-it)
 - **Parameters**: 27 billion
-- **Quantization**: 4-bit (required for Colab T4 GPU)
+- **Quantization**: 4-bit (required for Colab A100 GPU)
 - **Usage**: Clinical narrative generation (notebook 04) and ACR triage evaluation (notebook 03)
 
 ## Data Notes
@@ -134,7 +134,7 @@ ruq_pain_dataset_2.xlsx (92 cases)
 
 - **Not for clinical use**: All outputs are synthetic and require physician verification
 - **RUQ-specific**: Triage currently only supports RUQ pain (expandable to other ACR criteria)
-- **Colab-dependent**: Notebooks 03 and 04 require Google Colab with a T4+ GPU for MedGemma
+- **Colab-dependent**: Notebooks 03 and 04 require Google Colab with a A100+ GPU for MedGemma
 
 ## Resources
 
