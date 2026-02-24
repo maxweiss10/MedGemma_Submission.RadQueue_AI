@@ -1,0 +1,65 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Google Drive sync artifacts
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Claude Code
+.claude/
+
+# Model cache (large files)
+*.bin
+*.safetensors
+*.gguf
+model_cache/
+
+# Output files
+*.json
+!data/generated_emrs_27b/*.json
+results/
+output/
+
+# Logs
+*.log
+logs/

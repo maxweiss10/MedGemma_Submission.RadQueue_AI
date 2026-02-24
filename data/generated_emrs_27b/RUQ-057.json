@@ -1,0 +1,1845 @@
+{
+  "patient": {
+    "first_name": "Carolyn",
+    "last_name": "Lopez",
+    "mrn": "MRN-161577",
+    "date_of_birth": "1965-06-14",
+    "age": 61,
+    "sex": "Female",
+    "race": "Hispanic or Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "address": null,
+    "phone": "(266) 708-4210",
+    "insurance": "Anthem Blue Cross",
+    "emergency_contact": "Tyler Lopez (Spouse) - (871) 921-6914"
+  },
+  "encounter_history": [
+    {
+      "encounter": {
+        "encounter_id": "ENC-20210120-909",
+        "encounter_type": "Outpatient",
+        "facility": "Mercy Regional Medical Center",
+        "admission_datetime": "2021-01-20T15:12:00",
+        "discharge_datetime": "2021-01-20T15:42:00",
+        "attending_provider": "Dr. Nancy Davis",
+        "department": "Primary Care",
+        "chief_complaint": "Routine screening",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2021-01-20T15:17:00",
+          "encounter_id": "ENC-20210120-909",
+          "temperature_f": 97.3,
+          "heart_rate": 88,
+          "blood_pressure_systolic": 126,
+          "blood_pressure_diastolic": 89,
+          "respiratory_rate": 15,
+          "oxygen_saturation": 99.5,
+          "pain_scale": 1,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "LFT",
+          "timestamp": "2021-01-20T15:32:00",
+          "encounter_id": "ENC-20210120-909",
+          "results": [
+            {
+              "test_name": "AST",
+              "value": 54.9,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": "H",
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 55.3,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 92.6,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "GGT",
+              "value": 32.3,
+              "unit": "U/L",
+              "reference_low": 9.0,
+              "reference_high": 48.0,
+              "flag": null,
+              "loinc_code": "2324-2"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 1.1,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "Bilirubin, Direct",
+              "value": 0.3,
+              "unit": "mg/dL",
+              "reference_low": 0.0,
+              "reference_high": 0.3,
+              "flag": null,
+              "loinc_code": "1968-7"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 3.9,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 6.7,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        },
+        {
+          "panel_name": "CBC",
+          "timestamp": "2021-01-20T15:32:00",
+          "encounter_id": "ENC-20210120-909",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 6.2,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 13.8,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 40.8,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 153.0,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 89.3,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 12.3,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20210120-909",
+          "timestamp": "2021-01-20T15:12:00",
+          "author": "Dr. Nancy Davis",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard medical abbreviations and clinical details.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [MRN - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n**Chief Complaint:** Routine screening visit.\n\n**History of Present Illness:** 61 y/o F presents for a routine screening visit. Patient reports feeling well, denies any specific complaints. She is unaware of any risk factors for liver disease. Recent screening labs revealed an elevated AST. Patient is anxious about the abnormal lab result and the implications.\n\n**Review of Systems:**\n*   **Constitutional:** Denies fever, chills, weight loss, fatigue.\n*   **GI:** Denies abdominal pain, nausea, vomiting, diarrhea, constipation, jaundice.\n*   **HEENT:** Denies headache, vision changes.\n*   **Cardiovascular:** Denies chest pain, palpitations.\n*   **Respiratory:** Denies cough, shortness of breath.\n*   **Musculoskeletal:** Denies joint pain, muscle aches.\n\n**OBJECTIVE**\n\n**Vitals:** BP 126/89 mmHg, HR 88 bpm, RR 18/min, Temp 98.6\u00b0F (37\u00b0C), SpO2 98% on RA.\n\n**Physical Exam:**\n*   **General:** Alert, oriented, no acute distress.\n*   **Abdomen:** Soft, non-tender, non-distended. No hepatosplenomegaly appreciated on palpation. No ascites.\n*   **Skin:** No jaundice, spider angiomata, or palmar erythema noted.\n\n**ASSESSMENT**\n\n**Diagnoses:**\n1.  **Hepatitis C Virus (HCV) Infection, Chronic, Genotype 1a:** Confirmed by positive HCV antibody and quantitative HCV RNA. Elevated AST (54.9) likely secondary to chronic HCV.\n2.  **Elevated AST:** Secondary to chronic HCV infection.\n3.  **Routine Screening:** Completed.\n\n**Clinical Reasoning:** Patient presents for routine screening with an incidentally discovered elevated AST. Further workup revealed positive HCV antibody and detectable HCV RNA, confirming chronic HCV infection. Genotyping identified genotype 1a. Patient is currently asymptomatic but requires further evaluation and management by hepatology.\n\n**PLAN**\n\n1.  **Referral:** Referred to Hepatology (Dr. [Hepatologist Name - Placeholder]) for comprehensive evaluation and management of chronic HCV infection. Appointment scheduled for [Date - Placeholder].\n2.  **Patient Education:** Discussed diagnosis of chronic HCV, transmission routes, potential complications (cirrhosis, HCC), and the importance of"
+        }
+      ],
+      "diagnoses": [
+        "Hepatitis C",
+        "Routine screening"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20211227-318",
+        "encounter_type": "Outpatient",
+        "facility": "Mercy Regional Medical Center",
+        "admission_datetime": "2021-12-27T16:52:00",
+        "discharge_datetime": "2021-12-27T17:29:12",
+        "attending_provider": "Dr. Nancy Davis",
+        "department": "Primary Care",
+        "chief_complaint": "Annual physical exam",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2021-12-27T16:57:00",
+          "encounter_id": "ENC-20211227-318",
+          "temperature_f": 97.1,
+          "heart_rate": 79,
+          "blood_pressure_systolic": 137,
+          "blood_pressure_diastolic": 66,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 99.9,
+          "pain_scale": 3,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2021-12-27T17:13:00",
+          "encounter_id": "ENC-20211227-318",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 7.5,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 13.1,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 42.2,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 267.0,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 86.0,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 12.9,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2021-12-27T17:13:00",
+          "encounter_id": "ENC-20211227-318",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 143.8,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.8,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.2,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 27.3,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 13.7,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.8,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 70.2,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 8.8,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.5,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.3,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 32.6,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 7.0,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 69.0,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.4,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 83.8,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20211227-318",
+          "timestamp": "2021-12-27T16:52:00",
+          "author": "Dr. Nancy Davis",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard clinical documentation style and abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [MRN - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Annual physical exam.\n\n**History of Present Illness (HPI):** 61 y/o F presents for routine annual wellness visit. Patient reports feeling generally well, denies any acute complaints. She is here for preventative care, medication review, and screening. She has a known history of Hepatitis C, diagnosed [Date/Year - Placeholder], status post-treatment with [Treatment - Placeholder] in [Year - Placeholder], with documented SVR [Date - Placeholder]. She denies any current symptoms related to liver disease (e.g., jaundice, ascites, fatigue, RUQ pain).\n\n**Review of Systems (ROS):**\n*   **Constitutional:** Denies fever, chills, weight loss. Reports good energy levels.\n*   **Cardiovascular:** Denies chest pain, palpitations, SOB.\n*   **Respiratory:** Denies cough, wheezing, SOB.\n*   **GI:** Denies nausea, vomiting, abdominal pain, changes in bowel habits.\n*   **GU:** Denies dysuria, frequency, hematuria.\n*   **MSK:** Denies joint pain, muscle aches.\n*   **Skin:** Denies rashes, lesions.\n*   **Neuro:** Denies headache, dizziness, focal weakness.\n\n**OBJECTIVE**\n\n**Vitals:** BP 137/66 mmHg, HR 79 bpm, RR 16/min, Temp 98.4\u00b0F (36.9\u00b0C), SpO2 98% RA. Weight 155 lbs, Height 5'6\". BMI 24.8 kg/m\u00b2.\n\n**Physical Exam:**\n*   **General:** Alert, oriented, NAD. Appears stated age.\n*   **HEENT:** Normocephalic, atraumatic. PERRLA, EOMI. TMs clear bilaterally. Oropharynx clear, no exudates.\n*   **Neck:** Supple, no JVD, no thyromegaly.\n*   **Cardiovascular:** RRR, S1/S2 normal. No murmurs, rubs, or gallops.\n*   **Pulmonary:** CTA bilaterally. No wheezes, rales, or rhonchi.\n*   **Abdomen:** Soft, NT/ND. Bowel sounds normoactive. No HSM.\n*   **Extremities:** No edema, cyanosis, or clubbing. Pul"
+        }
+      ],
+      "diagnoses": [
+        "Annual physical exam"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20220310-327",
+        "encounter_type": "Outpatient",
+        "facility": "Cedar Creek Medical Center",
+        "admission_datetime": "2022-03-10T16:10:00",
+        "discharge_datetime": "2022-03-10T16:51:24",
+        "attending_provider": "Dr. Patricia Wong",
+        "department": "Gastroenterology Clinic",
+        "chief_complaint": "Hepatology consultation",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2022-03-10T16:15:00",
+          "encounter_id": "ENC-20220310-327",
+          "temperature_f": 98.9,
+          "heart_rate": 89,
+          "blood_pressure_systolic": 131,
+          "blood_pressure_diastolic": 80,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 97.9,
+          "pain_scale": 3,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "LFT",
+          "timestamp": "2022-03-10T16:35:00",
+          "encounter_id": "ENC-20220310-327",
+          "results": [
+            {
+              "test_name": "AST",
+              "value": 58.2,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": "H",
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 80.2,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": "H",
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 77.1,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "GGT",
+              "value": 30.7,
+              "unit": "U/L",
+              "reference_low": 9.0,
+              "reference_high": 48.0,
+              "flag": null,
+              "loinc_code": "2324-2"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.4,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "Bilirubin, Direct",
+              "value": 0.1,
+              "unit": "mg/dL",
+              "reference_low": 0.0,
+              "reference_high": 0.3,
+              "flag": null,
+              "loinc_code": "1968-7"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 3.3,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": "L",
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.4,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            }
+          ],
+          "ordering_provider": "Dr. Patricia Wong"
+        },
+        {
+          "panel_name": "CBC",
+          "timestamp": "2022-03-10T16:35:00",
+          "encounter_id": "ENC-20220310-327",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 10.1,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 12.9,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 42.9,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 340.9,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 83.8,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 13.0,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Patricia Wong"
+        }
+      ],
+      "imaging_orders": [
+        {
+          "order_id": "IMG-20220310-722",
+          "modality": "Ultrasound",
+          "body_region": "Abdomen",
+          "contrast": "without contrast",
+          "indication": "Hepatology consultation",
+          "ordering_provider": "Dr. Patricia Wong",
+          "order_datetime": "2022-03-10T17:10:00",
+          "urgency": "Routine",
+          "status": "Completed"
+        }
+      ],
+      "imaging_reports": [
+        {
+          "order_id": "IMG-20220310-722",
+          "modality": "Ultrasound Abdomen",
+          "report_datetime": "2022-03-10T19:10:00",
+          "radiologist": "Dr. Susan Miller",
+          "technique": "Ultrasound of the Abdomen was performed without contrast.",
+          "findings": "Liver is coarsened in echotexture with nodular surface contour. No focal hepatic lesions. Spleen is mildly enlarged at 13.5 cm. No ascites.",
+          "impression": "1. Hepatic parenchymal disease consistent with cirrhosis. 2. Mild splenomegaly."
+        }
+      ],
+      "clinical_notes": [
+        {
+          "note_type": "Consultation Note",
+          "encounter_id": "ENC-20220310-327",
+          "timestamp": "2022-03-10T16:10:00",
+          "author": "Dr. Patricia Wong",
+          "note_text": "Okay, here is a complete specialist consultation note based on the provided information, formatted in a standard clinical style.\n\n**Hepatology Consultation Note**\n\n**Patient:** [Patient Name - *Placeholder*]\n**MRN:** [Medical Record Number - *Placeholder*]\n**Date of Consult:** October 26, 2023\n**Referring Provider:** Nancy Davis, MD\n**Consulting Provider:** [Your Name/Specialist Name - *Placeholder*], MD\n\n**REASON FOR CONSULTATION:**\nEvaluation of a 61-year-old female with known Hepatitis C virus (HCV) infection and evidence of advanced liver fibrosis (F3-F4) on FibroScan, requiring initiation of direct-acting antiviral (DAA) therapy and subsequent management, including hepatocellular carcinoma (HCC) surveillance. Dr. Davis requests guidance on optimal DAA regimen selection and long-term liver disease management.\n\n**HISTORY OF PRESENT ILLNESS:**\nThe patient is a 61-year-old female with a history of chronic HCV infection, diagnosed [Date of Diagnosis - *Placeholder*]. She has not previously received treatment. A recent FibroScan demonstrated significant liver fibrosis, staged as F3-F4. A liver ultrasound (US) showed coarsened echotexture, consistent with chronic liver disease, but no focal lesions were identified. She denies symptoms of decompensated liver disease such as ascites, encephalopathy, or variceal bleeding. She is currently not taking any medications.\n\n**EXAMINATION:**\n*   **General:** Alert and oriented, no acute distress.\n*   **Abdomen:** Soft, non-tender. No hepatosplenomegaly appreciated. No ascites. No visible abdominal wall collaterals.\n*   **Skin:** No jaundice, spider angiomata, or palmar erythema noted.\n\n**ASSESSMENT:**\n1.  **Chronic Hepatitis C Virus Infection with Advanced Fibrosis (F3-F4):** Patient has confirmed HCV infection with significant liver fibrosis, placing her at increased risk for progression to cirrhosis and hepatocellular carcinoma (HCC).\n2.  **Chronic Liver Disease, likely Cirrhosis:** Based on FibroScan and US findings, cirrhosis is highly suspected, although not definitively confirmed without biopsy or further imaging/labs.\n3.  **Risk for Hepatocellular Carcinoma (HCC):** Due to advanced fibrosis/likely cirrhosis secondary to HCV, the patient is at high risk for developing HCC.\n\n**RECOMMENDATIONS:**\n1.  **DAA Therapy:** Recommend initiation of DAA therapy for HCV eradication. Given F3-F4 fibrosis and absence of prior treatment or known resistance, a regimen such as [Specific DAA Regimen - e.g., Glecaprevir/Pibrentasvir 800/200mg daily for 8 weeks] is appropriate. Please confirm"
+        }
+      ],
+      "diagnoses": [
+        "Hepatology consultation"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20230310-233",
+        "encounter_type": "Outpatient",
+        "facility": "Cedar Creek Medical Center",
+        "admission_datetime": "2023-03-10T14:11:00",
+        "discharge_datetime": "2023-03-10T15:00:12",
+        "attending_provider": "Dr. David Rivera",
+        "department": "Gastroenterology Clinic",
+        "chief_complaint": "HCV treatment completion, HCC surveillance",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2023-03-10T14:16:00",
+          "encounter_id": "ENC-20230310-233",
+          "temperature_f": 98.2,
+          "heart_rate": 86,
+          "blood_pressure_systolic": 138,
+          "blood_pressure_diastolic": 81,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 98.9,
+          "pain_scale": 0,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "LFT",
+          "timestamp": "2023-03-10T14:31:00",
+          "encounter_id": "ENC-20230310-233",
+          "results": [
+            {
+              "test_name": "AST",
+              "value": 37.7,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 34.7,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 61.8,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "GGT",
+              "value": 27.4,
+              "unit": "U/L",
+              "reference_low": 9.0,
+              "reference_high": 48.0,
+              "flag": null,
+              "loinc_code": "2324-2"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.7,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "Bilirubin, Direct",
+              "value": 0.2,
+              "unit": "mg/dL",
+              "reference_low": 0.0,
+              "reference_high": 0.3,
+              "flag": null,
+              "loinc_code": "1968-7"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 3.4,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": "L",
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.8,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            }
+          ],
+          "ordering_provider": "Dr. David Rivera"
+        },
+        {
+          "panel_name": "CBC",
+          "timestamp": "2023-03-10T14:31:00",
+          "encounter_id": "ENC-20230310-233",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 8.6,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 15.8,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 40.0,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 124.9,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": "L",
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 86.8,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 12.5,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. David Rivera"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Consultation Note",
+          "encounter_id": "ENC-20230310-233",
+          "timestamp": "2023-03-10T14:11:00",
+          "author": "Dr. David Rivera",
+          "note_text": "Okay, here is a complete specialist consultation note based on the provided information, formatted in a standard clinical style.\n\n**SPECIALIST CONSULTATION NOTE**\n\n**Patient Name:** [Patient Name - *Placeholder*]\n**MRN:** [Medical Record Number - *Placeholder*]\n**Date of Consultation:** October 26, 2023\n**Consulting Physician:** [Your Name/Specialty - *Placeholder*]\n**Referring Physician:** Nancy Davis, MD\n**Referring Specialty:** Primary Care\n\n**REASON FOR CONSULTATION:**\nEvaluation of a 61-year-old female with a history of Hepatitis C (HCV) who has successfully completed antiviral therapy and requires ongoing hepatocellular carcinoma (HCC) surveillance due to confirmed cirrhosis. The primary question is regarding the appropriate management and surveillance plan post-SVR.\n\n**HISTORY OF PRESENT ILLNESS:**\nThe patient is a 61-year-old female with a known history of chronic HCV infection (genotype [Specify if known, otherwise omit or state \"unknown\"]) diagnosed [Date/Year of diagnosis - *Placeholder*]. She recently completed a 12-week course of Sofosbuvir/Velpatasvir (Epclusa) for HCV treatment. Post-treatment HCV RNA testing at 12 weeks confirmed sustained virologic response (SVR). She has known cirrhosis, confirmed by [Method of confirmation - e.g., imaging, biopsy - *Placeholder*] on [Date - *Placeholder*]. She denies symptoms of decompensated liver disease such as ascites, encephalopathy, or variceal bleeding. She reports good adherence to medication and denies alcohol or illicit drug use.\n\n**EXAMINATION:**\n*   **General:** Alert, oriented, no acute distress.\n*   **Abdomen:** Soft, non-tender. No hepatosplenomegaly appreciated. No ascites. No visible abdominal wall collaterals.\n*   **Skin:** No jaundice, spider angiomata, or palmar erythema noted.\n\n**ASSESSMENT:**\n1.  **Hepatitis C:** Successfully treated with SVR achieved. Current HCV RNA is undetectable.\n2.  **Cirrhosis:** Confirmed diagnosis. Patient is currently compensated.\n3.  **Hepatocellular Carcinoma (HCC) Risk:** High risk for HCC development due to underlying cirrhosis, despite HCV cure.\n\n**RECOMMENDATIONS:**\n1.  **HCC Surveillance:** Continue HCC surveillance with abdominal ultrasound (US) and alpha-fetoprotein (AFP) level every 6 months. Schedule the next surveillance in 3 months.\n2.  **Medications:** No changes to current medications are needed. Continue monitoring for potential side effects or interactions as appropriate.\n3.  **Lifestyle:** Counsel patient on maintaining a healthy lifestyle, including avoidance of alcohol and hepatotoxins.\n4.  **Follow-up:**"
+        }
+      ],
+      "diagnoses": [
+        "Hepatic Cirrhosis",
+        "HCV treatment completion, HCC surveillance"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20240301-912",
+        "encounter_type": "Outpatient",
+        "facility": "Mercy Regional Medical Center",
+        "admission_datetime": "2024-03-01T11:17:00",
+        "discharge_datetime": "2024-03-01T11:58:24",
+        "attending_provider": "Dr. Michelle Clark",
+        "department": "Primary Care",
+        "chief_complaint": "Health maintenance visit",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2024-03-01T11:22:00",
+          "encounter_id": "ENC-20240301-912",
+          "temperature_f": 97.1,
+          "heart_rate": 63,
+          "blood_pressure_systolic": 119,
+          "blood_pressure_diastolic": 66,
+          "respiratory_rate": 15,
+          "oxygen_saturation": 97.0,
+          "pain_scale": 1,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2024-03-01T11:41:00",
+          "encounter_id": "ENC-20240301-912",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 6.5,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 15.3,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 40.1,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 201.2,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 91.0,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 13.0,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2024-03-01T11:41:00",
+          "encounter_id": "ENC-20240301-912",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 139.3,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.4,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 103.5,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 23.9,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 13.8,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.7,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 87.9,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.5,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 3.5,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.8,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 28.4,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 36.9,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 123.3,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.6,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 98.3,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20240301-912",
+          "timestamp": "2024-03-01T11:17:00",
+          "author": "Dr. Michelle Clark",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard medical abbreviations and clinical details.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n*   **Chief Complaint (CC):** Health maintenance visit.\n*   **History of Present Illness (HPI):** 61 y/o F presents for a scheduled health maintenance visit. Patient reports feeling well overall, denies any acute complaints. She is currently taking Sofosbuvir/Velpatasvir for Hepatitis C and reports good tolerance with no side effects. She is up-to-date on her Hepatitis C treatment regimen.\n*   **Review of Systems (ROS):**\n    *   Constitutional: Denies fever, chills, weight loss. Reports feeling well.\n    *   HEENT: Denies headache, vision changes, sore throat.\n    *   Cardiovascular: Denies chest pain, palpitations, SOB.\n    *   Respiratory: Denies cough, wheezing, dyspnea.\n    *   Gastrointestinal: Denies abdominal pain, nausea, vomiting, diarrhea, constipation.\n    *   Genitourinary: Denies dysuria, frequency, hematuria.\n    *   Musculoskeletal: Denies joint pain, muscle aches.\n    *   Neurological: Denies dizziness, numbness, tingling.\n    *   Skin: Denies rashes, lesions.\n\n**OBJECTIVE**\n\n*   **Vitals:** BP 119/66 mmHg, HR 63 bpm, RR 16/min, Temp 98.4\u00b0F (36.9\u00b0C), SpO2 98% on RA.\n*   **Physical Exam:**\n    *   General: Alert, oriented, NAD. Appears well-nourished.\n    *   Abdomen: Soft, non-tender, non-distended. No hepatosplenomegaly appreciated. Bowel sounds normoactive.\n    *   Lungs: Clear to auscultation bilaterally.\n    *   Heart: RRR, no murmurs, rubs, or gallops.\n    *   Extremities: No edema. Peripheral pulses 2+ bilaterally.\n\n**ASSESSMENT**\n\n1.  **Hepatitis C, treated (SVR achieved - presumed based on labs WNL):** Patient is on appropriate therapy (Sofosbuvir/Velpatasvir) and reports good tolerance. Recent labs WNL, suggesting successful treatment and stable liver function.\n2.  **Hepatic Cirrhosis, compensated:** Stable condition based on patient report and exam. Requires ongoing monitoring for complications"
+        }
+      ],
+      "diagnoses": [
+        "Health maintenance visit"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20250308-779",
+        "encounter_type": "Outpatient",
+        "facility": "Mercy Regional Medical Center",
+        "admission_datetime": "2025-03-08T16:08:00",
+        "discharge_datetime": "2025-03-08T16:29:36",
+        "attending_provider": "Dr. Michelle Clark",
+        "department": "Primary Care",
+        "chief_complaint": "Annual physical exam",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2025-03-08T16:13:00",
+          "encounter_id": "ENC-20250308-779",
+          "temperature_f": 97.3,
+          "heart_rate": 70,
+          "blood_pressure_systolic": 135,
+          "blood_pressure_diastolic": 85,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 98.1,
+          "pain_scale": 0,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2025-03-08T16:30:00",
+          "encounter_id": "ENC-20250308-779",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 7.6,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 13.3,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 38.8,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 289.4,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 83.9,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 14.0,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2025-03-08T16:30:00",
+          "encounter_id": "ENC-20250308-779",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 141.9,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.5,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 104.5,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 27.4,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 11.7,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 1.1,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 91.7,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 8.9,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.5,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 6.1,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 33.6,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 19.1,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 109.4,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.8,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 57.2,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20250308-779",
+          "timestamp": "2025-03-08T16:08:00",
+          "author": "Dr. Michelle Clark",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard medical abbreviations and clinical details.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [MRN - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n**Chief Complaint:** Annual physical exam.\n\n**History of Present Illness:** 61 y/o F presents for routine annual wellness visit. Patient reports feeling generally well, denies acute complaints. She is currently taking Sofosbuvir/Velpatasvir for Hepatitis C, which she tolerates well without side effects. She is up-to-date on her vaccinations per her report, but we will review and update as needed.\n\n**Review of Systems:**\n*   **Constitutional:** Denies fever, chills, weight loss. Reports stable energy levels.\n*   **HEENT:** Denies headache, vision changes, ear pain, sore throat.\n*   **Cardiovascular:** Denies chest pain, palpitations, shortness of breath.\n*   **Respiratory:** Denies cough, wheezing, dyspnea.\n*   **Gastrointestinal:** Denies nausea, vomiting, abdominal pain, changes in bowel habits.\n*   **Genitourinary:** Denies dysuria, frequency, hematuria.\n*   **Musculoskeletal:** Denies joint pain, muscle aches.\n*   **Neurological:** Denies dizziness, numbness, tingling.\n*   **Skin:** Denies rashes, lesions.\n\n**OBJECTIVE**\n\n**Vitals:** BP 135/85 mmHg, HR 70 bpm, RR 16/min, Temp 98.4\u00b0F (36.9\u00b0C), SpO2 98% on RA.\n**Physical Exam:**\n*   **General:** Alert, oriented, NAD. Appears well-nourished.\n*   **HEENT:** Normocephalic, atraumatic. PERRLA, EOMI. TMs clear bilaterally. Oropharynx clear.\n*   **Cardiovascular:** RRR, no murmurs, rubs, or gallops. Peripheral pulses 2+ bilaterally. No edema.\n*   **Respiratory:** CTA bilaterally. No wheezes, rales, or rhonchi.\n*   **Abdomen:** Soft, non-tender, non-distended. Bowel sounds normoactive. No hepatosplenomegaly appreciated.\n*   **Skin:** Warm, dry, intact. No jaundice noted.\n\n**ASSESSMENT**\n\n1.  **Hepatitis C, treated:** Patient is on appropriate antiviral therapy (Sofosbuvir/Velpatasvir) and reports good tolerance. Requires ongoing monitoring.\n2."
+        }
+      ],
+      "diagnoses": [
+        "Annual physical exam"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20260215-303",
+        "encounter_type": "Inpatient",
+        "facility": "Mercy Regional Medical Center",
+        "admission_datetime": "2026-02-15T09:30:00",
+        "discharge_datetime": null,
+        "attending_provider": "Dr. Andrew Mitchell",
+        "department": "Medical Floor",
+        "chief_complaint": "Right upper quadrant pain",
+        "disposition": "Admitted to Medicine"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2026-02-15T09:40:00",
+          "encounter_id": "ENC-20260215-303",
+          "temperature_f": 99.0,
+          "heart_rate": 84,
+          "blood_pressure_systolic": 138,
+          "blood_pressure_diastolic": 82,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 97.0,
+          "pain_scale": 1,
+          "source": "Triage"
+        },
+        {
+          "timestamp": "2026-02-15T13:35:00",
+          "encounter_id": "ENC-20260215-303",
+          "temperature_f": 98.2,
+          "heart_rate": 79,
+          "blood_pressure_systolic": 136,
+          "blood_pressure_diastolic": 75,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 99.8,
+          "pain_scale": 0,
+          "source": "Nursing"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2026-02-15T10:03:00",
+          "encounter_id": "ENC-20260215-303",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 9.5,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 11.8,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": "L",
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 35.5,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": "L",
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 198.1,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            }
+          ],
+          "ordering_provider": "Dr. Andrew Mitchell"
+        },
+        {
+          "panel_name": "CMP + LFT",
+          "timestamp": "2026-02-15T10:03:00",
+          "encounter_id": "ENC-20260215-303",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 138.0,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.0,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 24.0,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 25.0,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": "H",
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 1.1,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 110.0,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": "H",
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.0,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "AST",
+              "value": 85.0,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": "H",
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 70.0,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": "H",
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 395.0,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": "H",
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 3.2,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": "H",
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "Bilirubin, Direct",
+              "value": 0.1,
+              "unit": "mg/dL",
+              "reference_low": 0.0,
+              "reference_high": 0.3,
+              "flag": null,
+              "loinc_code": "1968-7"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 3.2,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": "L",
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 57.2,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Andrew Mitchell"
+        },
+        {
+          "panel_name": "Lipase",
+          "timestamp": "2026-02-15T10:03:00",
+          "encounter_id": "ENC-20260215-303",
+          "results": [
+            {
+              "test_name": "Lipase",
+              "value": 45.0,
+              "unit": "U/L",
+              "reference_low": 0.0,
+              "reference_high": 60.0,
+              "flag": null,
+              "loinc_code": "3040-3"
+            }
+          ],
+          "ordering_provider": "Dr. Andrew Mitchell"
+        },
+        {
+          "panel_name": "Coagulation",
+          "timestamp": "2026-02-15T10:03:00",
+          "encounter_id": "ENC-20260215-303",
+          "results": [
+            {
+              "test_name": "INR",
+              "value": 1.4,
+              "unit": "",
+              "reference_low": 0.8,
+              "reference_high": 1.1,
+              "flag": "H",
+              "loinc_code": "6301-6"
+            },
+            {
+              "test_name": "PT",
+              "value": 12.5,
+              "unit": "seconds",
+              "reference_low": 11.0,
+              "reference_high": 13.5,
+              "flag": null,
+              "loinc_code": "5902-2"
+            },
+            {
+              "test_name": "PTT",
+              "value": 28.4,
+              "unit": "seconds",
+              "reference_low": 25.0,
+              "reference_high": 35.0,
+              "flag": null,
+              "loinc_code": "3173-2"
+            }
+          ],
+          "ordering_provider": "Dr. Andrew Mitchell"
+        },
+        {
+          "panel_name": "Amylase",
+          "timestamp": "2026-02-15T10:03:00",
+          "encounter_id": "ENC-20260215-303",
+          "results": [
+            {
+              "test_name": "Amylase",
+              "value": 56.2,
+              "unit": "U/L",
+              "reference_low": 28.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "1798-8"
+            }
+          ],
+          "ordering_provider": "Dr. Andrew Mitchell"
+        },
+        {
+          "panel_name": "Magnesium",
+          "timestamp": "2026-02-15T10:03:00",
+          "encounter_id": "ENC-20260215-303",
+          "results": [
+            {
+              "test_name": "Magnesium",
+              "value": 1.9,
+              "unit": "mg/dL",
+              "reference_low": 1.7,
+              "reference_high": 2.2,
+              "flag": null,
+              "loinc_code": "19123-9"
+            }
+          ],
+          "ordering_provider": "Dr. Andrew Mitchell"
+        }
+      ],
+      "imaging_orders": [
+        {
+          "order_id": "IMG-20260215-334",
+          "modality": "ERCP",
+          "body_region": "Abdomen",
+          "contrast": "",
+          "indication": "Right upper quadrant pain",
+          "ordering_provider": "Dr. Andrew Mitchell",
+          "order_datetime": "2026-02-15T10:46:00",
+          "urgency": "Urgent",
+          "status": "Ordered"
+        }
+      ],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "HPI",
+          "encounter_id": "ENC-20260215-303",
+          "timestamp": "2026-02-15T09:30:00",
+          "author": "Dr. Andrew Mitchell",
+          "note_text": "The patient is a 61-year-old female with a history of Hepatitis C and hepatic cirrhosis, currently on Sofosbuvir/Velpatasvir, who presents today complaining of right upper quadrant (RUQ) abdominal pain. The pain began approximately 3 days ago, initially mild and intermittent, but has progressively worsened over the last 24 hours. She describes the pain as a constant, dull ache, localized primarily to the RUQ, without radiation to the back or shoulder. The patient rates the current pain severity as a 6 out of 10. She reports associated nausea but denies vomiting. She denies any subjective fevers or chills, although her temperature is noted to be 99.0F. She also denies changes in bowel habits or urinary symptoms.\n\nThe patient states she initially tried over-the-counter analgesics (acetaminophen) with minimal relief, prompting her visit today. She denies any recent trauma, alcohol consumption, or changes in diet. She reports no jaundice or pruritus. She denies shortness of breath, chest pain, or palpitations. She has not experienced any recent falls or injuries. Her vital signs are stable, with a temperature of 99.0F, heart rate of 84, blood pressure of 138/82, respiratory rate of 16, and SpO2 of 97.0%.\n\nReview of systems is otherwise negative for significant complaints. She denies any lower extremity edema or ascites. She reports no significant fatigue beyond her baseline. Laboratory results reveal mild anemia (Hgb 11.8, Hct 35.5), elevated BUN (25.0), hyperglycemia (Glucose 110.0), elevated liver enzymes (AST 85.0, ALT 70.0, ALP 395.0), hyperbilirubinemia (Total Bilirubin 3.2), hypoalbuminemia (Albumin 3.2), decreased eGFR (57.2), and an elevated INR (1.4)."
+        },
+        {
+          "note_type": "Physical Exam",
+          "encounter_id": "ENC-20260215-303",
+          "timestamp": "2026-02-15T09:30:00",
+          "author": "Dr. Andrew Mitchell",
+          "note_text": "GENERAL: Alert and oriented x3, appears comfortable but in mild distress due to abdominal pain. No acute distress. Well-nourished.\nHEENT: Normocephalic, atraumatic. PERRLA. EOMI. Conjunctivae clear. Scleral icterus noted bilaterally. Oropharynx clear, no erythema or exudates. No thyromegaly.\nCARDIOVASCULAR: Regular rate and rhythm. S1, S2 auscultated. No murmurs, rubs, or gallops. JVP estimated at 6 cm H2O. Peripheral pulses 2+ bilaterally. No edema.\nPULMONARY: Clear to auscultation bilaterally. No wheezes, rales, or rhonchi. Respirations non-labored.\nABDOMEN: Soft, non-distended. Bowel sounds normoactive in all four quadrants. Mild tenderness to palpation in the right upper quadrant (RUQ). No rebound tenderness or guarding. No hepatosplenomegaly appreciated on palpation. No masses.\nEXTREMITIES: Warm, dry, and intact. No cyanosis or clubbing. Peripheral pulses 2+ bilaterally. No edema.\nNEUROLOGICAL: Grossly non-focal. Cranial nerves II-XII intact. Strength 5/5 throughout. Sensation intact to light touch. Reflexes 2+ and symmetric. Gait steady."
+        },
+        {
+          "note_type": "Assessment & Plan",
+          "encounter_id": "ENC-20260215-303",
+          "timestamp": "2026-02-15T09:30:00",
+          "author": "Dr. Andrew Mitchell",
+          "note_text": "ASSESSMENT:\n61-year-old female with a history of Hepatitis C and hepatic cirrhosis presenting with right upper quadrant (RUQ) pain. Patient exhibits signs of decompensated cirrhosis including elevated bilirubin (3.2), low albumin (3.2), elevated INR (1.4), and evidence of renal dysfunction (eGFR 57.2, BUN 25.0). Laboratory findings also show mild anemia (Hgb 11.8, Hct 35.5), hyperglycemia (Glucose 110.0), and significantly elevated liver enzymes (AST 85.0, ALT 70.0, ALP 395.0), consistent with underlying liver disease and potentially superimposed acute process. The RUQ pain requires further investigation to determine the underlying etiology, with differentials including biliary obstruction (choledocholithiasis, stricture, malignancy), cholangitis, hepatocellular injury, or other intra-abdominal processes.\n\nPLAN:\n1.  **Right upper quadrant pain, etiology under evaluation** - Continue diagnostic workup for the cause of RUQ pain. ERCP has been ordered to evaluate for biliary pathology, including stones, strictures, or malignancy, given the elevated bilirubin and ALP. Monitor patient closely for signs of cholangitis (fever, worsening jaundice, altered mental status) pending ERCP. Maintain NPO status in anticipation of ERCP. Administer IV fluids (Normal Saline 100 mL/hr) for hydration and renal support. Obtain serial liver function tests (LFTs), complete blood count (CBC), and basic metabolic panel (BMP) every 6-8 hours to assess for worsening liver function, renal function, and potential complications. Consider abdominal ultrasound if not already performed, to assess for gallstones, biliary dilation, and liver morphology.\n2.  **Hepatic Cirrhosis with Decompensation** - Continue management of underlying cirrhosis. Monitor INR and LFTs. Hold any potentially hepatotoxic medications. Provide nutritional support as tolerated. Assess for ascites and edema.\n3.  **Mild Anemia** - Monitor hemoglobin and hematocrit. Consider iron studies and further workup if anemia worsens or persists.\n4.  **Renal Dysfunction (eGFR 57.2, BUN 25.0)** - Monitor renal function (BMP) closely, especially given potential contrast exposure during ERCP. Ensure adequate hydration. Avoid nephrotoxic medications.\n5.  **Hyperglycemia (Glucose 110.0)** - Monitor glucose levels. Consider further evaluation for diabetes mellitus if hyperglycemia persists or worsens.\n6.  **Disposition plan** - Admit to inpatient service (e.g., Gastroenterology or General Medicine) for further evaluation, management of RUQ pain, monitoring for complications of cirrhosis, and ERCP procedure."
+        },
+        {
+          "note_type": "Nursing Note",
+          "encounter_id": "ENC-20260215-303",
+          "timestamp": "2026-02-15T13:30:00",
+          "author": "RN David Lee",
+          "note_text": "Patient is alert and oriented x3, reporting right upper quadrant pain decreased to 1/10 after administration of IV morphine 2mg. Vital signs remain stable with Temp 99.0F, HR 84, BP 138/82, RR 16, SpO2 97.0%. IV fluids (NS) running at 100ml/hr, NPO status maintained, and labs drawn per orders. Patient denies nausea or vomiting currently, but remains under observation for changes in pain or abdominal assessment."
+        }
+      ],
+      "diagnoses": [
+        "Right upper quadrant pain, etiology under evaluation"
+      ]
+    }
+  ],
+  "problem_list": [
+    {
+      "condition": "Hepatitis C",
+      "icd10": "B18.2",
+      "date_added": "2021-01-20T15:12:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20210120-909"
+    },
+    {
+      "condition": "Hepatic Cirrhosis",
+      "icd10": "K74.60",
+      "date_added": "2023-03-10T14:11:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20230310-233"
+    }
+  ],
+  "medication_history": [
+    {
+      "medication": {
+        "name": "Sofosbuvir/Velpatasvir",
+        "dose": "400/100mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Hepatitis C",
+        "rxnorm_code": null
+      },
+      "change_type": "Started",
+      "change_date": "2022-03-10T16:10:00",
+      "encounter_id": "ENC-20220310-327",
+      "reason": "Hepatitis C",
+      "previous_dose": null
+    }
+  ],
+  "current_medications": {
+    "home_medications": [
+      {
+        "name": "Sofosbuvir/Velpatasvir",
+        "dose": "400/100mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Hepatitis C",
+        "rxnorm_code": null
+      }
+    ],
+    "inpatient_medications": [
+      {
+        "name": "Morphine",
+        "dose": "2mg",
+        "route": "IV",
+        "frequency": "q4h PRN",
+        "indication": "Pain control",
+        "rxnorm_code": "7052"
+      },
+      {
+        "name": "Ondansetron",
+        "dose": "4mg",
+        "route": "IV",
+        "frequency": "q8h PRN",
+        "indication": "Nausea",
+        "rxnorm_code": "26225"
+      },
+      {
+        "name": "Pantoprazole",
+        "dose": "40mg",
+        "route": "IV",
+        "frequency": "daily",
+        "indication": "Stress ulcer prophylaxis",
+        "rxnorm_code": "40790"
+      }
+    ]
+  },
+  "allergies": [],
+  "surgical_history": [],
+  "family_history": [
+    "Hypertension",
+    "Diabetes Mellitus Type 2"
+  ],
+  "social_history": {
+    "smoking_status": "Former",
+    "smoking_details": null,
+    "alcohol_use": "Former",
+    "alcohol_details": null,
+    "drug_use": "None",
+    "drug_details": null,
+    "occupation": "Retired Teacher",
+    "living_situation": "Lives with husband"
+  },
+  "source_vignette": {
+    "vignette_text": "61F. Vitals: T 99.0\u00b0F, HR 84, BP 138/82. Labs: ALP 395, T.bili 3.2, platelets 45,000. PE: jaundice, RUQ tenderness. PMHx: Cirrhosis (NASH), portal HTN, prior variceal bleed.",
+    "case_id": "RUQ-057",
+    "case_name": "Inpatient Hepatology - Choledocholithiasis",
+    "source": null,
+    "seed": 98,
+    "ground_truth_diagnosis": "Choledocholithiasis",
+    "ground_truth_appropriate_study": "ERCP"
+  },
+  "parsed_vignette": {
+    "age": 61,
+    "sex": "Female",
+    "diagnosis": "Choledocholithiasis",
+    "differential_diagnoses": [],
+    "chief_complaint": "Right upper quadrant pain",
+    "symptom_onset": null,
+    "symptom_character": null,
+    "history_conditions": [
+      "Cirrhosis (NASH)",
+      "portal HTN",
+      "prior variceal bleed"
+    ],
+    "surgical_history": [],
+    "presenting_symptoms": [],
+    "pertinent_negatives": [],
+    "exam_findings": "jaundice, RUQ tenderness",
+    "vitals_mentioned": {
+      "temperature_f": 99.0,
+      "heart_rate": 84,
+      "blood_pressure_systolic": 138,
+      "blood_pressure_diastolic": 82
+    },
+    "labs_mentioned": {
+      "alp": 395.0,
+      "bilirubin_total": 3.2
+    },
+    "ordered_study": "ERCP",
+    "imaging_modality": "ERCP",
+    "imaging_body_region": "Abdomen",
+    "imaging_contrast": "",
+    "clinical_setting": "Inpatient Hepatology",
+    "acuity": "stable",
+    "special_populations": [],
+    "safety_flags_mentioned": [],
+    "extraction_confidence": 1.0
+  },
+  "source_scenario": null,
+  "generation_metadata": {
+    "generator_version": "2.0.0",
+    "generation_timestamp": "2026-02-18T10:23:50.714427",
+    "narrative_backend": "medgemma",
+    "seed": 98,
+    "model_id": null
+  }
+}

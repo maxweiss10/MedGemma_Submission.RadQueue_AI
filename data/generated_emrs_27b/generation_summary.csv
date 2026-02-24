@@ -1,0 +1,93 @@
+case_id,setting,actual_diagnosis,protocol_ordered,patient_name,age,sex,encounters,problems,med_changes,emr_file
+RUQ-001,ED,Acute cholecystitis,MRI abdomen with contrast,Sophia Lewis,45,Female,3,1,1,RUQ-001.json
+RUQ-002,Outpatient Clinic,Biliary colic,CT abdomen/pelvis with contrast,Elizabeth Kelly,52,Female,5,2,0,RUQ-002.json
+RUQ-003,Inpatient,Choledocholithiasis,CT abdomen without contrast,Jose O'Connor,58,Male,6,2,6,RUQ-003.json
+RUQ-004,ED,Acute cholecystitis,CT abdomen with contrast,Anna Coleman,38,Female,10,6,8,RUQ-004.json
+RUQ-005,Outpatient GI Clinic,Biliary colic,HIDA scan,Sofia Martin,41,Female,8,4,4,RUQ-005.json
+RUQ-006,ICU,Acute cholecystitis,MRI abdomen without contrast,Alexander Taylor,63,Male,8,4,3,RUQ-006.json
+RUQ-007,Inpatient,Choledocholithiasis,Repeat RUQ ultrasound,Teresa Watson,67,Female,6,2,4,RUQ-007.json
+RUQ-008,SICU,Acute acalculous cholecystitis,CT abdomen with contrast,Thomas Ruiz,72,Male,10,3,11,RUQ-008.json
+RUQ-010,ED,Acute cholecystitis,HIDA scan,Amy Mueller,49,Female,11,6,6,RUQ-010.json
+RUQ-011,Outpatient Clinic,Choledocholithiasis,ERCP,Jonathan Wilson,61,Male,4,0,0,RUQ-011.json
+RUQ-012,Prenatal Clinic,Acute cholecystitis,MRI abdomen without contrast,Abigail Parker,44,Female,7,3,3,RUQ-012.json
+RUQ-013,Outpatient Clinic,Biliary colic,CT abdomen/pelvis without contrast,Hana Scott,56,Female,5,3,1,RUQ-013.json
+RUQ-014,Outpatient GI Clinic,Chronic cholecystitis,MRCP,Nancy Gomez,59,Female,4,2,3,RUQ-014.json
+RUQ-015,ED,Acute cholecystitis,Diagnostic laparoscopy,Ricardo Williams,68,Male,6,1,3,RUQ-015.json
+RUQ-016,Outpatient Oncology,Choledocholithiasis,PET/CT,Barbara Patel,54,Female,3,1,2,RUQ-016.json
+RUQ-018,ED,Pancreatitis,RUQ ultrasound,Laura Perez,42,Female,5,3,3,RUQ-018.json
+RUQ-019,Primary Care,Hepatic steatosis,RUQ ultrasound,Brandon Reed,51,Male,4,1,0,RUQ-019.json
+RUQ-020,Urgent Care,Right lower lobe pneumonia,RUQ ultrasound,Megan Campbell,29,Female,7,2,4,RUQ-020.json
+RUQ-021,Outpatient GI Clinic,Peptic ulcer disease,RUQ ultrasound,Kofi Hall,47,Male,6,2,3,RUQ-021.json
+RUQ-022,Inpatient,Hepatic abscess,RUQ ultrasound,Peter Wang,55,Male,4,2,1,RUQ-022.json
+RUQ-023,Outpatient Surgery Clinic,Ascending cholangitis,RUQ ultrasound,Joan Young,62,Female,6,2,3,RUQ-023.json
+RUQ-024,ED,Fitz-Hugh-Curtis syndrome,RUQ ultrasound,Olivia Kelly,26,Female,4,0,0,RUQ-024.json
+RUQ-025,Urgent Care,Nephrolithiasis,RUQ ultrasound,Charles Richardson,39,Male,4,2,2,RUQ-025.json
+RUQ-026,Primary Care,Gastritis,RUQ ultrasound,Karen Robinson,44,Female,6,3,3,RUQ-026.json
+RUQ-027,ED,Hepatitis A,RUQ ultrasound,Louis Kumar,33,Male,6,2,1,RUQ-027.json
+RUQ-028,Outpatient Clinic,GERD with esophagitis,RUQ ultrasound,Danielle Martinez,52,Female,3,1,1,RUQ-028.json
+RUQ-029,Urgent Care,Costochondritis,RUQ ultrasound,Hana Walker,36,Female,4,2,2,RUQ-029.json
+RUQ-030,Outpatient Radiology,Hepatic hemangioma,RUQ ultrasound,Katherine Fischer,48,Female,4,1,2,RUQ-030.json
+RUQ-031,ED,Subacute appendicitis,RUQ ultrasound,Karen Mitchell,31,Female,4,2,2,RUQ-031.json
+RUQ-032,Inpatient Hematology,Budd-Chiari syndrome,RUQ ultrasound with Doppler,Brenda Young,41,Female,3,1,2,RUQ-032.json
+RUQ-034,Inpatient,Hepatic abscess,CT abdomen with and without contrast,Zachary Chen,51,Male,4,0,0,RUQ-034.json
+RUQ-009,Urgent Care,Biliary colic,ERCP,Megan Morgan,35,Female,4,2,1,RUQ-009.json
+RUQ-017,Outpatient Clinic,Acute hepatitis,RUQ ultrasound,Jordan Gomez,38,Male,6,2,1,RUQ-017.json
+RUQ-033,ED,Ascending cholangitis,ERCP,Lucia Weber,29,Female,4,0,0,RUQ-033.json
+RUQ-035,Outpatient GI Clinic,Cholecystitis,HIDA scan,Catherine Singh,35,Female,5,2,2,RUQ-035.json
+RUQ-036,Outpatient Oncology,Pancreatic cancer,MRCP with secretin,Yuki Cook,44,Female,3,1,1,RUQ-036.json
+RUQ-037,Hepatology Clinic,Hepatocellular carcinoma,Multiphase liver MRI,Viktor Carter,47,Male,11,7,4,RUQ-037.json
+RUQ-038,Outpatient Surgery,Biliary dyskinesia,HIDA scan with CCK,Emily Liu,39,Female,6,3,5,RUQ-038.json
+RUQ-039,Outpatient Clinic,Choledocholithiasis,ERCP,Anna Powell,58,Female,5,2,4,RUQ-039.json
+RUQ-040,GI Specialty Clinic,Sphincter of Oddi dysfunction,ERCP with manometry,Andrea Yang,42,Female,5,2,3,RUQ-040.json
+RUQ-041,ED,Acute hepatitis,CT abdomen with contrast,Andrew Ivanov,36,Male,6,2,1,RUQ-041.json
+RUQ-042,Primary Care,Biliary colic,CT abdomen/pelvis with contrast,Megan Wu,53,Female,3,1,0,RUQ-042.json
+RUQ-043,Outpatient Clinic,Peptic ulcer,MRI abdomen with contrast,Philip Reed,48,Male,6,2,3,RUQ-043.json
+RUQ-044,ED,Gallstone ileus,RUQ ultrasound,Stephanie Ramirez,76,Female,6,3,5,RUQ-044.json
+RUQ-045,Outpatient Hematology,Hepatic adenoma,PET/CT,Wei Davis,31,Female,4,1,2,RUQ-045.json
+RUQ-046,Inpatient,Acute cholecystitis,MRCP,Andrew Carter,66,Male,7,1,5,RUQ-046.json
+RUQ-047,Hematology Clinic,Portal vein thrombosis,RUQ ultrasound without Doppler,Tyler Carter,54,Male,3,1,1,RUQ-047.json
+RUQ-048,Oncology Clinic,Hepatic metastases,Whole body PET/CT,Lisa Gutierrez,62,Female,3,1,2,RUQ-048.json
+RUQ-049,Inpatient,Choledocholithiasis with biliary obstruction,MRCP,Edward White,67,Male,7,4,2,RUQ-049.json
+RUQ-050,ED,Acute cholecystitis,CT abdomen with IV contrast,Lisa Hall,52,Female,5,3,1,RUQ-050.json
+RUQ-051,Outpatient GI,Choledocholithiasis,CT cholangiography with IV contrast,Olivia O'Brien,58,Female,6,2,3,RUQ-051.json
+RUQ-052,SICU,Complicated cholecystitis with perforation,CT abdomen with IV contrast,Jamal Petrov,71,Male,7,2,8,RUQ-052.json
+RUQ-053,Inpatient,Ascending cholangitis,MRCP with gadolinium,Gloria Campbell,63,Female,4,0,0,RUQ-053.json
+RUQ-054,Outpatient Hematology,Choledocholithiasis,ERCP,Antonio MacDonald,55,Male,4,0,0,RUQ-054.json
+RUQ-055,Prenatal Clinic,Acute cholecystitis,CT abdomen with contrast,Catherine Watson,44,Female,6,3,3,RUQ-055.json
+RUQ-056,MICU,Complicated cholecystitis,CT abdomen with IV contrast,Timothy Barnes,69,Male,5,3,1,RUQ-056.json
+RUQ-057,Inpatient Hepatology,Choledocholithiasis,ERCP,Carolyn Lopez,61,Female,7,2,1,RUQ-057.json
+RUQ-058,ED,Acute cholecystitis,CT abdomen with IV contrast,Ruth Ross,38,Female,4,1,2,RUQ-058.json
+RUQ-059,Outpatient Nephrology,Choledocholithiasis,MRCP with gadolinium,Andrew Wu,64,Male,5,3,1,RUQ-059.json
+RUQ-060,SICU,Complicated cholecystitis with abscess,CT abdomen with IV contrast,Frances Roberts,73,Female,6,3,1,RUQ-060.json
+RUQ-061,Cardiology Clinic,Acute cholecystitis,MRI abdomen,Emily Alvarez,47,Female,6,1,5,RUQ-061.json
+RUQ-062,Cardiology Inpatient,Choledocholithiasis,ERCP,Bobby Yang,59,Male,6,1,5,RUQ-062.json
+RUQ-063,MICU,Acute acalculous cholecystitis,CT abdomen with IV contrast,John Gomez,68,Male,8,4,6,RUQ-063.json
+RUQ-064,Rheumatology Clinic,Choledocholithiasis,MRCP with gadolinium,Elena Hughes,56,Female,6,2,2,RUQ-064.json
+RUQ-065,ED,(Not documented),CT abdomen/pelvis with IV contrast,Linda McCarthy,77,Female,4,0,0,RUQ-065.json
+RUQ-066,Outpatient Clinic,(Not documented),MRI abdomen without contrast,Amy Henderson,62,Female,4,1,2,RUQ-066.json
+RUQ-067,Urgent Care,(Not documented),CT abdomen without contrast,Bobby Perez,81,Male,4,0,0,RUQ-067.json
+RUQ-068,Primary Care,(Not documented),MRCP,Stephen Collins,45,Male,8,5,4,RUQ-068.json
+RUQ-069,ED,(Not documented),CT abdomen/pelvis with contrast,Wei Murphy,51,Female,4,0,0,RUQ-069.json
+RUQ-070,Outpatient Radiology,(Not documented),CT abdomen with contrast,Olga Diaz,68,Female,3,1,1,RUQ-070.json
+RUQ-071,ED,(Not documented),RUQ ultrasound,Svetlana Kim,69,Female,4,0,0,RUQ-071.json
+RUQ-072,ED,(Not documented),CT abdomen/pelvis with and without contrast,Wayne Peterson,26,Male,6,1,5,RUQ-072.json
+RUQ-073,Primary Care,(Not documented),MRI abdomen with contrast,Jacob Sanchez,39,Male,4,0,0,RUQ-073.json
+RUQ-074,Inpatient,(Not documented),CT abdomen with contrast,Stephanie Robinson,59,Female,4,0,0,RUQ-074.json
+RUQ-075,Nursing Home Transfer,(Not documented),CT abdomen/pelvis with contrast,Andrei Hassan,72,Male,4,2,3,RUQ-075.json
+RUQ-076,Outpatient GI,(Not documented),MRCP,Kathleen Campbell,51,Female,4,2,2,RUQ-076.json
+RUQ-077,Primary Care,(Not documented),PET/CT whole body,Brandon Sanchez,69,Male,5,2,3,RUQ-077.json
+RUQ-078,Outpatient Clinic,(Not documented),CT abdomen without and with contrast,Amara Kelly,33,Female,5,2,3,RUQ-078.json
+RUQ-079,Outpatient Surgery,(Not documented),HIDA scan,Arthur Murphy,56,Male,3,1,1,RUQ-079.json
+RUQ-080,Radiology Clinic,(Not documented),Repeat CT abdomen with contrast,Nancy Parker,48,Female,5,1,2,RUQ-080.json
+RUQ-081,ED,Acute cholecystitis,RUQ ultrasound,Cheryl Diaz,48,Female,3,1,1,RUQ-081.json
+RUQ-082,Outpatient Clinic,Biliary colic,RUQ ultrasound,Susan Morgan,42,Female,6,2,2,RUQ-082.json
+RUQ-083,SICU,Complicated cholecystitis,CT abdomen with IV contrast,Stephen Mohammed,66,Male,6,1,5,RUQ-083.json
+RUQ-084,Inpatient,Ascending cholangitis,RUQ ultrasound,Mei Morales,61,Female,4,1,2,RUQ-084.json
+RUQ-085,ED,Acute cholecystitis,RUQ ultrasound,Madison Thomas,52,Female,4,2,3,RUQ-085.json
+RUQ-086,ED,Acute cholecystitis,RUQ ultrasound,Barbara Sanchez,44,Female,4,0,0,RUQ-086.json
+RUQ-087,Outpatient Clinic,Biliary colic,RUQ ultrasound,Nadia Stewart,37,Female,5,2,1,RUQ-087.json
+RUQ-088,SICU,Acute acalculous cholecystitis,RUQ ultrasound (bedside),Billy O'Connor,69,Male,6,1,3,RUQ-088.json
+RUQ-089,MICU,Complicated cholecystitis,CT abdomen with IV contrast,Hannah Henderson,71,Female,4,1,2,RUQ-089.json
+RUQ-090,ED,Acute cholecystitis,RUQ ultrasound,Samantha Myers,39,Female,5,2,3,RUQ-090.json
+RUQ-091,Outpatient Surgery,Biliary colic,RUQ ultrasound,Julie Flores,50,Female,4,2,1,RUQ-091.json
+RUQ-092,Inpatient,Ascending cholangitis,RUQ ultrasound then ERCP,Megan Price,58,Female,5,1,2,RUQ-092.json

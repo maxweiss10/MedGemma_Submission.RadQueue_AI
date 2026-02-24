@@ -1,0 +1,1165 @@
+{
+  "patient": {
+    "first_name": "Anna",
+    "last_name": "Powell",
+    "mrn": "MRN-541234",
+    "date_of_birth": "1968-09-23",
+    "age": 58,
+    "sex": "Female",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "address": null,
+    "phone": "(610) 583-1407",
+    "insurance": "Anthem Blue Cross",
+    "emergency_contact": "Jesse Powell (Child) - (425) 832-1891"
+  },
+  "encounter_history": [
+    {
+      "encounter": {
+        "encounter_id": "ENC-20230213-773",
+        "encounter_type": "Outpatient",
+        "facility": "Community General Hospital",
+        "admission_datetime": "2023-02-13T10:14:00",
+        "discharge_datetime": "2023-02-13T10:34:24",
+        "attending_provider": "Dr. Jeffrey Martin",
+        "department": "Primary Care",
+        "chief_complaint": "Fatigue, weight gain",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2023-02-13T10:19:00",
+          "encounter_id": "ENC-20230213-773",
+          "temperature_f": 97.0,
+          "heart_rate": 76,
+          "blood_pressure_systolic": 119,
+          "blood_pressure_diastolic": 74,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 98.9,
+          "pain_scale": 0,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "Thyroid Panel",
+          "timestamp": "2023-02-13T10:34:00",
+          "encounter_id": "ENC-20230213-773",
+          "results": [
+            {
+              "test_name": "TSH",
+              "value": 11.5,
+              "unit": "mIU/L",
+              "reference_low": 0.4,
+              "reference_high": 4.0,
+              "flag": "H",
+              "loinc_code": "3016-3"
+            }
+          ],
+          "ordering_provider": "Dr. Jeffrey Martin"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20230213-773",
+          "timestamp": "2023-02-13T10:14:00",
+          "author": "Dr. Jeffrey Martin",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard clinical documentation style and abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Fatigue and weight gain.\n\n**History of Present Illness (HPI):** 58 y/o F presents for f/u regarding fatigue and weight gain. Patient reports ongoing fatigue, feeling \"sluggish\" and decreased energy levels for the past 3 months. She also notes unintentional weight gain of approximately 10 lbs over the same period, despite no significant changes in diet or exercise. Patient denies palpitations, heat/cold intolerance, hair loss, or changes in bowel habits. She was previously evaluated and found to have an elevated TSH (10.2) and was started on levothyroxine [Dosage - Placeholder, e.g., 50 mcg] daily approximately 6 weeks ago. She reports taking medication as prescribed and denies any side effects.\n\n**Review of Systems (ROS):**\n*   **Constitutional:** Positive for fatigue and weight gain. Negative for fever, chills, night sweats.\n*   **Endocrine:** Negative for heat/cold intolerance, polyuria, polydipsia.\n*   **Neurologic:** Negative for headache, dizziness, numbness, tingling.\n*   **Psychiatric:** Negative for depression, anxiety.\n*   **All other systems reviewed and are negative.**\n\n**OBJECTIVE**\n\n**Vitals:** BP 119/74 mmHg, HR 76 bpm, RR 18/min, Temp 98.6\u00b0F (37\u00b0C), SpO2 98% on RA. Weight: [Current Weight - Placeholder, e.g., 165 lbs] (BMI: [BMI - Placeholder, e.g., 27.5]).\n\n**Physical Exam:**\n*   **General:** Alert, oriented, NAD. Appears well-nourished, no acute distress.\n*   **HEENT:** Normocephalic, atraumatic. PERRLA, EOMI. Mucous membranes moist.\n*   **Neck:** Supple. No thyromegaly or nodules palpated.\n*   **Cardiovascular:** RRR, no m/r/g. S1, S2 normal.\n*   **Respiratory:** CTA bilaterally. No wheezes, rales, or rhonchi.\n*   **Abdomen:** Soft, NT/ND, BS+.\n*   **Extremities:** No edema. Pulses 2+ bilaterally.\n*   **Neurologic:** Grossly intact"
+        }
+      ],
+      "diagnoses": [
+        "Hypothyroidism",
+        "Fatigue, weight gain"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20240130-204",
+        "encounter_type": "Outpatient",
+        "facility": "Community General Hospital",
+        "admission_datetime": "2024-01-30T10:40:00",
+        "discharge_datetime": "2024-01-30T11:05:48",
+        "attending_provider": "Dr. Jeffrey Martin",
+        "department": "Primary Care",
+        "chief_complaint": "DEXA screening, bone health",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2024-01-30T10:45:00",
+          "encounter_id": "ENC-20240130-204",
+          "temperature_f": 98.2,
+          "heart_rate": 71,
+          "blood_pressure_systolic": 126,
+          "blood_pressure_diastolic": 88,
+          "respiratory_rate": 14,
+          "oxygen_saturation": 98.4,
+          "pain_scale": 2,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2024-01-30T11:00:00",
+          "encounter_id": "ENC-20240130-204",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 10.3,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 13.3,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 38.9,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 352.0,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 88.6,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 13.0,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Jeffrey Martin"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2024-01-30T11:00:00",
+          "encounter_id": "ENC-20240130-204",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 141.3,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.9,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.6,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 26.0,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 13.1,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 1.0,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 100.0,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.5,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.9,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.1,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 35.1,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 10.2,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 110.8,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.4,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 65.3,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Jeffrey Martin"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20240130-204",
+          "timestamp": "2024-01-30T10:40:00",
+          "author": "Dr. Jeffrey Martin",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard medical abbreviations and clinical details.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n*   **Chief Complaint (CC):** DEXA screening for bone health evaluation.\n*   **History of Present Illness (HPI):** 58 y/o F presents for routine DEXA screening. Patient reports no acute bone pain, fractures, or recent falls. She is aware of her history of hypothyroidism, managed with Levothyroxine. She denies symptoms suggestive of hypercalcemia or other endocrine issues.\n*   **Review of Systems (ROS):**\n    *   Constitutional: Denies fever, chills, weight loss.\n    *   Musculoskeletal: Denies joint pain, muscle weakness, or back pain.\n    *   Endocrine: Denies heat/cold intolerance, fatigue (attributes fatigue to age).\n    *   Neurologic: Denies dizziness, gait instability.\n\n**OBJECTIVE**\n\n*   **Vitals:** BP 126/88 mmHg, HR 71 bpm, RR 16/min, Temp 98.4\u00b0F (36.9\u00b0C), SpO2 98% RA.\n*   **Physical Exam:**\n    *   General: Alert, oriented, no acute distress.\n    *   Musculoskeletal: Full range of motion in upper and lower extremities. No tenderness to palpation over spine or long bones. Gait appears steady and balanced.\n    *   Neurologic: Grossly intact sensation and strength in all extremities.\n\n**ASSESSMENT**\n\n*   **Diagnoses:**\n    1.  **Osteoporosis (ICD-10: M81.0):** Based on DEXA scan results showing a T-score of -2.8 at the lumbar spine, meeting criteria for osteoporosis.\n    2.  **Hypothyroidism (ICD-10: E03.9):** Stable on current Levothyroxine dose.\n    3.  **Chronic Kidney Disease Stage 3a (ICD-10: N18.3):** Based on eGFR of 65.3 mL/min/1.73m\u00b2.\n*   **Clinical Reasoning:** Patient presents for bone health screening. DEXA results confirm osteoporosis, increasing risk for fragility fractures. Management should focus on pharmacologic therapy, calcium/vitamin D supplementation, fall prevention, and lifestyle modifications. Renal function noted and will be monitored, particularly with bisphosphonate therapy.\n\n**PLAN**\n\n1.  **Medications:**\n    *   Start Alendron"
+        }
+      ],
+      "diagnoses": [
+        "Osteoporosis",
+        "DEXA screening, bone health"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20240204-261",
+        "encounter_type": "Outpatient",
+        "facility": "Community General Hospital",
+        "admission_datetime": "2024-02-04T13:22:00",
+        "discharge_datetime": "2024-02-04T13:47:12",
+        "attending_provider": "Dr. Jeffrey Martin",
+        "department": "Primary Care",
+        "chief_complaint": "Thyroid follow-up",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2024-02-04T13:27:00",
+          "encounter_id": "ENC-20240204-261",
+          "temperature_f": 97.9,
+          "heart_rate": 64,
+          "blood_pressure_systolic": 136,
+          "blood_pressure_diastolic": 89,
+          "respiratory_rate": 14,
+          "oxygen_saturation": 97.2,
+          "pain_scale": 1,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "Thyroid Panel",
+          "timestamp": "2024-02-04T13:44:00",
+          "encounter_id": "ENC-20240204-261",
+          "results": [
+            {
+              "test_name": "TSH",
+              "value": 6.4,
+              "unit": "mIU/L",
+              "reference_low": 0.4,
+              "reference_high": 4.0,
+              "flag": "H",
+              "loinc_code": "3016-3"
+            }
+          ],
+          "ordering_provider": "Dr. Jeffrey Martin"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20240204-261",
+          "timestamp": "2024-02-04T13:22:00",
+          "author": "Dr. Jeffrey Martin",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard clinical documentation style and abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n*   **Chief Complaint (CC):** Thyroid follow-up.\n*   **History of Present Illness (HPI):** 58 y/o F with hx of hypothyroidism presents for routine thyroid follow-up. Patient reports feeling generally better since last visit when levothyroxine was increased to 75 mcg daily. Reports improved energy levels and denies significant fatigue. Weight is stable. Denies palpitations, heat/cold intolerance, or constipation. Adherent to current medication regimen.\n*   **Review of Systems (ROS):**\n    *   **Constitutional:** Reports improved energy. Denies fever, chills, weight change.\n    *   **Endocrine:** Denies heat/cold intolerance, polyuria, polydipsia.\n    *   **Cardiovascular:** Denies chest pain, palpitations.\n    *   **GI:** Denies constipation, diarrhea, nausea.\n    *   **Musculoskeletal:** Denies joint pain, muscle weakness.\n\n**OBJECTIVE**\n\n*   **Vitals:** BP 136/89 mmHg, HR 64 bpm, RR 16/min, Temp 98.4\u00b0F (36.9\u00b0C), SpO2 98% RA.\n*   **Physical Exam:**\n    *   **General:** Alert, oriented, NAD. Appears well-nourished.\n    *   **Neck:** Thyroid gland non-palpable, no nodules or tenderness. No lymphadenopathy.\n    *   **Cardiovascular:** RRR, no murmurs, rubs, or gallops.\n    *   **Neurologic:** Grossly intact.\n\n**ASSESSMENT**\n\n1.  **Hypothyroidism:** Suboptimally controlled, improving with recent dose increase. TSH remains elevated at 6.4 (H), although patient reports symptomatic improvement. Current dose of levothyroxine 75 mcg appears partially effective but requires further adjustment to reach target TSH range (typically 0.4-4.0).\n2.  **Osteoporosis:** Stable, managed with Alendronate and Calcium/Vit D.\n3.  **Hypertension:** Stage 1, borderline elevated BP today. Monitor.\n\n**PLAN**\n\n1.  **Medications:**\n    *   Increase Levothyroxine to 88 mcg daily.\n    *   Continue Alendronate 70mg weekly.\n    *   Continue Calcium + Vit D 600mg"
+        }
+      ],
+      "diagnoses": [
+        "Thyroid follow-up"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20250418-619",
+        "encounter_type": "Outpatient",
+        "facility": "Community General Hospital",
+        "admission_datetime": "2025-04-18T11:17:00",
+        "discharge_datetime": "2025-04-18T11:45:12",
+        "attending_provider": "Dr. Jeffrey Martin",
+        "department": "Primary Care",
+        "chief_complaint": "Annual wellness visit",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2025-04-18T11:22:00",
+          "encounter_id": "ENC-20250418-619",
+          "temperature_f": 99.0,
+          "heart_rate": 77,
+          "blood_pressure_systolic": 135,
+          "blood_pressure_diastolic": 85,
+          "respiratory_rate": 18,
+          "oxygen_saturation": 100.0,
+          "pain_scale": 3,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2025-04-18T11:33:00",
+          "encounter_id": "ENC-20250418-619",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 4.5,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 12.5,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 36.8,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 229.5,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 90.6,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 12.2,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Jeffrey Martin"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2025-04-18T11:33:00",
+          "encounter_id": "ENC-20250418-619",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 140.0,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.8,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 101.5,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 27.4,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 20.0,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.9,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 87.8,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.4,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.3,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.6,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 22.3,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 40.7,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 75.1,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.9,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 74.1,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Jeffrey Martin"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20250418-619",
+          "timestamp": "2025-04-18T11:17:00",
+          "author": "Dr. Jeffrey Martin",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard medical abbreviations and clinical details.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n**Chief Complaint:** Annual wellness visit.\n\n**History of Present Illness:** 58 y/o F presents for her annual wellness exam. She reports feeling generally well with no acute complaints. She denies chest pain, SOB, palpitations, dizziness, or syncope. She reports adherence to her current medications. She has been focusing on maintaining a healthy diet and regular exercise (walking 3-4x/week). She denies any recent falls or fractures.\n\n**Review of Systems:**\n*   **Constitutional:** Denies fever, chills, weight loss, or fatigue.\n*   **Cardiovascular:** Denies chest pain, palpitations, or edema.\n*   **Respiratory:** Denies cough, SOB, or wheezing.\n*   **Musculoskeletal:** Denies joint pain or muscle weakness. Reports no recent fractures.\n*   **Endocrine:** Denies polyuria, polydipsia, or heat/cold intolerance.\n\n**OBJECTIVE**\n\n**Vitals:** BP 135/85 mmHg, HR 77 bpm, RR 16/min, Temp 98.4\u00b0F (36.9\u00b0C), SpO2 98% on RA.\n**Physical Exam:**\n*   **General:** Alert, oriented, NAD. Appears stated age.\n*   **Cardiovascular:** RRR, no m/r/g. S1/S2 normal.\n*   **Respiratory:** CTA bilaterally. No wheezes, rales, or rhonchi.\n*   **Musculoskeletal:** Full ROM in all extremities. No tenderness to palpation of major joints. Gait steady.\n\n**ASSESSMENT**\n\n1.  **Annual Wellness Visit:** Patient is a 58 y/o F presenting for routine health maintenance. Overall stable.\n2.  **Hypothyroidism:** Stable on current Levothyroxine dose. No symptoms of hypo- or hyperthyroidism reported.\n3.  **Osteoporosis:** Stable on Alendronate and Calcium/Vit D. No recent fractures.\n4.  **Elevated BP:** Stage 1 HTN, currently well-controlled on lifestyle modifications.\n5.  **Decreased eGFR:** Mildly decreased eGFR (74.1 mL/min/1.73m\u00b2), likely related to age and potentially medication use (Alendronate). Requires monitoring.\n\n**PLAN**\n\n1.  **Medications:** Continue Levothyroxine"
+        }
+      ],
+      "diagnoses": [
+        "Annual wellness visit"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20260215-253",
+        "encounter_type": "Outpatient",
+        "facility": "Community General Hospital",
+        "admission_datetime": "2026-02-15T09:13:00",
+        "discharge_datetime": null,
+        "attending_provider": "Dr. Rachel Green",
+        "department": "Outpatient Clinic",
+        "chief_complaint": "Right upper quadrant pain",
+        "disposition": "Follow-up as needed"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2026-02-15T09:18:00",
+          "encounter_id": "ENC-20260215-253",
+          "temperature_f": 98.8,
+          "heart_rate": 84,
+          "blood_pressure_systolic": 138,
+          "blood_pressure_diastolic": 84,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 99.8,
+          "pain_scale": 1,
+          "source": "Triage"
+        },
+        {
+          "timestamp": "2026-02-15T13:33:00",
+          "encounter_id": "ENC-20260215-253",
+          "temperature_f": 98.6,
+          "heart_rate": 74,
+          "blood_pressure_systolic": 136,
+          "blood_pressure_diastolic": 86,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 99.1,
+          "pain_scale": 0,
+          "source": "Nursing"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2026-02-15T09:38:00",
+          "encounter_id": "ENC-20260215-253",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 11.5,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": "H",
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 13.2,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 39.5,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 272.0,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "CMP + LFT",
+          "timestamp": "2026-02-15T09:38:00",
+          "encounter_id": "ENC-20260215-253",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 138.0,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.0,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 24.0,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 15.0,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.9,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 110.0,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": "H",
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.5,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "AST",
+              "value": 85.0,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": "H",
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 110.0,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": "H",
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 145.0,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 1.1,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "Bilirubin, Direct",
+              "value": 0.2,
+              "unit": "mg/dL",
+              "reference_low": 0.0,
+              "reference_high": 0.3,
+              "flag": null,
+              "loinc_code": "1968-7"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 3.8,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 74.1,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "Lipase",
+          "timestamp": "2026-02-15T09:38:00",
+          "encounter_id": "ENC-20260215-253",
+          "results": [
+            {
+              "test_name": "Lipase",
+              "value": 60.0,
+              "unit": "U/L",
+              "reference_low": 0.0,
+              "reference_high": 60.0,
+              "flag": null,
+              "loinc_code": "3040-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "Amylase",
+          "timestamp": "2026-02-15T09:38:00",
+          "encounter_id": "ENC-20260215-253",
+          "results": [
+            {
+              "test_name": "Amylase",
+              "value": 63.1,
+              "unit": "U/L",
+              "reference_low": 28.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "1798-8"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "TSH",
+          "timestamp": "2026-02-15T09:38:00",
+          "encounter_id": "ENC-20260215-253",
+          "results": [
+            {
+              "test_name": "TSH",
+              "value": 2.7,
+              "unit": "mIU/L",
+              "reference_low": 0.4,
+              "reference_high": 4.0,
+              "flag": null,
+              "loinc_code": "3016-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        }
+      ],
+      "imaging_orders": [
+        {
+          "order_id": "IMG-20260215-991",
+          "modality": "ERCP",
+          "body_region": "Abdomen",
+          "contrast": "",
+          "indication": "Right upper quadrant pain",
+          "ordering_provider": "Dr. Rachel Green",
+          "order_datetime": "2026-02-15T10:34:00",
+          "urgency": "Routine",
+          "status": "Ordered"
+        }
+      ],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "HPI",
+          "encounter_id": "ENC-20260215-253",
+          "timestamp": "2026-02-15T09:13:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "The patient is a 58-year-old female presenting with right upper quadrant (RUQ) abdominal pain. The pain began approximately 3 days ago, initially described as a dull ache, which has since become more constant and sharp. The pain is localized primarily to the RUQ, just below the rib cage, and does not radiate to the back or shoulder. She rates the pain as a 6/10 on a scale of 1 to 10, exacerbated by deep breaths and movement, but not significantly relieved by rest or position changes. She reports associated nausea but denies any vomiting, fever, chills, or changes in bowel habits. She notes a decreased appetite over the past 24 hours due to the pain.\n\nThe patient states she has been monitoring her symptoms at home, hoping they would resolve, but the pain has persisted and worsened slightly today, prompting her visit to the clinic. She denies any recent trauma, sick contacts, or changes in diet. She reports no jaundice, pruritus, or dark urine. She denies any shortness of breath, chest pain, or palpitations. Her medical history is significant for hypothyroidism and osteoporosis, for which she takes levothyroxine and alendronate, respectively. She also takes calcium and vitamin D. She denies alcohol use and reports no illicit drug use.\n\nReview of systems is otherwise negative except for the aforementioned symptoms. She denies any lower abdominal pain, dysuria, or urinary frequency. She denies any cough, sore throat, or recent illness. She denies any significant weight loss or fatigue beyond what might be expected with her current symptoms. Vital signs are stable, with a temperature of 98.8F, heart rate of 84, blood pressure of 138/84, respiratory rate of 16, and SpO2 of 99.8%. Laboratory results show an elevated white blood cell count at 11.5, elevated glucose at 110.0, elevated AST at 85.0, elevated ALT at 110.0, and a decreased eGFR at 74.1."
+        },
+        {
+          "note_type": "Physical Exam",
+          "encounter_id": "ENC-20260215-253",
+          "timestamp": "2026-02-15T09:13:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "GENERAL: Alert and oriented x3, appears comfortable but in mild distress due to abdominal discomfort. BMI 30. Afebrile. No acute distress.\n\nHEENT: Normocephalic, atraumatic. PERRLA. EOMI. Sclera clear, no icterus. Mucous membranes moist. Oropharynx clear, no erythema or exudates.\n\nCARDIOVASCULAR: Regular rate and rhythm. S1, S2 auscultated. No murmurs, rubs, or gallops. JVP not elevated. Peripheral pulses 2+ bilaterally.\n\nPULMONARY: Clear to auscultation bilaterally. No wheezes, rales, or rhonchi. Respirations non-labored.\n\nABDOMEN: Soft, non-distended. Normoactive bowel sounds auscultated in all four quadrants. Mild tenderness to palpation in the right upper quadrant (RUQ). No rebound tenderness or guarding. Murphy's sign negative. No hepatosplenomegaly appreciated. No masses palpated.\n\nEXTREMITIES: No edema, cyanosis, or clubbing. Full range of motion in all joints.\n\nNEUROLOGICAL: Grossly intact. Cranial nerves II-XII intact. Strength 5/5 throughout. Sensation intact to light touch. Reflexes 2+ and symmetric. Gait steady."
+        },
+        {
+          "note_type": "Assessment & Plan",
+          "encounter_id": "ENC-20260215-253",
+          "timestamp": "2026-02-15T09:13:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "ASSESSMENT:\n58-year-old female presenting with right upper quadrant (RUQ) pain, etiology under evaluation. Patient has elevated white blood cell count, mildly elevated glucose, and significantly elevated AST and ALT, suggesting hepatocellular injury. Renal function is mildly decreased (eGFR 74.1). Vitals are stable. The clinical picture is concerning for biliary pathology (e.g., cholecystitis, choledocholithiasis, cholangitis) or other causes of hepatocellular injury (e.g., viral hepatitis, drug-induced liver injury, ischemic hepatitis). ERCP has been ordered to evaluate the biliary tree.\n\nPLAN:\n1.  **Right upper quadrant pain, etiology under evaluation** - Continue workup for the cause of RUQ pain and elevated liver enzymes.\n    *   Proceed with scheduled Endoscopic Retrograde Cholangiopancreatography (ERCP) to evaluate for biliary obstruction (e.g., choledocholithiasis, stricture) and potentially intervene if indicated.\n    *   Monitor liver function tests (LFTs) including AST, ALT, alkaline phosphatase, and bilirubin daily.\n    *   Monitor complete blood count (CBC) daily.\n    *   Maintain NPO status until post-ERCP status is determined.\n    *   Administer IV fluids (Normal Saline) at 100 mL/hr for hydration.\n    *   Administer IV analgesia as needed for pain control (e.g., Morphine 2-4 mg IV q4h PRN pain, or Hydromorphone 0.5-1 mg IV q4h PRN pain).\n    *   Consider viral hepatitis panel (Hepatitis A, B, C) if ERCP is non-diagnostic or clinical picture evolves.\n    *   Review home medications for potential hepatotoxicity.\n2.  **Hypothyroidism** - Continue current thyroid medication (patient to provide name/dose if not already known).\n3.  **Osteoporosis** - Continue current management (patient to provide details if not already known).\n4.  **Mildly elevated glucose** - Monitor blood glucose levels. If persistently elevated, consider further evaluation for diabetes mellitus.\n5.  **Mildly decreased eGFR** - Monitor renal function. Ensure adequate hydration. Avoid nephrotoxic medications if possible.\n6.  **Disposition plan** - Admit to inpatient service (e.g., General Medicine or Gastroenterology) for ERCP, monitoring, and further workup of RUQ pain and elevated LFTs."
+        },
+        {
+          "note_type": "Nursing Note",
+          "encounter_id": "ENC-20260215-253",
+          "timestamp": "2026-02-15T13:13:00",
+          "author": "RN Christopher Moore",
+          "note_text": "Patient is resting comfortably with pain rated 1/10 after receiving IV fluids and analgesia. Vital signs remain stable and within normal limits since admission, with no significant trends noted. IV access established, labs drawn, and patient educated on call light use. No acute concerns at this time, patient denies nausea or vomiting."
+        }
+      ],
+      "diagnoses": [
+        "Right upper quadrant pain, etiology under evaluation"
+      ]
+    }
+  ],
+  "problem_list": [
+    {
+      "condition": "Hypothyroidism",
+      "icd10": "E03.9",
+      "date_added": "2023-02-13T10:14:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20230213-773"
+    },
+    {
+      "condition": "Osteoporosis",
+      "icd10": "M81.0",
+      "date_added": "2024-01-30T10:40:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20240130-204"
+    }
+  ],
+  "medication_history": [
+    {
+      "medication": {
+        "name": "Levothyroxine",
+        "dose": "75mcg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Hypothyroidism",
+        "rxnorm_code": "10582"
+      },
+      "change_type": "Started",
+      "change_date": "2023-02-13T10:14:00",
+      "encounter_id": "ENC-20230213-773",
+      "reason": "Hypothyroidism",
+      "previous_dose": null
+    },
+    {
+      "medication": {
+        "name": "Alendronate",
+        "dose": "70mg",
+        "route": "PO",
+        "frequency": "weekly",
+        "indication": "Osteoporosis",
+        "rxnorm_code": null
+      },
+      "change_type": "Started",
+      "change_date": "2024-01-30T10:40:00",
+      "encounter_id": "ENC-20240130-204",
+      "reason": "Osteoporosis",
+      "previous_dose": null
+    },
+    {
+      "medication": {
+        "name": "Calcium + Vitamin D",
+        "dose": "600mg/800IU",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Bone health",
+        "rxnorm_code": null
+      },
+      "change_type": "Started",
+      "change_date": "2024-01-30T10:40:00",
+      "encounter_id": "ENC-20240130-204",
+      "reason": "Bone health",
+      "previous_dose": null
+    },
+    {
+      "medication": {
+        "name": "Levothyroxine",
+        "dose": "75mcg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": null,
+        "rxnorm_code": "10582"
+      },
+      "change_type": "Increased",
+      "change_date": "2024-02-04T13:22:00",
+      "encounter_id": "ENC-20240204-261",
+      "reason": "TSH still above target",
+      "previous_dose": "50mcg"
+    }
+  ],
+  "current_medications": {
+    "home_medications": [
+      {
+        "name": "Levothyroxine",
+        "dose": "75mcg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Hypothyroidism",
+        "rxnorm_code": "10582"
+      },
+      {
+        "name": "Alendronate",
+        "dose": "70mg",
+        "route": "PO",
+        "frequency": "weekly",
+        "indication": "Osteoporosis",
+        "rxnorm_code": null
+      },
+      {
+        "name": "Calcium + Vitamin D",
+        "dose": "600mg/800IU",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Bone health",
+        "rxnorm_code": null
+      }
+    ],
+    "inpatient_medications": [
+      {
+        "name": "Morphine",
+        "dose": "2mg",
+        "route": "IV",
+        "frequency": "q4h PRN",
+        "indication": "Pain control",
+        "rxnorm_code": "7052"
+      },
+      {
+        "name": "Ondansetron",
+        "dose": "4mg",
+        "route": "IV",
+        "frequency": "q8h PRN",
+        "indication": "Nausea",
+        "rxnorm_code": "26225"
+      }
+    ]
+  },
+  "allergies": [],
+  "surgical_history": [
+    {
+      "procedure": "Cholecystectomy",
+      "year": 2023,
+      "notes": null
+    }
+  ],
+  "family_history": [
+    "Hypertension",
+    "Diabetes Mellitus Type 2"
+  ],
+  "social_history": {
+    "smoking_status": "Never",
+    "smoking_details": null,
+    "alcohol_use": "Social",
+    "alcohol_details": null,
+    "drug_use": "None",
+    "drug_details": null,
+    "occupation": "Teacher",
+    "living_situation": "Lives with husband"
+  },
+  "source_vignette": {
+    "vignette_text": "58F. Vitals: T 98.8\u00b0F, HR 84, BP 138/84. Labs: ALP 145, T.bili 1.1. PE: BMI 30, mild RUQ tenderness, vague symptoms, no jaundice. PMHx: s/p cholecystectomy 2010, hypothyroidism, osteoporosis.",
+    "case_id": "RUQ-039",
+    "case_name": "Outpatient Clinic - Choledocholithiasis",
+    "source": null,
+    "seed": 80,
+    "ground_truth_diagnosis": "Choledocholithiasis",
+    "ground_truth_appropriate_study": "ERCP"
+  },
+  "parsed_vignette": {
+    "age": 58,
+    "sex": "Female",
+    "diagnosis": "Choledocholithiasis",
+    "differential_diagnoses": [],
+    "chief_complaint": "Right upper quadrant pain",
+    "symptom_onset": null,
+    "symptom_character": null,
+    "history_conditions": [
+      "hypothyroidism",
+      "osteoporosis"
+    ],
+    "surgical_history": [
+      "Cholecystectomy"
+    ],
+    "presenting_symptoms": [],
+    "pertinent_negatives": [],
+    "exam_findings": "BMI 30, mild RUQ tenderness, vague symptoms, no jaundice",
+    "vitals_mentioned": {
+      "temperature_f": 98.8,
+      "heart_rate": 84,
+      "blood_pressure_systolic": 138,
+      "blood_pressure_diastolic": 84
+    },
+    "labs_mentioned": {
+      "alp": 145.0,
+      "bilirubin_total": 1.1
+    },
+    "ordered_study": "ERCP",
+    "imaging_modality": "ERCP",
+    "imaging_body_region": "Abdomen",
+    "imaging_contrast": "",
+    "clinical_setting": "Outpatient Clinic",
+    "acuity": "stable",
+    "special_populations": [],
+    "safety_flags_mentioned": [],
+    "extraction_confidence": 1.0
+  },
+  "source_scenario": null,
+  "generation_metadata": {
+    "generator_version": "2.0.0",
+    "generation_timestamp": "2026-02-18T08:26:18.786178",
+    "narrative_backend": "medgemma",
+    "seed": 80,
+    "model_id": null
+  }
+}

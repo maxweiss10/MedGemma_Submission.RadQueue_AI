@@ -1,0 +1,1785 @@
+{
+  "patient": {
+    "first_name": "Philip",
+    "last_name": "Reed",
+    "mrn": "MRN-104604",
+    "date_of_birth": "1978-01-16",
+    "age": 48,
+    "sex": "Male",
+    "race": "American Indian or Alaska Native",
+    "ethnicity": "Not Hispanic or Latino",
+    "address": null,
+    "phone": "(671) 710-7009",
+    "insurance": "Cigna Select",
+    "emergency_contact": "Jean Reed (Sibling) - (757) 974-5281"
+  },
+  "encounter_history": [
+    {
+      "encounter": {
+        "encounter_id": "ENC-20230214-112",
+        "encounter_type": "Outpatient",
+        "facility": "Community General Hospital",
+        "admission_datetime": "2023-02-14T08:09:00",
+        "discharge_datetime": "2023-02-14T08:34:48",
+        "attending_provider": "Dr. Steven Brown",
+        "department": "Primary Care",
+        "chief_complaint": "Joint pain, stiffness",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2023-02-14T08:14:00",
+          "encounter_id": "ENC-20230214-112",
+          "temperature_f": 99.3,
+          "heart_rate": 64,
+          "blood_pressure_systolic": 119,
+          "blood_pressure_diastolic": 87,
+          "respiratory_rate": 14,
+          "oxygen_saturation": 97.8,
+          "pain_scale": 0,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2023-02-14T08:36:00",
+          "encounter_id": "ENC-20230214-112",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 9.6,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 16.1,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 47.1,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 360.9,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 91.5,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 11.8,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Steven Brown"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2023-02-14T08:36:00",
+          "encounter_id": "ENC-20230214-112",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 143.5,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.4,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 99.6,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 23.5,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 7.4,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.8,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 87.6,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.8,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.6,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 6.7,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 33.0,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 49.6,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 122.3,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.6,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 109.2,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Steven Brown"
+        }
+      ],
+      "imaging_orders": [
+        {
+          "order_id": "IMG-20230214-671",
+          "modality": "X-ray",
+          "body_region": "Knee",
+          "contrast": "without contrast",
+          "indication": "Joint pain, stiffness",
+          "ordering_provider": "Dr. Steven Brown",
+          "order_datetime": "2023-02-14T09:09:00",
+          "urgency": "Routine",
+          "status": "Completed"
+        }
+      ],
+      "imaging_reports": [
+        {
+          "order_id": "IMG-20230214-671",
+          "modality": "X-ray Knee",
+          "report_datetime": "2023-02-14T11:09:00",
+          "radiologist": "Dr. Diane Williams",
+          "technique": "X-ray of the Knee was performed without contrast.",
+          "findings": "Moderate joint space narrowing of the medial compartment. Marginal osteophyte formation. No fracture or dislocation. Soft tissues unremarkable.",
+          "impression": "1. Moderate degenerative changes consistent with osteoarthritis."
+        }
+      ],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20230214-112",
+          "timestamp": "2023-02-14T08:09:00",
+          "author": "Dr. Steven Brown",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating professional clinical documentation style and standard medical abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [MRN - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n*   **Chief Complaint (CC):** Bilateral knee pain and stiffness.\n*   **History of Present Illness (HPI):** 48 y/o M presents with a 6-month history of bilateral knee pain and stiffness. Pain is described as aching, worse with activity, particularly ascending/descending stairs and prolonged standing. Pain improves with rest. Denies acute injury. Reports stiffness, especially in the morning, lasting approximately 15-20 minutes. Pain is rated 5/10 on average, occasionally reaching 7/10 with significant activity. No associated swelling, redness, or warmth reported.\n*   **Review of Systems (ROS):**\n    *   Constitutional: Denies fever, chills, weight loss (other than intentional).\n    *   Musculoskeletal: Positive for bilateral knee pain and stiffness as described in HPI. Denies pain in other joints.\n    *   Neurological: Denies numbness, tingling, or weakness in lower extremities.\n    *   All other systems reviewed and are negative.\n\n**OBJECTIVE**\n\n*   **Vitals:** BP 119/87 mmHg, HR 64 bpm, RR 16/min, Temp 98.6\u00b0F (37\u00b0C), SpO2 98% on RA. Weight: [Weight - Placeholder], Height: [Height - Placeholder], BMI: [BMI - Placeholder].\n*   **Physical Exam:**\n    *   General: Alert, oriented, in no acute distress.\n    *   Musculoskeletal:\n        *   Inspection: No visible swelling, erythema, or deformity of bilateral knees.\n        *   Palpation: Mild tenderness to palpation over medial joint lines bilaterally. No significant warmth.\n        *   Range of Motion (ROM): Bilateral knees: Flexion 0-120\u00b0, Extension 0\u00b0. Mild crepitus noted with flexion/extension bilaterally.\n        *   Strength: 5/5 strength in bilateral quadriceps, hamstrings, and calf muscles.\n        *   Gait: Normal gait pattern, no assistive device needed.\n\n**ASSESSMENT**\n\n1.  **Osteoarthritis (OA), Bilateral Knees:** 48 y/o M with chronic bilateral knee pain, stiffness, and functional limitation, worse with activity. Exam findings of crepitus and mild joint line tenderness, along with radiographic evidence of moderate OA, are consistent with"
+        }
+      ],
+      "diagnoses": [
+        "Osteoarthritis",
+        "Joint pain, stiffness"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20230222-968",
+        "encounter_type": "Outpatient",
+        "facility": "Community General Hospital",
+        "admission_datetime": "2023-02-22T15:02:00",
+        "discharge_datetime": "2023-02-22T15:37:24",
+        "attending_provider": "Dr. Steven Brown",
+        "department": "Primary Care",
+        "chief_complaint": "Epigastric pain",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2023-02-22T15:07:00",
+          "encounter_id": "ENC-20230222-968",
+          "temperature_f": 99.2,
+          "heart_rate": 62,
+          "blood_pressure_systolic": 110,
+          "blood_pressure_diastolic": 80,
+          "respiratory_rate": 15,
+          "oxygen_saturation": 98.8,
+          "pain_scale": 0,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2023-02-22T15:32:00",
+          "encounter_id": "ENC-20230222-968",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 8.6,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 14.6,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 42.2,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 226.2,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 87.6,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 12.5,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Steven Brown"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2023-02-22T15:32:00",
+          "encounter_id": "ENC-20230222-968",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 143.8,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.3,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.4,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 25.4,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 14.2,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.9,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 75.3,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 10.4,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 3.8,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 6.9,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 20.2,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 27.9,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 84.0,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.2,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 105.4,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Steven Brown"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20230222-968",
+          "timestamp": "2023-02-22T15:02:00",
+          "author": "Dr. Steven Brown",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard clinical documentation style and abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n*   **Chief Complaint (CC):** Epigastric pain.\n*   **History of Present Illness (HPI):** 48 y/o M presents for f/u regarding epigastric pain. Pain initially described as burning, located in the epigastrium, occurring intermittently over the past 2 months. Pain is exacerbated by meals and NSAID use (specifically, taking acetaminophen for OA). Patient reports pain has improved significantly since starting PPI and triple therapy 2 weeks ago. Denies melena, hematemesis, significant weight loss, or dysphagia.\n*   **Review of Systems (ROS):**\n    *   **GI:** Reports significant improvement in epigastric pain. Denies nausea, vomiting, diarrhea, constipation.\n    *   **Constitutional:** Denies fever, chills, weight loss.\n    *   **Musculoskeletal:** Reports ongoing OA pain managed with acetaminophen.\n\n**OBJECTIVE**\n\n*   **Vitals:** BP 110/80 mmHg, HR 62 bpm, RR 16/min, Temp 98.6\u00b0F (37\u00b0C), SpO2 98% on RA.\n*   **Physical Exam:**\n    *   **Abdomen:** Soft, non-tender to palpation in all quadrants, including epigastrium. No guarding or rebound tenderness. Bowel sounds normoactive. No hepatosplenomegaly.\n\n**ASSESSMENT**\n\n1.  **Peptic Ulcer Disease (PUD), likely H. pylori-associated:** Patient presents with significant improvement in epigastric pain following initiation of PPI and triple therapy for confirmed H. pylori infection. Clinical picture consistent with resolving PUD.\n2.  **Osteoarthritis (OA):** Stable, managed with acetaminophen.\n3.  **History of H. pylori infection:** Currently undergoing eradication therapy.\n\n**PLAN**\n\n1.  **Medications:** Continue current PPI (e.g., Omeprazole 20mg PO daily) and triple therapy (e.g., Amoxicillin, Clarithromycin, Metronidazole - specific regimen based on prior orders) as prescribed for the remaining duration (typically 10-14 days total). Continue Acetaminophen 500mg PRN for OA pain. **Strictly avoid NSAIDs.**\n2.  **Patient Education:** Discussed importance of completing full course of H. pylori eradication therapy. Reinforced avoidance of NSAIDs due to risk"
+        }
+      ],
+      "diagnoses": [
+        "Peptic Ulcer Disease",
+        "Epigastric pain"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20240118-686",
+        "encounter_type": "Outpatient",
+        "facility": "Community General Hospital",
+        "admission_datetime": "2024-01-18T16:43:00",
+        "discharge_datetime": "2024-01-18T17:17:48",
+        "attending_provider": "Dr. Steven Brown",
+        "department": "Primary Care",
+        "chief_complaint": "Health maintenance visit",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2024-01-18T16:48:00",
+          "encounter_id": "ENC-20240118-686",
+          "temperature_f": 98.9,
+          "heart_rate": 70,
+          "blood_pressure_systolic": 131,
+          "blood_pressure_diastolic": 73,
+          "respiratory_rate": 18,
+          "oxygen_saturation": 97.8,
+          "pain_scale": 3,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2024-01-18T16:53:00",
+          "encounter_id": "ENC-20240118-686",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 5.1,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 16.6,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 44.7,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 244.6,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 88.6,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 13.8,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Steven Brown"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2024-01-18T16:53:00",
+          "encounter_id": "ENC-20240118-686",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 144.6,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 98.5,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 27.0,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 14.4,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 1.0,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 88.9,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.3,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.6,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 6.0,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 18.8,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 36.4,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 101.8,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.7,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 92.8,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Steven Brown"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20240118-686",
+          "timestamp": "2024-01-18T16:43:00",
+          "author": "Dr. Steven Brown",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating professional clinical documentation style and standard medical abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Health maintenance visit.\n\n**History of Present Illness (HPI):** 48 y/o M presents for a scheduled health maintenance visit. Patient reports feeling generally well with no acute complaints. He denies chest pain, SOB, abdominal pain, or significant joint pain beyond baseline OA. He is here for routine check-up and preventive care review.\n\n**Review of Systems (ROS):**\n*   **Constitutional:** Denies fever, chills, weight loss. Reports feeling well.\n*   **Cardiovascular:** Denies chest pain, palpitations, edema.\n*   **Respiratory:** Denies cough, SOB, wheezing.\n*   **Gastrointestinal:** Denies nausea, vomiting, diarrhea, constipation, abdominal pain. Reports no dyspepsia.\n*   **Musculoskeletal:** Reports baseline OA symptoms, managed with OTC acetaminophen. Denies acute joint pain or swelling.\n*   **Integumentary:** Denies rashes, lesions.\n\n**OBJECTIVE**\n\n**Vitals:** BP 131/73 mmHg, HR 70 bpm, RR 16/min, Temp 98.6\u00b0F (37\u00b0C), SpO2 98% on RA.\n**Physical Exam:**\n*   **General:** Alert, oriented, NAD. Appears well-nourished, in no acute distress.\n*   **Cardiovascular:** RRR, no m/r/g. S1/S2 normal.\n*   **Respiratory:** CTA bilaterally. No wheezes, rales, or rhonchi.\n*   **Abdomen:** Soft, NT/ND, BS normoactive. No HSM.\n*   **Musculoskeletal:** Exam limited to brief assessment. No acute joint swelling or erythema noted.\n\n**ASSESSMENT**\n\n1.  **Health Maintenance:** 48 y/o M presenting for routine preventive care. Overall healthy with stable chronic conditions (OA, PUD).\n2.  **Osteoarthritis (OA):** Stable, managed symptomatically with acetaminophen.\n3.  **Peptic Ulcer Disease (PUD):** Stable, managed with omeprazole. No current symptoms.\n\n**PLAN**\n\n1.  **Preventive Care:** Reviewed age-appropriate screening recommendations (Colonoscopy, Lipid panel, PSA - discussed options). Flu vaccine administered today.\n2.  **Medications:** Continue Acetaminophen 500mg"
+        }
+      ],
+      "diagnoses": [
+        "Health maintenance visit"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20250217-679",
+        "encounter_type": "Outpatient",
+        "facility": "Community General Hospital",
+        "admission_datetime": "2025-02-17T16:51:00",
+        "discharge_datetime": "2025-02-17T17:33:00",
+        "attending_provider": "Dr. Steven Brown",
+        "department": "Primary Care",
+        "chief_complaint": "Follow-up, recurrent symptoms",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2025-02-17T16:56:00",
+          "encounter_id": "ENC-20250217-679",
+          "temperature_f": 97.3,
+          "heart_rate": 71,
+          "blood_pressure_systolic": 116,
+          "blood_pressure_diastolic": 86,
+          "respiratory_rate": 15,
+          "oxygen_saturation": 98.1,
+          "pain_scale": 0,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2025-02-17T17:15:00",
+          "encounter_id": "ENC-20250217-679",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 6.5,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 15.2,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 46.2,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 241.8,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 97.5,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 13.0,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Steven Brown"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2025-02-17T17:15:00",
+          "encounter_id": "ENC-20250217-679",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 142.4,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 99.3,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 24.4,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 9.4,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.9,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 70.7,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 8.6,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.6,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 6.8,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 18.5,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 50.4,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 73.8,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.6,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 105.4,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Steven Brown"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20250217-679",
+          "timestamp": "2025-02-17T16:51:00",
+          "author": "Dr. Steven Brown",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating professional clinical documentation style and standard medical abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n*   **Chief Complaint (CC):** Recurrent epigastric pain.\n*   **History of Present Illness (HPI):** 48 y/o M with PMH of OA and PUD presents for f/u regarding recurrent epigastric symptoms. Patient reports intermittent epigastric discomfort, described as burning, occurring 2-3x/week, often postprandial. Symptoms have persisted despite daily Omeprazole 40mg. Patient admits to ongoing intermittent use of OTC Ibuprofen 400mg PRN for knee OA pain, approx. 3-4x/week. Denies melena, hematemesis, significant weight loss, or dysphagia. Pain is rated 4/10 currently.\n*   **Review of Systems (ROS):**\n    *   **GI:** (+) Intermittent epigastric burning, (+) postprandial discomfort. (-) Nausea, vomiting, diarrhea, constipation, melena, hematemesis.\n    *   **MSK:** (+) Bilateral knee pain, managed with OTC NSAIDs.\n    *   **Constitutional:** (-) Fever, chills, weight loss.\n    *   **All other systems reviewed and are negative.**\n\n**OBJECTIVE**\n\n*   **Vitals:** BP 116/86 mmHg, HR 71 bpm, RR 16/min, Temp 98.4\u00b0F (36.9\u00b0C), SpO2 98% RA.\n*   **Physical Exam:**\n    *   **Abdomen:** Soft, non-tender to palpation in all quadrants. No guarding or rebound tenderness. Bowel sounds normoactive. No hepatosplenomegaly.\n    *   **MSK:** Mild crepitus noted in bilateral knees with ROM. No acute swelling or erythema.\n\n**ASSESSMENT**\n\n1.  **Peptic Ulcer Disease (PUD), likely recurrent/unhealed:** Persistent epigastric symptoms despite appropriate PPI therapy strongly suggest ongoing mucosal injury. Patient's admitted intermittent NSAID use is the most probable contributing factor, likely causing NSAID-induced gastropathy or exacerbation of underlying PUD.\n2.  **Osteoarthritis (OA), Bilateral Knees:** Chronic condition contributing to patient's need for analgesia and subsequent NSAID use.\n3.  **NSAID-Induced Gastropathy:** High suspicion given history of PUD and ongoing NSAID"
+        }
+      ],
+      "diagnoses": [
+        "Follow-up, recurrent symptoms"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20250317-448",
+        "encounter_type": "Outpatient",
+        "facility": "Community General Hospital",
+        "admission_datetime": "2025-03-17T08:31:00",
+        "discharge_datetime": "2025-03-17T08:58:36",
+        "attending_provider": "Dr. Steven Brown",
+        "department": "Primary Care",
+        "chief_complaint": "OA follow-up, ongoing pain",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2025-03-17T08:36:00",
+          "encounter_id": "ENC-20250317-448",
+          "temperature_f": 97.8,
+          "heart_rate": 67,
+          "blood_pressure_systolic": 125,
+          "blood_pressure_diastolic": 70,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 98.4,
+          "pain_scale": 3,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2025-03-17T08:51:00",
+          "encounter_id": "ENC-20250317-448",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 6.3,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 15.3,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 41.7,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 310.5,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 83.1,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 13.1,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Steven Brown"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2025-03-17T08:51:00",
+          "encounter_id": "ENC-20250317-448",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 139.4,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 3.8,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 100.4,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 29.0,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 13.6,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 1.0,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 87.6,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.6,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 3.7,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.9,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 17.8,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 55.6,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 95.9,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 1.0,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 92.8,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Steven Brown"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20250317-448",
+          "timestamp": "2025-03-17T08:31:00",
+          "author": "Dr. Steven Brown",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating professional clinical documentation style and standard medical abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [MRN - Placeholder]\n**Date of Visit:** 10/26/2023\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Follow-up for osteoarthritis (OA), ongoing R knee pain.\n\n**History of Present Illness (HPI):** 48 y/o M with known OA presents for f/u. Reports persistent R knee pain, rated 5/10 at rest, increasing to 7/10 with activity (e.g., walking > 1 block, climbing stairs). Pain is described as aching and stiffness, worse in the AM and after periods of inactivity. Patient reports partial relief with Acetaminophen 500mg TID, but pain remains significant. Has been attending PT x 4 weeks with minimal improvement in pain or function. Denies recent trauma, swelling, or locking. Reports adherence to prescribed Acetaminophen and PT exercises.\n\n**Review of Systems (ROS):**\n*   **Constitutional:** Denies fever, chills, weight loss.\n*   **Musculoskeletal:** Reports R knee pain as above. Denies pain in other joints.\n*   **GI:** Reports no dyspepsia, nausea, or vomiting. Tolerating Omeprazole well.\n*   **All other systems reviewed and are negative.**\n\n**OBJECTIVE**\n\n**Vitals:** BP 125/70 mmHg, HR 67 bpm, RR 16, Temp 98.4\u00b0F, SpO2 98% RA.\n\n**Physical Exam:**\n*   **General:** Alert, oriented, in no acute distress.\n*   **Musculoskeletal/Knee Exam (R):** Mild effusion noted. Tenderness to palpation over medial joint line. ROM: Flexion 0-110\u00b0, Extension 0\u00b0. Crepitus noted with active flexion/extension. No ligamentous instability on Lachman or McMurray testing. Strength 5/5 in quads, hamstrings, and calf. Gait is antalgic on R side.\n\n**ASSESSMENT**\n\n1.  **Osteoarthritis, Right Knee:** Persistent moderate pain and functional limitation despite conservative management (Acetaminophen, PT). Exam findings consistent with OA (effusion, crepitus, limited ROM).\n2.  **Peptic Ulcer Disease (HBD):** Stable, well-controlled on Omeprazole.\n\n**PLAN**\n\n1.  **Medications:**\n    *   Continue Acetaminophen 500mg TID PRN pain.\n    *   **Add** Ibuprofen 40"
+        }
+      ],
+      "diagnoses": [
+        "OA follow-up, ongoing pain"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20260212-536",
+        "encounter_type": "Outpatient",
+        "facility": "Community General Hospital",
+        "admission_datetime": "2026-02-12T15:02:00",
+        "discharge_datetime": null,
+        "attending_provider": "Dr. Rachel Green",
+        "department": "Outpatient Clinic",
+        "chief_complaint": "Right upper quadrant pain",
+        "disposition": "Follow-up as needed"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2026-02-12T15:13:00",
+          "encounter_id": "ENC-20260212-536",
+          "temperature_f": 98.2,
+          "heart_rate": 72,
+          "blood_pressure_systolic": 126,
+          "blood_pressure_diastolic": 78,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 98.0,
+          "pain_scale": 1,
+          "source": "Triage"
+        },
+        {
+          "timestamp": "2026-02-12T19:12:00",
+          "encounter_id": "ENC-20260212-536",
+          "temperature_f": 99.5,
+          "heart_rate": 84,
+          "blood_pressure_systolic": 119,
+          "blood_pressure_diastolic": 79,
+          "respiratory_rate": 18,
+          "oxygen_saturation": 97.3,
+          "pain_scale": 0,
+          "source": "Nursing"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2026-02-12T15:44:00",
+          "encounter_id": "ENC-20260212-536",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 9.5,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 13.8,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 41.5,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 265.3,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "CMP + LFT",
+          "timestamp": "2026-02-12T15:44:00",
+          "encounter_id": "ENC-20260212-536",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 139.0,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.0,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 24.0,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 15.0,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.9,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 110.0,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": "H",
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.2,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "AST",
+              "value": 25.0,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 30.0,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 80.0,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.6,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "Bilirubin, Direct",
+              "value": 0.2,
+              "unit": "mg/dL",
+              "reference_low": 0.0,
+              "reference_high": 0.3,
+              "flag": null,
+              "loinc_code": "1968-7"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.0,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 105.4,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "Lipase",
+          "timestamp": "2026-02-12T15:44:00",
+          "encounter_id": "ENC-20260212-536",
+          "results": [
+            {
+              "test_name": "Lipase",
+              "value": 45.0,
+              "unit": "U/L",
+              "reference_low": 0.0,
+              "reference_high": 60.0,
+              "flag": null,
+              "loinc_code": "3040-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "Amylase",
+          "timestamp": "2026-02-12T15:44:00",
+          "encounter_id": "ENC-20260212-536",
+          "results": [
+            {
+              "test_name": "Amylase",
+              "value": 36.8,
+              "unit": "U/L",
+              "reference_low": 28.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "1798-8"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        }
+      ],
+      "imaging_orders": [
+        {
+          "order_id": "IMG-20260212-422",
+          "modality": "MRI",
+          "body_region": "Abdomen",
+          "contrast": "with IV contrast",
+          "indication": "Right upper quadrant pain",
+          "ordering_provider": "Dr. Rachel Green",
+          "order_datetime": "2026-02-12T16:19:00",
+          "urgency": "Routine",
+          "status": "Ordered"
+        }
+      ],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "HPI",
+          "encounter_id": "ENC-20260212-536",
+          "timestamp": "2026-02-12T15:02:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "The patient is a 48-year-old male presenting with right upper quadrant (RUQ) abdominal pain. The pain began approximately 3 days ago, initially described as a dull ache, which has since become more constant and sharp. The pain is localized primarily to the RUQ, just below the rib cage, and does not radiate to the back or shoulder. He rates the current pain severity as a 7 out of 10. He denies any specific inciting event or trauma. He reports the pain is somewhat worse after eating, particularly fatty meals, but does not report significant relief with fasting.\n\nAssociated symptoms include intermittent nausea without vomiting. He denies fever, chills, jaundice, or changes in bowel habits (diarrhea or constipation). He reports no dysuria or hematuria. He denies shortness of breath or chest pain. He notes his appetite has been slightly decreased due to the pain. He denies recent alcohol consumption or travel. He reports taking his medications as prescribed. He states he came in today because the pain has persisted for several days and is becoming increasingly bothersome, interfering with his daily activities.\n\nReview of systems is otherwise negative except for his known history of osteoarthritis, for which he takes Meloxicam, and peptic ulcer disease, managed with Omeprazole. He denies any recent changes in his osteoarthritis symptoms. He denies any recent epigastric pain or symptoms suggestive of PUD exacerbation. His vital signs are stable, and his glucose is mildly elevated at 110.0."
+        },
+        {
+          "note_type": "Physical Exam",
+          "encounter_id": "ENC-20260212-536",
+          "timestamp": "2026-02-12T15:02:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "GENERAL: Alert and oriented male, appears stated age, in no acute distress but uncomfortable due to abdominal pain. BMI 29. Vitals stable as noted.\n\nHEENT: Normocephalic, atraumatic. PERRLA. EOMI. Conjunctivae anicteric. Oropharynx clear, moist mucous membranes. No thyromegaly.\n\nCARDIOVASCULAR: Regular rate and rhythm. S1, S2 auscultated. No murmurs, rubs, or gallops. JVP not elevated. Peripheral pulses 2+ bilaterally.\n\nPULMONARY: Clear to auscultation bilaterally. No wheezes, rales, or rhonchi. Respirations non-labored.\n\nABDOMEN: Soft, distended slightly. Bowel sounds normoactive in all four quadrants. Marked tenderness to palpation in the epigastric region and right upper quadrant (RUQ), with associated guarding. No rebound tenderness. No hepatosplenomegaly appreciated. No masses palpated.\n\nEXTREMITIES: No edema. Full range of motion in upper and lower extremities. No cyanosis or clubbing.\n\nNEUROLOGICAL: Grossly intact. Cranial nerves II-XII grossly intact. Strength 5/5 throughout. Sensation intact to light touch. Reflexes 2+ and symmetric. Gait steady."
+        },
+        {
+          "note_type": "Assessment & Plan",
+          "encounter_id": "ENC-20260212-536",
+          "timestamp": "2026-02-12T15:02:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "ASSESSMENT:\n48-year-old male presenting with right upper quadrant (RUQ) pain, etiology under evaluation. Patient has a history of osteoarthritis and peptic ulcer disease. Vital signs are stable. Glucose is mildly elevated at 110.0 mg/dL. Given the location of pain and history, differential diagnoses include biliary colic/cholecystitis, hepatitis, peptic ulcer disease exacerbation, pancreatitis, or musculoskeletal pain. MRI abdomen with contrast has been ordered to further evaluate potential hepatobiliary or pancreatic pathology.\n\nPLAN:\n1.  **Right upper quadrant pain, etiology under evaluation** - Continue diagnostic workup.\n    *   MRI abdomen with contrast ordered today to evaluate for biliary pathology, hepatic lesions, or pancreatic abnormalities.\n    *   Monitor patient for worsening pain, fever, jaundice, or changes in vital signs.\n    *   Consider abdominal ultrasound if MRI is non-diagnostic or unavailable in a timely manner.\n    *   If pain persists or worsens significantly, consider admission for further evaluation and management.\n    *   Encourage hydration and provide analgesia as needed (e.g., Acetaminophen 650mg PO Q6H PRN pain).\n    *   Follow up on MRI results promptly.\n2.  **Peptic Ulcer Disease** - Patient reports history of PUD. Assess for symptoms suggestive of exacerbation (e.g., epigastric pain, nausea, vomiting). If symptoms present, consider empiric PPI therapy (e.g., Omeprazole 20mg PO daily) pending further workup.\n3.  **Mildly Elevated Glucose** - Glucose 110.0 mg/dL. This is mildly elevated. Recommend lifestyle modifications (diet, exercise) and repeat fasting glucose or HbA1c to assess for prediabetes or diabetes mellitus.\n4.  **Disposition** - Patient discharged home with instructions to return to the Emergency Department or follow up with primary care physician if symptoms worsen or new symptoms develop (e.g., fever, jaundice, severe pain). Provide clear instructions regarding MRI scheduling and follow-up."
+        },
+        {
+          "note_type": "Nursing Note",
+          "encounter_id": "ENC-20260212-536",
+          "timestamp": "2026-02-12T19:02:00",
+          "author": "RN Lisa Garcia",
+          "note_text": "Patient is resting comfortably with pain rated 1/10 after receiving IV fluids and analgesia. Vital signs remain stable and within normal limits since admission: Temp 98.2F, HR 72, BP 126/78, RR 16, SpO2 98.0%. Patient denies nausea or vomiting currently. Continue monitoring vital signs and pain level; report any significant changes."
+        }
+      ],
+      "diagnoses": [
+        "Right upper quadrant pain, etiology under evaluation"
+      ]
+    }
+  ],
+  "problem_list": [
+    {
+      "condition": "Osteoarthritis",
+      "icd10": "M19.90",
+      "date_added": "2023-02-14T08:09:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20230214-112"
+    },
+    {
+      "condition": "Peptic Ulcer Disease",
+      "icd10": "K27.9",
+      "date_added": "2023-02-22T15:02:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20230222-968"
+    }
+  ],
+  "medication_history": [
+    {
+      "medication": {
+        "name": "Acetaminophen",
+        "dose": "500mg",
+        "route": "PO",
+        "frequency": "Q6H PRN",
+        "indication": "Pain",
+        "rxnorm_code": "161"
+      },
+      "change_type": "Started",
+      "change_date": "2023-02-14T08:09:00",
+      "encounter_id": "ENC-20230214-112",
+      "reason": "Pain",
+      "previous_dose": null
+    },
+    {
+      "medication": {
+        "name": "Omeprazole",
+        "dose": "40mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "PUD",
+        "rxnorm_code": "7646"
+      },
+      "change_type": "Started",
+      "change_date": "2023-02-22T15:02:00",
+      "encounter_id": "ENC-20230222-968",
+      "reason": "PUD",
+      "previous_dose": null
+    },
+    {
+      "medication": {
+        "name": "Meloxicam",
+        "dose": "7.5mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Osteoarthritis",
+        "rxnorm_code": null
+      },
+      "change_type": "Started",
+      "change_date": "2025-03-17T08:31:00",
+      "encounter_id": "ENC-20250317-448",
+      "reason": "Osteoarthritis",
+      "previous_dose": null
+    }
+  ],
+  "current_medications": {
+    "home_medications": [
+      {
+        "name": "Acetaminophen",
+        "dose": "500mg",
+        "route": "PO",
+        "frequency": "Q6H PRN",
+        "indication": "Pain",
+        "rxnorm_code": "161"
+      },
+      {
+        "name": "Omeprazole",
+        "dose": "40mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "PUD",
+        "rxnorm_code": "7646"
+      },
+      {
+        "name": "Meloxicam",
+        "dose": "7.5mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Osteoarthritis",
+        "rxnorm_code": null
+      }
+    ],
+    "inpatient_medications": [
+      {
+        "name": "Pantoprazole",
+        "dose": "40",
+        "route": "PO",
+        "frequency": "Daily",
+        "indication": "Peptic Ulcer Disease",
+        "rxnorm_code": "40790"
+      },
+      {
+        "name": "Ondansetron",
+        "dose": "4",
+        "route": "PO",
+        "frequency": "Q6H PRN",
+        "indication": "Nausea",
+        "rxnorm_code": "26225"
+      },
+      {
+        "name": "Acetaminophen",
+        "dose": "650",
+        "route": "PO",
+        "frequency": "Q6H PRN",
+        "indication": "Pain",
+        "rxnorm_code": "161"
+      },
+      {
+        "name": "Morphine",
+        "dose": "2",
+        "route": "PO",
+        "frequency": "Q4H PRN",
+        "indication": "Severe Pain",
+        "rxnorm_code": "7052"
+      }
+    ]
+  },
+  "allergies": [],
+  "surgical_history": [],
+  "family_history": [
+    "Coronary artery disease",
+    "Diabetes mellitus type 2"
+  ],
+  "social_history": {
+    "smoking_status": "Former",
+    "smoking_details": null,
+    "alcohol_use": "Social",
+    "alcohol_details": null,
+    "drug_use": "None",
+    "drug_details": null,
+    "occupation": "Accountant",
+    "living_situation": "Lives with wife"
+  },
+  "source_vignette": {
+    "vignette_text": "48M. Vitals: T 98.2\u00b0F, HR 72, BP 126/78. Labs: Normal CBC. PE: BMI 29, epigastric/RUQ pain, NSAID use, worse when hungry. PMHx: Chronic back pain, osteoarthritis, HTN.",
+    "case_id": "RUQ-043",
+    "case_name": "Outpatient Clinic - Peptic ulcer",
+    "source": null,
+    "seed": 84,
+    "ground_truth_diagnosis": "Peptic ulcer",
+    "ground_truth_appropriate_study": "MRI abdomen with contrast"
+  },
+  "parsed_vignette": {
+    "age": 48,
+    "sex": "Male",
+    "diagnosis": "Peptic ulcer",
+    "differential_diagnoses": [],
+    "chief_complaint": "Right upper quadrant pain",
+    "symptom_onset": null,
+    "symptom_character": null,
+    "history_conditions": [
+      "Chronic back pain",
+      "osteoarthritis",
+      "HTN"
+    ],
+    "surgical_history": [],
+    "presenting_symptoms": [],
+    "pertinent_negatives": [],
+    "exam_findings": "BMI 29, epigastric/RUQ pain, NSAID use, worse when hungry",
+    "vitals_mentioned": {
+      "temperature_f": 98.2,
+      "heart_rate": 72,
+      "blood_pressure_systolic": 126,
+      "blood_pressure_diastolic": 78
+    },
+    "labs_mentioned": {},
+    "ordered_study": "MRI abdomen with contrast",
+    "imaging_modality": "MRI",
+    "imaging_body_region": "Abdomen",
+    "imaging_contrast": "with IV contrast",
+    "clinical_setting": "Outpatient Clinic",
+    "acuity": "stable",
+    "special_populations": [],
+    "safety_flags_mentioned": [],
+    "extraction_confidence": 1.0
+  },
+  "source_scenario": null,
+  "generation_metadata": {
+    "generator_version": "2.0.0",
+    "generation_timestamp": "2026-02-18T08:50:29.585497",
+    "narrative_backend": "medgemma",
+    "seed": 84,
+    "model_id": null
+  }
+}

@@ -1,0 +1,1498 @@
+{
+  "patient": {
+    "first_name": "Brandon",
+    "last_name": "Sanchez",
+    "mrn": "MRN-905365",
+    "date_of_birth": "1957-06-10",
+    "age": 69,
+    "sex": "Male",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "address": null,
+    "phone": "(226) 822-9095",
+    "insurance": "Medicaid",
+    "emergency_contact": "Cheryl Sanchez (Partner) - (550) 782-9468"
+  },
+  "encounter_history": [
+    {
+      "encounter": {
+        "encounter_id": "ENC-20230226-468",
+        "encounter_type": "Outpatient",
+        "facility": "Memorial General Hospital",
+        "admission_datetime": "2023-02-26T14:18:00",
+        "discharge_datetime": "2023-02-26T15:00:00",
+        "attending_provider": "Dr. Michelle Clark",
+        "department": "Primary Care",
+        "chief_complaint": "Low mood, fatigue, poor concentration",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2023-02-26T14:23:00",
+          "encounter_id": "ENC-20230226-468",
+          "temperature_f": 98.9,
+          "heart_rate": 74,
+          "blood_pressure_systolic": 123,
+          "blood_pressure_diastolic": 67,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 97.6,
+          "pain_scale": 0,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2023-02-26T14:43:00",
+          "encounter_id": "ENC-20230226-468",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 7.9,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 15.6,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 49.4,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 194.3,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 84.3,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 14.0,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2023-02-26T14:43:00",
+          "encounter_id": "ENC-20230226-468",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 140.8,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.5,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.3,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 24.8,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 19.2,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 1.1,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 72.2,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.4,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.6,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 6.5,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 28.4,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 36.8,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 115.6,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.4,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 72.7,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20230226-468",
+          "timestamp": "2023-02-26T14:18:00",
+          "author": "Dr. Michelle Clark",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard clinical documentation style and abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Use Placeholder if not provided]\n**MRN:** [Medical Record Number - Use Placeholder if not provided]\n**Date of Visit:** [Date - Use Placeholder if not provided]\n**Provider:** [Provider Name - Use Placeholder if not provided]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Low mood, fatigue, poor concentration.\n\n**History of Present Illness (HPI):** 69 y/o M presents for f/u regarding depressive symptoms. Patient reports persistent low mood, anhedonia, and difficulty concentrating for the past 3 months. He also notes significant sleep disturbance, primarily early morning awakening. Symptoms are impacting daily functioning, particularly social engagement. Denies suicidal (SI) or homicidal (HI) ideation. Patient reports adherence to sertraline 50mg daily as prescribed.\n\n**Review of Systems (ROS):**\n*   **Constitutional:** Reports fatigue. Denies fever, chills, weight change.\n*   **Psychiatric:** Positive for low mood, anhedonia, poor concentration, insomnia (early morning awakening). Denies SI/HI, anxiety, mania/hypomania.\n*   **Neurologic:** Denies headache, dizziness, focal weakness.\n*   **Endocrine:** Denies polyuria, polydipsia.\n*   *All other systems reviewed and are negative.*\n\n**OBJECTIVE**\n\n**Vitals:** BP 123/67 mmHg, HR 74 bpm, RR [Not Provided - Assume Normal], Temp [Not Provided - Assume Normal], SpO2 [Not Provided - Assume Normal].\n**Physical Exam:**\n*   **General:** Alert, oriented x3, appears fatigued but in no acute distress.\n*   **HEENT:** Normocephalic, atraumatic. PERRLA, EOMI. Mucous membranes moist.\n*   **Cardiovascular:** RRR, no m/r/g.\n*   **Respiratory:** CTA bilaterally.\n*   **Neurologic:** Grossly intact. Cranial nerves II-XII intact. Strength 5/5 throughout. Sensation intact. Reflexes 2+ bilaterally.\n*   **Psychiatric:** Affect congruent with mood (depressed). Thought process linear and goal-directed. Insight and judgment appear intact.\n\n**ASSESSMENT**\n\n**Diagnoses:**\n1.  **Major Depressive Disorder (MDD), Moderate:** Based on PHQ-9 score of 16, duration of symptoms (3 months), and presence of core depressive symptoms (low mood, anhedonia, sleep disturbance, poor concentration). Patient denies SI/HI.\n2.  **Chronic Kidney Disease ("
+        }
+      ],
+      "diagnoses": [
+        "Major Depressive Disorder",
+        "Low mood, fatigue, poor concentration"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20240129-303",
+        "encounter_type": "Outpatient",
+        "facility": "Memorial General Hospital",
+        "admission_datetime": "2024-01-29T11:36:00",
+        "discharge_datetime": "2024-01-29T12:11:24",
+        "attending_provider": "Dr. Michelle Clark",
+        "department": "Primary Care",
+        "chief_complaint": "Palpitations, insomnia, worry",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2024-01-29T11:41:00",
+          "encounter_id": "ENC-20240129-303",
+          "temperature_f": 98.4,
+          "heart_rate": 68,
+          "blood_pressure_systolic": 115,
+          "blood_pressure_diastolic": 69,
+          "respiratory_rate": 18,
+          "oxygen_saturation": 97.9,
+          "pain_scale": 3,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2024-01-29T11:50:00",
+          "encounter_id": "ENC-20240129-303",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 10.2,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 14.6,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 44.8,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 160.9,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 92.4,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 11.6,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2024-01-29T11:50:00",
+          "encounter_id": "ENC-20240129-303",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 141.3,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.5,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.6,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 23.6,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 13.9,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.8,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 97.0,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.7,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.4,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.8,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 28.3,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 49.8,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 73.6,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 1.1,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 95.8,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20240129-303",
+          "timestamp": "2024-01-29T11:36:00",
+          "author": "Dr. Michelle Clark",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating professional clinical documentation style and standard medical abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Use Placeholder if needed]\n**MRN:** [Medical Record Number - Use Placeholder if needed]\n**Date of Visit:** [Date]\n**Provider:** [Provider Name/Credentials]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Palpitations, insomnia, worry.\n\n**History of Present Illness (HPI):** 69 y/o M with PMH of MDD presents reporting ongoing palpitations, difficulty initiating/maintaining sleep (insomnia), and excessive worry. Patient states palpitations are intermittent, described as \"fluttering\" in chest, lasting several minutes, and not clearly associated with exertion. Insomnia is characterized by difficulty falling asleep, often ruminating on worries. Patient endorses significant worry about health, finances, and family, which he feels is disproportionate and difficult to control. Symptoms have been present for approximately 3 months, worsening over the last month. Patient denies chest pain, SOB, dizziness, or syncope associated with palpitations. He reports feeling \"on edge\" and having difficulty concentrating. He has been taking Sertraline 50mg daily as prescribed.\n\n**Review of Systems (ROS):**\n*   **Constitutional:** Denies fever, chills, weight change.\n*   **Cardiovascular:** Positive for palpitations as described in HPI. Denies chest pain, edema.\n*   **Respiratory:** Denies shortness of breath, cough.\n*   **Neurological:** Denies headache, dizziness, syncope. Reports difficulty concentrating.\n*   **Psychiatric:** Positive for worry, insomnia, feeling \"on edge\". Denies suicidal or homicidal ideation.\n\n**OBJECTIVE**\n\n**Vitals:** BP 115/69 mmHg, HR 68 bpm, RR 16/min, Temp 98.4\u00b0F, SpO2 98% RA.\n\n**Physical Exam:**\n*   **General:** Alert, oriented x3, appears anxious but cooperative.\n*   **Cardiovascular:** Regular rate and rhythm. S1, S2 normal. No murmurs, rubs, or gallops auscultated. Peripheral pulses 2+ bilaterally. No JVD.\n*   **Respiratory:** Lungs clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n*   **Neurological:** Grossly non-focal.\n\n**ASSESSMENT**\n\n**Diagnoses:**\n1.  **Generalized Anxiety Disorder (GAD):** Based on patient's report of excessive worry, difficulty controlling worry, insomnia, feeling on edge, difficulty concentrating, and GAD-7 score of 15 (indicating moderate-severe"
+        }
+      ],
+      "diagnoses": [
+        "Generalized Anxiety Disorder",
+        "Palpitations, insomnia, worry"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20250303-859",
+        "encounter_type": "Outpatient",
+        "facility": "Memorial General Hospital",
+        "admission_datetime": "2025-03-03T09:39:00",
+        "discharge_datetime": "2025-03-03T10:08:24",
+        "attending_provider": "Dr. Michelle Clark",
+        "department": "Primary Care",
+        "chief_complaint": "Depression follow-up",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2025-03-03T09:44:00",
+          "encounter_id": "ENC-20250303-859",
+          "temperature_f": 98.7,
+          "heart_rate": 61,
+          "blood_pressure_systolic": 117,
+          "blood_pressure_diastolic": 65,
+          "respiratory_rate": 18,
+          "oxygen_saturation": 97.9,
+          "pain_scale": 3,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2025-03-03T09:50:00",
+          "encounter_id": "ENC-20250303-859",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 8.1,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 15.8,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 49.1,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 281.1,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 89.2,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 12.9,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2025-03-03T09:50:00",
+          "encounter_id": "ENC-20250303-859",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 141.5,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.5,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 101.6,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 24.5,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 16.9,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 1.1,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 94.5,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.4,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.6,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.1,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 19.1,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 18.6,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 55.3,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.3,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 72.7,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20250303-859",
+          "timestamp": "2025-03-03T09:39:00",
+          "author": "Dr. Michelle Clark",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard clinical documentation style and abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [MRN - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n**Chief Complaint:** Follow-up for depression.\n\n**History of Present Illness:** 69 y/o M with PMH of MDD and GAD presents for routine follow-up. Patient reports improved mood since last visit, with PHQ-9 score decreasing from 18 to 10. He notes decreased anhedonia and improved sleep, but continues to struggle with persistent low mood and fatigue. He denies current suicidal or homicidal ideation (SI/HI). Patient reports tolerating increased sertraline dose well, with no significant side effects. He continues weekly psychotherapy and reports finding it beneficial.\n\n**Review of Systems:**\n*   **Constitutional:** Reports fatigue, denies fever, chills, weight change.\n*   **Psychiatric:** As per HPI. Denies mania or psychosis.\n*   **Neurologic:** Denies headache, dizziness, focal weakness.\n*   **Cardiovascular:** Denies chest pain, palpitations.\n*   **Respiratory:** Denies cough, SOB.\n*   **GI:** Denies nausea, vomiting, abdominal pain.\n\n**OBJECTIVE**\n\n**Vitals:** BP 117/65, HR 61, RR 16, Temp 98.4\u00b0F, SpO2 98% RA.\n**Physical Exam:**\n*   **General:** Alert, oriented x3, appears well-nourished. Affect is congruent with mood, slightly subdued but improved from prior visits.\n*   **HEENT:** Normocephalic, atraumatic. PERRLA, EOMI. Mucous membranes moist.\n*   **Cardiovascular:** RRR, no m/r/g.\n*   **Respiratory:** CTA bilaterally.\n*   **Abdomen:** Soft, NT/ND, BS+.\n*   **Psychiatric:** Thought process linear and goal-directed. Mood reported as \"better but still down.\" Insight and judgment appear intact.\n\n**ASSESSMENT**\n\n**Diagnoses:**\n1.  **Major Depressive Disorder (MDD), Recurrent, Moderate:** Patient demonstrates partial response to sertraline 100mg daily. PHQ-9 score of 10 indicates moderate severity. Continued psychotherapy is appropriate.\n2.  **Generalized Anxiety Disorder (GAD):** Stable, managed with escitalopram 10mg daily. No acute exacerbation reported.\n3.  **Chronic Kidney Disease (CKD) Stage 2:** Based on"
+        }
+      ],
+      "diagnoses": [
+        "Depression follow-up"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20250312-473",
+        "encounter_type": "Outpatient",
+        "facility": "Memorial General Hospital",
+        "admission_datetime": "2025-03-12T10:51:00",
+        "discharge_datetime": "2025-03-12T11:18:36",
+        "attending_provider": "Dr. Michelle Clark",
+        "department": "Primary Care",
+        "chief_complaint": "Anxiety follow-up",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2025-03-12T10:56:00",
+          "encounter_id": "ENC-20250312-473",
+          "temperature_f": 97.8,
+          "heart_rate": 79,
+          "blood_pressure_systolic": 126,
+          "blood_pressure_diastolic": 77,
+          "respiratory_rate": 14,
+          "oxygen_saturation": 99.7,
+          "pain_scale": 0,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2025-03-12T11:05:00",
+          "encounter_id": "ENC-20250312-473",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 6.7,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 14.1,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 40.8,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 331.1,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 94.8,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 12.2,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2025-03-12T11:05:00",
+          "encounter_id": "ENC-20250312-473",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 141.7,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 103.6,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 27.6,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 18.8,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 1.0,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 82.9,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 10.0,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.2,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.0,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 34.8,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 43.9,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 122.1,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.9,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 81.5,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Michelle Clark"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20250312-473",
+          "timestamp": "2025-03-12T10:51:00",
+          "author": "Dr. Michelle Clark",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating professional clinical documentation style and standard medical abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE:**\n\n*   **Chief Complaint (CC):** Follow-up for anxiety management.\n*   **History of Present Illness (HPI):** 69 y/o M with PMH of MDD and GAD presents for routine follow-up. Patient reports significant improvement in anxiety symptoms since last visit. GAD-7 score decreased to 8 (mild anxiety) from previous score of [Previous Score - Placeholder, e.g., 15]. Reports improved sleep duration and quality, sleeping approximately 7-8 hrs/night. Patient denies panic attacks, excessive worry, or significant functional impairment related to anxiety. Patient is actively engaged in Cognitive Behavioral Therapy (CBT) sessions weekly and reports finding them helpful. Denies suicidal or homicidal ideation.\n*   **Review of Systems (ROS):**\n    *   **Psychiatric:** As per HPI. Denies depressed mood, anhedonia, or significant mood lability.\n    *   **General:** Denies fever, chills, weight loss. Reports stable energy levels.\n    *   **Cardiovascular:** Denies chest pain, palpitations, SOB.\n    *   **Respiratory:** Denies cough, wheezing, SOB.\n    *   **GI:** Denies nausea, vomiting, diarrhea, constipation.\n    *   **GU:** Denies dysuria, frequency, urgency.\n    *   **MSK:** Denies joint pain, muscle aches.\n    *   **Neuro:** Denies headache, dizziness, focal weakness.\n\n**OBJECTIVE:**\n\n*   **Vitals:** BP 126/77 mmHg, HR 79 bpm, RR 16/min, Temp 98.6\u00b0F (37\u00b0C), SpO2 98% RA.\n*   **Physical Exam:**\n    *   **General:** Alert, oriented x3, appears calm and well-nourished. No acute distress.\n    *   **HEENT:** Normocephalic, atraumatic. PERRLA, EOMI. Mucous membranes moist.\n    *   **Cardiovascular:** RRR, no m/r/g.\n    *   **Respiratory:** CTA bilaterally. No wheezes, rales, or rhonchi.\n    *   **Psychiatric:** Affect congruent with mood, mood euthymic. Thought process linear and goal-directed. Insight and judgment intact.\n\n*   **Labs:** Recent labs reviewed."
+        }
+      ],
+      "diagnoses": [
+        "Anxiety follow-up"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20260215-539",
+        "encounter_type": "Outpatient",
+        "facility": "Memorial General Hospital",
+        "admission_datetime": "2026-02-15T15:39:00",
+        "discharge_datetime": null,
+        "attending_provider": "Dr. Andrew Mitchell",
+        "department": "Primary Care",
+        "chief_complaint": "Abdominal pain",
+        "disposition": "Follow-up as needed"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2026-02-15T15:50:00",
+          "encounter_id": "ENC-20260215-539",
+          "temperature_f": 98.2,
+          "heart_rate": 74,
+          "blood_pressure_systolic": 124,
+          "blood_pressure_diastolic": 76,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 98.0,
+          "pain_scale": 1,
+          "source": "Triage"
+        },
+        {
+          "timestamp": "2026-02-15T19:53:00",
+          "encounter_id": "ENC-20260215-539",
+          "temperature_f": 97.7,
+          "heart_rate": 89,
+          "blood_pressure_systolic": 139,
+          "blood_pressure_diastolic": 72,
+          "respiratory_rate": 14,
+          "oxygen_saturation": 98.9,
+          "pain_scale": 0,
+          "source": "Nursing"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2026-02-15T16:19:00",
+          "encounter_id": "ENC-20260215-539",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 8.5,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 14.2,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 42.5,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 362.2,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            }
+          ],
+          "ordering_provider": "Dr. Andrew Mitchell"
+        },
+        {
+          "panel_name": "CMP + LFT",
+          "timestamp": "2026-02-15T16:19:00",
+          "encounter_id": "ENC-20260215-539",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 139.0,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.0,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 25.0,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 15.0,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.9,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 110.0,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": "H",
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.5,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "AST",
+              "value": 25.0,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 30.0,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 80.0,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.6,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "Bilirubin, Direct",
+              "value": 0.2,
+              "unit": "mg/dL",
+              "reference_low": 0.0,
+              "reference_high": 0.3,
+              "flag": null,
+              "loinc_code": "1968-7"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.0,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 92.5,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Andrew Mitchell"
+        },
+        {
+          "panel_name": "Lipase",
+          "timestamp": "2026-02-15T16:19:00",
+          "encounter_id": "ENC-20260215-539",
+          "results": [
+            {
+              "test_name": "Lipase",
+              "value": 45.0,
+              "unit": "U/L",
+              "reference_low": 0.0,
+              "reference_high": 60.0,
+              "flag": null,
+              "loinc_code": "3040-3"
+            }
+          ],
+          "ordering_provider": "Dr. Andrew Mitchell"
+        },
+        {
+          "panel_name": "Amylase",
+          "timestamp": "2026-02-15T16:19:00",
+          "encounter_id": "ENC-20260215-539",
+          "results": [
+            {
+              "test_name": "Amylase",
+              "value": 56.3,
+              "unit": "U/L",
+              "reference_low": 28.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "1798-8"
+            }
+          ],
+          "ordering_provider": "Dr. Andrew Mitchell"
+        }
+      ],
+      "imaging_orders": [
+        {
+          "order_id": "IMG-20260215-485",
+          "modality": "PET/CT",
+          "body_region": "Abdomen",
+          "contrast": "",
+          "indication": "Abdominal pain",
+          "ordering_provider": "Dr. Andrew Mitchell",
+          "order_datetime": "2026-02-15T16:47:00",
+          "urgency": "Routine",
+          "status": "Ordered"
+        }
+      ],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "HPI",
+          "encounter_id": "ENC-20260215-539",
+          "timestamp": "2026-02-15T15:39:00",
+          "author": "Dr. Andrew Mitchell",
+          "note_text": "The patient is a 69-year-old male presenting with a chief complaint of abdominal pain. The pain began approximately 3 days ago, initially described as a dull ache in the periumbilical region. Over the past 24 hours, the pain has become more localized to the right lower quadrant and is now characterized as sharp and intermittent, occurring in waves. The patient rates the current pain severity as a 6 out of 10. He denies any radiation of the pain. He reports associated nausea but denies any vomiting, fever, chills, or changes in bowel habits (denies diarrhea or constipation). He has not taken any over-the-counter medications for the pain.\n\nThe patient states he initially attributed the pain to indigestion but became increasingly concerned as the pain intensified and localized to the right lower quadrant. He denies any recent trauma, travel, or sick contacts. He reports no significant changes in diet. Review of systems is otherwise negative for dysuria, hematuria, chest pain, shortness of breath, or cough. His medical history is significant for Major Depressive Disorder and Generalized Anxiety Disorder, for which he takes Sertraline 100mg and Escitalopram 10mg daily. He denies any recent changes to his medications.\n\nVitals are stable: Temp 98.2F, HR 74, BP 124/76, RR 16, SpO2 98.0%. Key laboratory results show a slightly elevated glucose of 110.0. The patient is here today seeking evaluation for his worsening abdominal pain."
+        },
+        {
+          "note_type": "Physical Exam",
+          "encounter_id": "ENC-20260215-539",
+          "timestamp": "2026-02-15T15:39:00",
+          "author": "Dr. Andrew Mitchell",
+          "note_text": "GENERAL: Alert and oriented male, appears stated age (69 years). In no acute distress, though reports discomfort. Cooperative with exam. Vitals stable: T 98.2F, HR 74, BP 124/76, RR 16, SpO2 98.0% on room air.\n\nHEENT: Normocephalic, atraumatic. PERRLA. EOMI. Conjunctivae anicteric, sclerae clear. Mucous membranes moist. Oropharynx clear, no erythema or exudates. Dentition intact. No thyromegaly or carotid bruits.\n\nCARDIOVASCULAR: Regular rate and rhythm. S1, S2 auscultated. No murmurs, rubs, or gallops. JVP estimated at 8 cm H2O. Peripheral pulses 2+ bilaterally in radial, dorsalis pedis, and posterior tibial arteries. No edema.\n\nPULMONARY: Clear to auscultation bilaterally. No wheezes, rales, or rhonchi. Respirations non-labored. Chest wall non-tender.\n\nABDOMEN: Soft, non-distended. Bowel sounds normoactive in all four quadrants. Tenderness to light palpation in the right lower quadrant (RLQ). No rebound tenderness or guarding. No masses appreciated. No hepatosplenomegaly. No inguinal hernias.\n\nEXTREMITIES: Warm, dry, and intact. No cyanosis or clubbing. Full range of motion in all joints examined. No edema.\n\nNEUROLOGICAL: Grossly intact. Cranial nerves II-XII grossly intact. Strength 5/5 throughout upper and lower extremities. Sensation intact to light touch. Reflexes 2+ and symmetric. Gait steady, no ataxia. Finger-to-nose and heel-to-shin testing intact. No focal neurological deficits noted."
+        },
+        {
+          "note_type": "Assessment & Plan",
+          "encounter_id": "ENC-20260215-539",
+          "timestamp": "2026-02-15T15:39:00",
+          "author": "Dr. Andrew Mitchell",
+          "note_text": "ASSESSMENT:\n69-year-old male presenting with abdominal pain, etiology under evaluation. Patient has a history of Major Depressive Disorder and Generalized Anxiety Disorder. Vital signs are stable. Glucose is mildly elevated at 110.0. A PET/CT whole body has been ordered to evaluate for potential malignancy or inflammatory process given the non-specific nature of the abdominal pain and age. Differential diagnosis for abdominal pain includes, but is not limited to, gastrointestinal malignancy (e.g., colorectal, pancreatic, gastric), inflammatory conditions (e.g., diverticulitis, pancreatitis), vascular causes (e.g., mesenteric ischemia), and other less common etiologies.\n\nPLAN:\n1.  **Abdominal pain, etiology under evaluation** - Continue diagnostic workup. Await results of PET/CT whole body. Monitor patient for worsening pain, fever, or other concerning symptoms. Consider further imaging (e.g., abdominal ultrasound, CT abdomen/pelvis with contrast if PET/CT is non-diagnostic or reveals specific findings requiring further characterization) based on PET/CT results and clinical evolution. Provide analgesia as needed; currently using [Specify current analgesia, e.g., Acetaminophen 650mg PO Q6H PRN pain]. Ensure adequate hydration and nutrition.\n2.  **Major Depressive Disorder / Generalized Anxiety Disorder** - Continue current psychiatric medications: [Specify current medications, e.g., Sertraline 100mg PO daily, Buspirone 30mg PO BID]. Monitor mood and anxiety symptoms. Encourage adherence to therapy.\n3.  **Mildly elevated glucose** - Monitor fasting blood glucose. Educate patient on diet and lifestyle modifications. If glucose remains elevated or worsens, consider further evaluation for diabetes mellitus.\n4.  **Disposition plan** - Patient is currently stable for inpatient observation pending diagnostic workup. Will reassess need for continued inpatient stay based on PET/CT results and clinical course. If PET/CT is negative and pain resolves, consider discharge with close outpatient follow-up. If PET/CT reveals concerning findings, proceed with appropriate specialist consultation (e.g., GI, Oncology, Vascular Surgery) and management plan."
+        },
+        {
+          "note_type": "Nursing Note",
+          "encounter_id": "ENC-20260215-539",
+          "timestamp": "2026-02-15T19:39:00",
+          "author": "RN Sarah Martinez",
+          "note_text": "Patient is alert and oriented x3, reporting abdominal pain rated 1/10, significantly improved from admission. Vital signs remain stable and within normal limits: T 98.2F, HR 74, BP 124/76, RR 16, SpO2 98.0%. Administered scheduled analgesia as ordered, and patient tolerated PO fluids well. No acute concerns at this time; continue monitoring abdominal assessment and pain levels."
+        }
+      ],
+      "diagnoses": [
+        "Abdominal pain, etiology under evaluation"
+      ]
+    }
+  ],
+  "problem_list": [
+    {
+      "condition": "Major Depressive Disorder",
+      "icd10": "F32.9",
+      "date_added": "2023-02-26T14:18:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20230226-468"
+    },
+    {
+      "condition": "Generalized Anxiety Disorder",
+      "icd10": "F41.1",
+      "date_added": "2024-01-29T11:36:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20240129-303"
+    }
+  ],
+  "medication_history": [
+    {
+      "medication": {
+        "name": "Sertraline",
+        "dose": "100mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Depression",
+        "rxnorm_code": null
+      },
+      "change_type": "Started",
+      "change_date": "2023-02-26T14:18:00",
+      "encounter_id": "ENC-20230226-468",
+      "reason": "Depression",
+      "previous_dose": null
+    },
+    {
+      "medication": {
+        "name": "Escitalopram",
+        "dose": "10mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Anxiety",
+        "rxnorm_code": null
+      },
+      "change_type": "Started",
+      "change_date": "2024-01-29T11:36:00",
+      "encounter_id": "ENC-20240129-303",
+      "reason": "Anxiety",
+      "previous_dose": null
+    },
+    {
+      "medication": {
+        "name": "Sertraline",
+        "dose": "100mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": null,
+        "rxnorm_code": null
+      },
+      "change_type": "Increased",
+      "change_date": "2025-03-03T09:39:00",
+      "encounter_id": "ENC-20250303-859",
+      "reason": "Partial response, dose optimization",
+      "previous_dose": "50mg"
+    }
+  ],
+  "current_medications": {
+    "home_medications": [
+      {
+        "name": "Sertraline",
+        "dose": "100mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Depression",
+        "rxnorm_code": null
+      },
+      {
+        "name": "Escitalopram",
+        "dose": "10mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Anxiety",
+        "rxnorm_code": null
+      }
+    ],
+    "inpatient_medications": [
+      {
+        "name": "Ondansetron",
+        "dose": "4mg",
+        "route": "IV",
+        "frequency": "q8h",
+        "indication": "Nausea",
+        "rxnorm_code": "26225"
+      },
+      {
+        "name": "Morphine",
+        "dose": "2mg",
+        "route": "IV",
+        "frequency": "q4h PRN",
+        "indication": "Abdominal pain",
+        "rxnorm_code": "7052"
+      },
+      {
+        "name": "Docusate",
+        "dose": "100mg",
+        "route": "PO",
+        "frequency": "BID",
+        "indication": "Constipation prevention",
+        "rxnorm_code": null
+      }
+    ]
+  },
+  "allergies": [],
+  "surgical_history": [],
+  "family_history": [
+    "Hypertension",
+    "Diabetes Mellitus Type 2"
+  ],
+  "social_history": {
+    "smoking_status": "Former",
+    "smoking_details": null,
+    "alcohol_use": "Social",
+    "alcohol_details": null,
+    "drug_use": "None",
+    "drug_details": null,
+    "occupation": "Retired Accountant",
+    "living_situation": "Lives with wife"
+  },
+  "source_vignette": {
+    "vignette_text": "Vitals: T 98.2\u00b0F, HR 74, BP 124/76. No labs. PE: patient reports discomfort, location unclear from note. PMHx: Depression, anxiety.",
+    "case_id": "RUQ-077",
+    "case_name": "Primary Care - (Not documented)",
+    "source": null,
+    "seed": 118,
+    "ground_truth_diagnosis": "(Not documented)",
+    "ground_truth_appropriate_study": "PET/CT whole body"
+  },
+  "parsed_vignette": {
+    "age": 69,
+    "sex": "Male",
+    "diagnosis": "(Not documented)",
+    "differential_diagnoses": [],
+    "chief_complaint": "Abdominal pain",
+    "symptom_onset": null,
+    "symptom_character": null,
+    "history_conditions": [
+      "Depression",
+      "anxiety"
+    ],
+    "surgical_history": [],
+    "presenting_symptoms": [],
+    "pertinent_negatives": [],
+    "exam_findings": "patient reports discomfort, location unclear from note",
+    "vitals_mentioned": {
+      "temperature_f": 98.2,
+      "heart_rate": 74,
+      "blood_pressure_systolic": 124,
+      "blood_pressure_diastolic": 76
+    },
+    "labs_mentioned": {},
+    "ordered_study": "PET/CT whole body",
+    "imaging_modality": "PET/CT",
+    "imaging_body_region": "Abdomen",
+    "imaging_contrast": "",
+    "clinical_setting": "Primary Care",
+    "acuity": "stable",
+    "special_populations": [],
+    "safety_flags_mentioned": [],
+    "extraction_confidence": 1.0
+  },
+  "source_scenario": null,
+  "generation_metadata": {
+    "generator_version": "2.0.0",
+    "generation_timestamp": "2026-02-18T12:17:27.162326",
+    "narrative_backend": "medgemma",
+    "seed": 118,
+    "model_id": null
+  }
+}

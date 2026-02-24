@@ -1,0 +1,1104 @@
+{
+  "patient": {
+    "first_name": "Nancy",
+    "last_name": "Parker",
+    "mrn": "MRN-517072",
+    "date_of_birth": "1978-10-28",
+    "age": 48,
+    "sex": "Female",
+    "race": "Native Hawaiian or Other Pacific Islander",
+    "ethnicity": "Hispanic or Latino",
+    "address": null,
+    "phone": "(735) 381-6414",
+    "insurance": "Self-Pay",
+    "emergency_contact": "Larry Parker (Sibling) - (852) 632-1955"
+  },
+  "encounter_history": [
+    {
+      "encounter": {
+        "encounter_id": "ENC-20230304-763",
+        "encounter_type": "Outpatient",
+        "facility": "St. Mary's Medical Center",
+        "admission_datetime": "2023-03-04T13:28:00",
+        "discharge_datetime": "2023-03-04T13:58:36",
+        "attending_provider": "Dr. Nancy Davis",
+        "department": "Primary Care",
+        "chief_complaint": "Fatigue, weight gain",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2023-03-04T13:33:00",
+          "encounter_id": "ENC-20230304-763",
+          "temperature_f": 98.2,
+          "heart_rate": 80,
+          "blood_pressure_systolic": 120,
+          "blood_pressure_diastolic": 68,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 97.1,
+          "pain_scale": 2,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "Thyroid Panel",
+          "timestamp": "2023-03-04T13:52:00",
+          "encounter_id": "ENC-20230304-763",
+          "results": [
+            {
+              "test_name": "TSH",
+              "value": 10.6,
+              "unit": "mIU/L",
+              "reference_low": 0.4,
+              "reference_high": 4.0,
+              "flag": "H",
+              "loinc_code": "3016-3"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20230304-763",
+          "timestamp": "2023-03-04T13:28:00",
+          "author": "Dr. Nancy Davis",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard clinical documentation style and abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Use Placeholder if not provided]\n**MRN:** [Medical Record Number - Use Placeholder if not provided]\n**Date of Visit:** [Date - Use Placeholder if not provided]\n**Provider:** [Provider Name - Use Placeholder if not provided]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Fatigue and weight gain.\n\n**History of Present Illness (HPI):** 48 y/o F presents for f/u regarding fatigue and weight gain. Patient reports ongoing fatigue, feeling \"tired all the time,\" and unintentional weight gain of approximately 10 lbs over the past 3 months. Denies significant changes in diet or exercise. Reports feeling slightly more cold intolerant recently. No palpitations, chest pain, shortness of breath, or significant mood changes.\n\n**Review of Systems (ROS):**\n*   **Constitutional:** (+) Fatigue, (+) unintentional weight gain (~10 lbs), (+) cold intolerance. (-) Fever, chills, night sweats.\n*   **Endocrine:** (+) Fatigue, (+) weight gain, (+) cold intolerance. (-) Polyuria, polydipsia, heat intolerance.\n*   **Psychiatric:** (-) Depression, anxiety, significant mood changes.\n*   **All other systems reviewed and are negative.**\n\n**OBJECTIVE**\n\n**Vitals:** BP 120/68 mmHg, HR 80 bpm, RR 16/min, Temp 98.6\u00b0F (37\u00b0C), SpO2 98% on RA. Weight: [Current Weight - Placeholder, e.g., 165 lbs] (BMI: [Current BMI - Placeholder, e.g., 26.5]).\n\n**Physical Exam:**\n*   **General:** Alert, oriented, NAD. Appears slightly fatigued but in no acute distress.\n*   **HEENT:** Normocephalic, atraumatic. PERRLA, EOMI. Mucous membranes moist. No thyromegaly or goiter noted.\n*   **Neck:** Supple. No lymphadenopathy.\n*   **Cardiovascular:** RRR, no m/r/g. S1, S2 normal.\n*   **Respiratory:** CTA bilaterally. No wheezes, rales, or rhonchi.\n*   **Abdomen:** Soft, NT/ND, BS+.\n*   **Extremities:** No edema. Pulses 2+ bilaterally.\n*   **Neurologic:** Grossly intact.\n\n**ASSESSMENT**\n\n**Diagnoses:**\n1.  **Hypothyroidism, likely Hashimoto's thyroiditis (pending further workup if needed):** Based on elevated TSH"
+        }
+      ],
+      "diagnoses": [
+        "Hypothyroidism",
+        "Fatigue, weight gain"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20231230-854",
+        "encounter_type": "Outpatient",
+        "facility": "St. Mary's Medical Center",
+        "admission_datetime": "2023-12-30T13:11:00",
+        "discharge_datetime": "2023-12-30T13:45:48",
+        "attending_provider": "Dr. Nancy Davis",
+        "department": "Primary Care",
+        "chief_complaint": "Routine check-up",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2023-12-30T13:16:00",
+          "encounter_id": "ENC-20231230-854",
+          "temperature_f": 98.5,
+          "heart_rate": 77,
+          "blood_pressure_systolic": 114,
+          "blood_pressure_diastolic": 65,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 98.3,
+          "pain_scale": 0,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2023-12-30T13:38:00",
+          "encounter_id": "ENC-20231230-854",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 10.8,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 16.0,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 41.5,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 236.5,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 93.1,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 14.5,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2023-12-30T13:38:00",
+          "encounter_id": "ENC-20231230-854",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 142.2,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 5.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 101.2,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 25.5,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 15.9,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.9,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 75.9,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.1,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 5.0,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.3,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 25.6,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 19.7,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 86.7,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.7,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 78.9,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20231230-854",
+          "timestamp": "2023-12-30T13:11:00",
+          "author": "Dr. Nancy Davis",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard medical abbreviations and clinical details.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n*   **Chief Complaint (CC):** Routine check-up.\n*   **History of Present Illness (HPI):** 48 y/o F presents for a routine annual physical. Patient reports feeling well overall, denies any acute complaints. She states she is taking her Levothyroxine daily as prescribed and has no issues with it. She reports no recent changes in diet or exercise. She denies any symptoms suggestive of uncontrolled hypothyroidism (e.g., fatigue, weight gain, cold intolerance).\n*   **Review of Systems (ROS):**\n    *   **General:** Denies fever, chills, weight changes. Reports feeling well.\n    *   **HEENT:** Denies headache, vision changes, sore throat.\n    *   **Cardiovascular:** Denies chest pain, palpitations, SOB.\n    *   **Respiratory:** Denies cough, wheezing, SOB.\n    *   **GI:** Denies nausea, vomiting, abdominal pain, changes in bowel habits.\n    *   **GU:** Denies dysuria, frequency, hematuria.\n    *   **MSK:** Denies joint pain, muscle aches.\n    *   **Skin:** Denies rashes, lesions.\n    *   **Neuro:** Denies dizziness, numbness, tingling.\n    *   **Endocrine:** Denies polyuria, polydipsia. Reports stable thyroid symptoms.\n\n**OBJECTIVE**\n\n*   **Vitals:** BP 114/65 mmHg, HR 77 bpm, RR 16/min, Temp 98.6\u00b0F (37\u00b0C), SpO2 98% on RA.\n*   **Physical Exam:**\n    *   **General:** Alert, oriented, NAD. Appears well-nourished.\n    *   **HEENT:** Normocephalic, atraumatic. PERRLA, EOMI. TMs clear bilaterally. Oropharynx clear.\n    *   **Neck:** Supple. No thyromegaly or lymphadenopathy palpated.\n    *   **Cardiovascular:** RRR, no m/r/g. S1, S2 normal.\n    *   **Respiratory:** CTA bilaterally. No wheezes, rales, or rhonchi.\n    *   **Abdomen:** Soft, NT/ND, BS+. No HSM.\n    *   **Skin:** Warm, dry, intact. No rashes or lesions noted."
+        }
+      ],
+      "diagnoses": [
+        "Routine check-up"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20240306-451",
+        "encounter_type": "Outpatient",
+        "facility": "St. Mary's Medical Center",
+        "admission_datetime": "2024-03-06T11:09:00",
+        "discharge_datetime": "2024-03-06T11:48:00",
+        "attending_provider": "Dr. Nancy Davis",
+        "department": "Primary Care",
+        "chief_complaint": "Thyroid follow-up",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2024-03-06T11:14:00",
+          "encounter_id": "ENC-20240306-451",
+          "temperature_f": 98.5,
+          "heart_rate": 85,
+          "blood_pressure_systolic": 122,
+          "blood_pressure_diastolic": 75,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 98.8,
+          "pain_scale": 2,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "Thyroid Panel",
+          "timestamp": "2024-03-06T11:39:00",
+          "encounter_id": "ENC-20240306-451",
+          "results": [
+            {
+              "test_name": "TSH",
+              "value": 5.5,
+              "unit": "mIU/L",
+              "reference_low": 0.4,
+              "reference_high": 4.0,
+              "flag": "H",
+              "loinc_code": "3016-3"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20240306-451",
+          "timestamp": "2024-03-06T11:09:00",
+          "author": "Dr. Nancy Davis",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard medical abbreviations and clinical details.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n*   **Chief Complaint (CC):** Thyroid follow-up.\n*   **History of Present Illness (HPI):** 48 y/o F with known hypothyroidism presents for routine follow-up. Patient reports adherence to current levothyroxine 50mcg daily. She notes improved energy levels since last visit, but still feels \"not quite 100%\". Denies palpitations, heat intolerance, or significant weight changes. Reports stable weight at [Patient's Weight - Placeholder] lbs.\n*   **Review of Systems (ROS):**\n    *   **Constitutional:** Reports improved energy, denies fatigue, fever, chills.\n    *   **Endocrine:** Denies heat/cold intolerance, polyuria, polydipsia.\n    *   **Cardiovascular:** Denies chest pain, palpitations.\n    *   **Psychiatric:** Denies anxiety, depression.\n\n**OBJECTIVE**\n\n*   **Vitals:** BP 122/75 mmHg, HR 85 bpm, RR 16/min, Temp 98.6\u00b0F (37\u00b0C), SpO2 98% on RA.\n*   **Physical Exam:**\n    *   **General:** Alert, oriented, NAD. Appears well-nourished.\n    *   **Neck:** Thyroid gland non-palpable, no goiter, no nodules appreciated. No cervical lymphadenopathy.\n    *   **Cardiovascular:** RRR, no murmurs, rubs, or gallops.\n    *   **Neurologic:** Grossly non-focal.\n\n**ASSESSMENT**\n\n1.  **Hypothyroidism:** Suboptimally controlled. TSH remains elevated at 5.5 (H) despite current levothyroxine 50mcg daily. Patient reports symptomatic improvement but TSH indicates need for dose adjustment.\n2.  **Stable Weight:** No significant weight change noted.\n\n**PLAN**\n\n1.  **Medication:** Increase Levothyroxine to 75mcg PO daily. Dispense #30.\n2.  **Labs:** Repeat TSH in 6 weeks.\n3.  **Patient Education:** Discussed importance of consistent daily medication administration, preferably on an empty stomach. Educated patient on signs/symptoms of hyperthyroidism (palpitations, weight loss, anxiety) and advised to call if these occur.\n4.  **Follow-up:** Return to clinic"
+        }
+      ],
+      "diagnoses": [
+        "Thyroid follow-up"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20250223-488",
+        "encounter_type": "Outpatient",
+        "facility": "St. Mary's Medical Center",
+        "admission_datetime": "2025-02-23T14:50:00",
+        "discharge_datetime": "2025-02-23T15:19:24",
+        "attending_provider": "Dr. Nancy Davis",
+        "department": "Primary Care",
+        "chief_complaint": "Annual wellness visit",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2025-02-23T14:55:00",
+          "encounter_id": "ENC-20250223-488",
+          "temperature_f": 98.9,
+          "heart_rate": 71,
+          "blood_pressure_systolic": 123,
+          "blood_pressure_diastolic": 88,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 98.7,
+          "pain_scale": 1,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2025-02-23T15:15:00",
+          "encounter_id": "ENC-20250223-488",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 8.7,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 14.8,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 41.0,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 248.9,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 91.0,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 12.8,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2025-02-23T15:15:00",
+          "encounter_id": "ENC-20250223-488",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 139.2,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 3.8,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 103.9,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 25.6,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 12.8,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.9,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 83.9,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.9,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.0,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 6.9,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 31.4,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 53.7,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 147.0,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.9,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 78.9,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20250223-488",
+          "timestamp": "2025-02-23T14:50:00",
+          "author": "Dr. Nancy Davis",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard medical abbreviations and clinical details.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [Medical Record Number - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Annual wellness visit.\n\n**History of Present Illness (HPI):** 48 y/o F presents for her annual wellness exam. She reports feeling generally well with no acute complaints. She denies chest pain, SOB, palpitations, dizziness, or syncope. She reports adherence to Levothyroxine 75mcg daily for hypothyroidism. She reports a diet consisting of fruits, vegetables, and lean protein, with moderate exercise (walking 3-4x/week). She denies recent weight changes, fatigue, or cold intolerance.\n\n**Review of Systems (ROS):**\n*   **Constitutional:** Denies fever, chills, recent weight changes. Reports feeling well.\n*   **Cardiovascular:** Denies chest pain, palpitations.\n*   **Respiratory:** Denies cough, SOB.\n*   **Endocrine:** Denies polyuria, polydipsia, heat/cold intolerance. Reports stable thyroid symptoms on current medication.\n*   **GU:** Denies dysuria, hematuria.\n*   **GI:** Denies nausea, vomiting, abdominal pain, changes in bowel habits.\n*   **MSK:** Denies joint pain, muscle weakness.\n*   **Skin:** Denies rashes, lesions.\n*   **Neuro:** Denies headache, dizziness, focal weakness.\n\n**OBJECTIVE**\n\n**Vitals:**\n*   BP: 123/88 mmHg\n*   HR: 71 bpm\n*   RR: 16 breaths/min\n*   Temp: 98.6\u00b0F (37\u00b0C)\n*   SpO2: 98% on RA\n\n**Physical Exam:**\n*   **General:** Alert, oriented, NAD. Appears stated age.\n*   **HEENT:** Normocephalic, atraumatic. PERRLA, EOMI. TMs clear bilaterally. Oropharynx clear, no exudates.\n*   **Neck:** Supple, no thyromegaly or lymphadenopathy.\n*   **Cardiovascular:** RRR, S1/S2 normal. No murmurs, rubs, or gallops.\n*   **Pulmonary:** CTA bilaterally. No wheezes, rales, or rhonchi.\n*   **Abdomen:** Soft, non-tender, non-distended. Bowel sounds normoactive.\n*   **Extremities:** No edema, cyan"
+        }
+      ],
+      "diagnoses": [
+        "Annual wellness visit"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20260213-852",
+        "encounter_type": "Outpatient",
+        "facility": "St. Mary's Medical Center",
+        "admission_datetime": "2026-02-13T14:48:00",
+        "discharge_datetime": null,
+        "attending_provider": "Dr. Rachel Green",
+        "department": "Radiology Clinic",
+        "chief_complaint": "Abdominal pain",
+        "disposition": "Follow-up as needed"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2026-02-13T14:57:00",
+          "encounter_id": "ENC-20260213-852",
+          "temperature_f": 99.3,
+          "heart_rate": 88,
+          "blood_pressure_systolic": 135,
+          "blood_pressure_diastolic": 85,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 98.0,
+          "pain_scale": 1,
+          "source": "Triage"
+        },
+        {
+          "timestamp": "2026-02-13T18:48:00",
+          "encounter_id": "ENC-20260213-852",
+          "temperature_f": 97.3,
+          "heart_rate": 84,
+          "blood_pressure_systolic": 116,
+          "blood_pressure_diastolic": 72,
+          "respiratory_rate": 14,
+          "oxygen_saturation": 100.0,
+          "pain_scale": 0,
+          "source": "Nursing"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2026-02-13T15:19:00",
+          "encounter_id": "ENC-20260213-852",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 8.5,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 13.2,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 39.5,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 386.5,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "CMP + LFT",
+          "timestamp": "2026-02-13T15:19:00",
+          "encounter_id": "ENC-20260213-852",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 138.0,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.0,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 24.0,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 15.0,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.8,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 95.0,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.5,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "AST",
+              "value": 22.0,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 25.0,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 70.0,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.6,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "Bilirubin, Direct",
+              "value": 0.2,
+              "unit": "mg/dL",
+              "reference_low": 0.0,
+              "reference_high": 0.3,
+              "flag": null,
+              "loinc_code": "1968-7"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.0,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 90.8,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "Lipase",
+          "timestamp": "2026-02-13T15:19:00",
+          "encounter_id": "ENC-20260213-852",
+          "results": [
+            {
+              "test_name": "Lipase",
+              "value": 35.0,
+              "unit": "U/L",
+              "reference_low": 0.0,
+              "reference_high": 60.0,
+              "flag": null,
+              "loinc_code": "3040-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "Amylase",
+          "timestamp": "2026-02-13T15:19:00",
+          "encounter_id": "ENC-20260213-852",
+          "results": [
+            {
+              "test_name": "Amylase",
+              "value": 77.0,
+              "unit": "U/L",
+              "reference_low": 28.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "1798-8"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "TSH",
+          "timestamp": "2026-02-13T15:19:00",
+          "encounter_id": "ENC-20260213-852",
+          "results": [
+            {
+              "test_name": "TSH",
+              "value": 3.2,
+              "unit": "mIU/L",
+              "reference_low": 0.4,
+              "reference_high": 4.0,
+              "flag": null,
+              "loinc_code": "3016-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        }
+      ],
+      "imaging_orders": [
+        {
+          "order_id": "IMG-20260213-680",
+          "modality": "CT",
+          "body_region": "Abdomen",
+          "contrast": "with IV contrast",
+          "indication": "Abdominal pain",
+          "ordering_provider": "Dr. Rachel Green",
+          "order_datetime": "2026-02-13T16:12:00",
+          "urgency": "Routine",
+          "status": "Ordered"
+        }
+      ],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "HPI",
+          "encounter_id": "ENC-20260213-852",
+          "timestamp": "2026-02-13T14:48:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "The patient is a 48-year-old female presenting with a chief complaint of abdominal pain. The pain began approximately 3 days ago, initially described as mild and intermittent, but has progressively worsened over the last 24 hours. The patient localizes the pain primarily to the right lower quadrant (RLQ), though she notes it occasionally radiates to the periumbilical region. She describes the character of the pain as sharp and cramping. On a scale of 0-10, she rates the current pain as a 6/10. The pain is exacerbated by movement and deep breathing, and she reports it is constant rather than intermittent at this time.\n\nAssociated symptoms include anorexia and subjective low-grade fever, although her temperature is currently 99.3F. She denies nausea, vomiting, diarrhea, or constipation. She reports no urinary symptoms such as dysuria, frequency, or hematuria. She denies any recent travel, sick contacts, or changes in diet. The patient states she decided to seek medical attention today due to the worsening severity of the pain and its persistence despite rest. Her medical history is significant for hypothyroidism, for which she takes Levothyroxine 75mcg daily. She denies any recent surgeries or significant trauma.\n\nReview of systems is otherwise negative. She denies chest pain, shortness of breath, cough, or sputum production. She denies headache, dizziness, or syncope. She denies any vaginal bleeding or discharge. She reports no significant weight loss or changes in bowel habits prior to the onset of this pain. Her vital signs are stable, with a temperature of 99.3F, heart rate of 88 bpm, blood pressure of 135/85 mmHg, respiratory rate of 16 breaths/min, and oxygen saturation of 98.0% on room air. Initial laboratory results are within normal limits."
+        },
+        {
+          "note_type": "Physical Exam",
+          "encounter_id": "ENC-20260213-852",
+          "timestamp": "2026-02-13T14:48:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "GENERAL: Alert and oriented female in no acute distress. Appears stated age. Cooperative with the examination.\nHEENT: Normocephalic, atraumatic. PERRLA. EOMI. Conjunctivae and sclerae anicteric. Oropharynx clear, no erythema or exudates. TMs clear bilaterally. No sinus tenderness.\nCARDIOVASCULAR: Regular rate and rhythm. S1 and S2 auscultated. No murmurs, rubs, or gallops. JVP not elevated. Peripheral pulses 2+ bilaterally.\nPULMONARY: Clear to auscultation bilaterally. No wheezes, rales, or rhonchi. Respirations non-labored.\nABDOMEN: Soft, non-distended. Bowel sounds normoactive in all four quadrants. No hepatosplenomegaly. Tenderness to palpation in the right lower quadrant (RLQ). No rebound tenderness or guarding. No masses palpated.\nEXTREMITIES: Warm, dry, and intact. No edema. Full range of motion in all joints examined.\nNEUROLOGICAL: Grossly intact. Cranial nerves II-XII intact. Strength 5/5 throughout. Sensation intact to light touch. Reflexes 2+ and symmetric. Gait steady."
+        },
+        {
+          "note_type": "Assessment & Plan",
+          "encounter_id": "ENC-20260213-852",
+          "timestamp": "2026-02-13T14:48:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "ASSESSMENT:\n48-year-old female presenting with abdominal pain, etiology under evaluation. Patient is hemodynamically stable with mild tachycardia and low-grade fever. Labs are unremarkable. Given the persistent abdominal pain, repeat CT abdomen with contrast was ordered to further evaluate for potential intra-abdominal pathology, including but not limited to inflammatory, infectious, or obstructive processes. History of hypothyroidism is noted but currently stable.\n\nPLAN:\n1.  **Abdominal pain, etiology under evaluation** - Continue diagnostic workup. Await results of repeat CT abdomen with contrast. Based on CT findings, further diagnostic testing (e.g., ultrasound, endoscopy) or consultation (e.g., GI, GYN, Surgery) may be indicated. Provide symptomatic management for pain with IV fluids (1L NS bolus followed by maintenance fluids at 125 mL/hr) and scheduled analgesia with IV morphine 2-4 mg q4h PRN pain, or IV hydromorphone 0.5-1 mg q4h PRN pain. Monitor vital signs, abdominal exam, and pain level frequently. Consider NPO status pending CT results and clinical picture.\n2.  **Hypothyroidism** - Continue current home medication (Levothyroxine, dose unspecified). No acute management needed.\n3.  **Disposition plan** - Admit to inpatient medical service for further evaluation, monitoring, and management of abdominal pain pending diagnostic results."
+        },
+        {
+          "note_type": "Nursing Note",
+          "encounter_id": "ENC-20260213-852",
+          "timestamp": "2026-02-13T18:48:00",
+          "author": "RN Michael Johnson",
+          "note_text": "Patient is alert and oriented x3, reporting abdominal pain decreased to 1/10 after receiving IV fluids and analgesia (morphine 2mg IV). Vital signs remain stable with Temp 99.3F, HR 88, BP 135/85, RR 16, SpO2 98.0%. Abdomen is soft, non-distended, with mild tenderness to palpation in the RLQ. Continue monitoring vital signs and pain level; patient denies nausea or vomiting at this time."
+        }
+      ],
+      "diagnoses": [
+        "Abdominal pain, etiology under evaluation"
+      ]
+    }
+  ],
+  "problem_list": [
+    {
+      "condition": "Hypothyroidism",
+      "icd10": "E03.9",
+      "date_added": "2023-03-04T13:28:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20230304-763"
+    }
+  ],
+  "medication_history": [
+    {
+      "medication": {
+        "name": "Levothyroxine",
+        "dose": "75mcg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Hypothyroidism",
+        "rxnorm_code": "10582"
+      },
+      "change_type": "Started",
+      "change_date": "2023-03-04T13:28:00",
+      "encounter_id": "ENC-20230304-763",
+      "reason": "Hypothyroidism",
+      "previous_dose": null
+    },
+    {
+      "medication": {
+        "name": "Levothyroxine",
+        "dose": "75mcg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": null,
+        "rxnorm_code": "10582"
+      },
+      "change_type": "Increased",
+      "change_date": "2024-03-06T11:09:00",
+      "encounter_id": "ENC-20240306-451",
+      "reason": "TSH still above target",
+      "previous_dose": "50mcg"
+    }
+  ],
+  "current_medications": {
+    "home_medications": [
+      {
+        "name": "Levothyroxine",
+        "dose": "75mcg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Hypothyroidism",
+        "rxnorm_code": "10582"
+      }
+    ],
+    "inpatient_medications": [
+      {
+        "name": "Ondansetron",
+        "dose": "4mg",
+        "route": "IV",
+        "frequency": "q8h",
+        "indication": "Nausea",
+        "rxnorm_code": "26225"
+      },
+      {
+        "name": "Morphine",
+        "dose": "2mg",
+        "route": "IV",
+        "frequency": "q4h PRN",
+        "indication": "Abdominal pain",
+        "rxnorm_code": "7052"
+      },
+      {
+        "name": "Levothyroxine",
+        "dose": "100mcg",
+        "route": "PO",
+        "frequency": "Daily",
+        "indication": "Hypothyroidism",
+        "rxnorm_code": "10582"
+      }
+    ]
+  },
+  "allergies": [],
+  "surgical_history": [],
+  "family_history": [
+    "HTN",
+    "Diabetes Mellitus Type 2"
+  ],
+  "social_history": {
+    "smoking_status": "Never",
+    "smoking_details": null,
+    "alcohol_use": "Social",
+    "alcohol_details": null,
+    "drug_use": "None",
+    "drug_details": null,
+    "occupation": "Accountant",
+    "living_situation": "Lives with husband"
+  },
+  "source_vignette": {
+    "vignette_text": "48F. Prior CT 6 months ago showed hepatic cyst, stable. Current vitals WNL. PMHx: HTN, hypothyroidism.",
+    "case_id": "RUQ-080",
+    "case_name": "Radiology Clinic - (Not documented)",
+    "source": null,
+    "seed": 121,
+    "ground_truth_diagnosis": "(Not documented)",
+    "ground_truth_appropriate_study": "Repeat CT abdomen with contrast"
+  },
+  "parsed_vignette": {
+    "age": 48,
+    "sex": "Female",
+    "diagnosis": "(Not documented)",
+    "differential_diagnoses": [],
+    "chief_complaint": "Abdominal pain",
+    "symptom_onset": null,
+    "symptom_character": null,
+    "history_conditions": [
+      "HTN",
+      "hypothyroidism"
+    ],
+    "surgical_history": [],
+    "presenting_symptoms": [],
+    "pertinent_negatives": [],
+    "exam_findings": "",
+    "vitals_mentioned": {
+      "temperature_f": 6.0
+    },
+    "labs_mentioned": {},
+    "ordered_study": "Repeat CT abdomen with contrast",
+    "imaging_modality": "CT",
+    "imaging_body_region": "Abdomen",
+    "imaging_contrast": "with IV contrast",
+    "clinical_setting": "Radiology Clinic",
+    "acuity": "stable",
+    "special_populations": [],
+    "safety_flags_mentioned": [],
+    "extraction_confidence": 1.0
+  },
+  "source_scenario": null,
+  "generation_metadata": {
+    "generator_version": "2.0.0",
+    "generation_timestamp": "2026-02-18T12:32:24.769606",
+    "narrative_backend": "medgemma",
+    "seed": 121,
+    "model_id": null
+  }
+}

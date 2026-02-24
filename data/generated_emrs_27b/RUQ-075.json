@@ -1,0 +1,1137 @@
+{
+  "patient": {
+    "first_name": "Andrei",
+    "last_name": "Hassan",
+    "mrn": "MRN-109154",
+    "date_of_birth": "1954-12-10",
+    "age": 72,
+    "sex": "Male",
+    "race": "Two or More Races",
+    "ethnicity": "Hispanic or Latino",
+    "address": null,
+    "phone": "(692) 695-5029",
+    "insurance": "UnitedHealthcare PPO",
+    "emergency_contact": "Brenda Hassan (Child) - (797) 633-2199"
+  },
+  "encounter_history": [
+    {
+      "encounter": {
+        "encounter_id": "ENC-20230217-603",
+        "encounter_type": "Outpatient",
+        "facility": "Cedar Creek Medical Center",
+        "admission_datetime": "2023-02-17T16:06:00",
+        "discharge_datetime": "2023-02-17T16:39:36",
+        "attending_provider": "Dr. Nancy Davis",
+        "department": "Primary Care",
+        "chief_complaint": "Memory concerns, cognitive decline",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2023-02-17T16:11:00",
+          "encounter_id": "ENC-20230217-603",
+          "temperature_f": 98.3,
+          "heart_rate": 79,
+          "blood_pressure_systolic": 116,
+          "blood_pressure_diastolic": 83,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 98.6,
+          "pain_scale": 2,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2023-02-17T16:28:00",
+          "encounter_id": "ENC-20230217-603",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 10.6,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 15.9,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 48.6,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 277.8,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 88.6,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 12.5,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2023-02-17T16:28:00",
+          "encounter_id": "ENC-20230217-603",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 140.3,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 3.5,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 104.5,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 27.4,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 12.6,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 1.1,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 80.3,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.5,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.4,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 6.1,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 24.5,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 12.9,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 86.4,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.7,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 71.3,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20230217-603",
+          "timestamp": "2023-02-17T16:06:00",
+          "author": "Dr. Nancy Davis",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating standard medical abbreviations and clinical details.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [MRN - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Memory concerns, cognitive decline.\n\n**History of Present Illness (HPI):** 72 y/o M presents with progressive memory loss over the past 12 months, as reported by family. Patient exhibits difficulty recalling recent events, repeating questions, and managing instrumental activities of daily living (IADLs) such as finances and medication management. Family notes personality changes including increased apathy and irritability. Patient denies significant headache, dizziness, or focal neurological symptoms.\n\n**Review of Systems (ROS):**\n*   **Constitutional:** Denies fever, chills, weight loss.\n*   **Neurological:** Positive for memory loss, difficulty with IADLs. Denies focal weakness, numbness, tingling, seizures, or significant gait disturbance.\n*   **Psychiatric:** Positive for apathy, irritability. Denies overt depression or anxiety.\n*   *All other systems reviewed and are negative.*\n\n**OBJECTIVE**\n\n**Vitals:** BP 116/83 mmHg, HR 79 bpm, RR 18/min, Temp 98.6\u00b0F, SpO2 98% on RA.\n\n**Physical Exam:**\n*   **General:** Alert, oriented to person, but disoriented to time and place. Appears well-nourished.\n*   **Neurological:** Grossly intact cranial nerves II-XII. Motor strength 5/5 throughout. Sensation intact to light touch. Reflexes 2+ bilaterally. Gait is steady, no significant ataxia. Mini-Mental State Examination (MMSE) score: 22/30 (significant impairment in recall, orientation, and executive function).\n\n**ASSESSMENT**\n\n**Diagnoses:**\n1.  **Mild Neurocognitive Disorder (NCD) due to likely Alzheimer's Disease (AD):** Based on progressive decline in memory and IADLs over 12 months, MMSE score of 22/30, and family report. The pattern is most consistent with AD, although other etiologies cannot be completely excluded at this time.\n2.  **Age-related decline in eGFR:** eGFR 71.3 (L) noted on recent labs, likely related to age and potentially dehydration. No other significant abnormalities on basic metabolic workup, TSH, or B12.\n\n**Clinical Reasoning:** The patient presents with classic symptoms of early dementia, specifically progressive memory impairment impacting daily function. The MMSE score confirms cognitive"
+        }
+      ],
+      "diagnoses": [
+        "Dementia, Unspecified",
+        "Memory concerns, cognitive decline"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20240209-399",
+        "encounter_type": "Outpatient",
+        "facility": "Cedar Creek Medical Center",
+        "admission_datetime": "2024-02-09T10:43:00",
+        "discharge_datetime": "2024-02-09T11:04:00",
+        "attending_provider": "Dr. Nancy Davis",
+        "department": "Primary Care",
+        "chief_complaint": "Urinary frequency, nocturia",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2024-02-09T10:48:00",
+          "encounter_id": "ENC-20240209-399",
+          "temperature_f": 97.8,
+          "heart_rate": 87,
+          "blood_pressure_systolic": 118,
+          "blood_pressure_diastolic": 66,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 99.9,
+          "pain_scale": 1,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2024-02-09T11:01:00",
+          "encounter_id": "ENC-20240209-399",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 7.4,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 15.5,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 39.2,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 202.4,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 83.8,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 13.2,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2024-02-09T11:01:00",
+          "encounter_id": "ENC-20240209-399",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 142.6,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 98.2,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 24.8,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 11.5,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.8,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 79.6,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 10.1,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.3,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 6.2,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 26.6,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 41.5,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 83.1,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.6,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 94.0,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Nancy Davis"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20240209-399",
+          "timestamp": "2024-02-09T10:43:00",
+          "author": "Dr. Nancy Davis",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, adhering to professional clinical documentation standards and including specific details.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Use Placeholder if needed]\n**MRN:** [Medical Record Number - Use Placeholder if needed]\n**Date of Visit:** [Date]\n**Provider:** [Provider Name/Credentials]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Urinary frequency and nocturia.\n\n**History of Present Illness (HPI):** 72-year-old male with a history of dementia presents with complaints of increased urinary frequency and nocturia x3 over the past 2 months. He reports a weak urinary stream. He denies dysuria, hematuria, or fever. Symptoms are bothersome but not acutely distressing. Patient is oriented to person but limited recall of symptom onset/duration due to cognitive impairment. Caregiver confirms symptoms and reports patient is waking 3x/night to void.\n\n**Review of Systems (ROS):**\n*   **Genitourinary:** Positive for frequency, nocturia x3, weak stream. Negative for dysuria, hematuria, incontinence, flank pain.\n*   **Neurological:** History of dementia, unspecified. No new focal deficits reported by caregiver.\n*   **Constitutional:** Denies fever, chills, weight loss.\n*   *All other systems reviewed and are negative.*\n\n**OBJECTIVE**\n\n**Vitals:** BP 118/66 mmHg, HR 87 bpm, RR 16/min, Temp 98.4\u00b0F (36.9\u00b0C), SpO2 96% on RA.\n\n**Physical Exam:**\n*   **General:** Alert but limited orientation due to dementia. No acute distress.\n*   **Abdomen:** Soft, non-tender, non-distended. No suprapubic tenderness.\n*   **Genitourinary/Rectal:** Digital Rectal Exam (DRE) reveals a symmetrically enlarged prostate, smooth, without nodules or masses. Tone is normal.\n\n**Labs/Imaging:**\n*   **Relevant Labs:** Recent labs WNL (within normal limits).\n*   **PSA:** 2.8 ng/mL (drawn [Date]).\n*   **IPSS:** International Prostate Symptom Score = 18 (Severe).\n\n**ASSESSMENT**\n\n1.  **Benign Prostatic Hyperplasia (BPH):** 72-year-old male with significant lower urinary tract symptoms (LUTS) consistent with BPH, including frequency, nocturia x3, weak stream, and enlarged prostate on DRE. IPSS score of 18 indicates severe symptoms. PSA is within age-adjusted normal limits but warrants monitoring.\n2.  **Dementia, Unspecified:** Stable,"
+        }
+      ],
+      "diagnoses": [
+        "Benign Prostatic Hyperplasia",
+        "Urinary frequency, nocturia"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20250123-373",
+        "encounter_type": "Outpatient",
+        "facility": "Valley Medical Center",
+        "admission_datetime": "2025-01-23T14:28:00",
+        "discharge_datetime": "2025-01-23T15:10:36",
+        "attending_provider": "Dr. Lisa Hernandez",
+        "department": "Neurology Clinic",
+        "chief_complaint": "Neurology follow-up, cognitive assessment",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2025-01-23T14:33:00",
+          "encounter_id": "ENC-20250123-373",
+          "temperature_f": 98.5,
+          "heart_rate": 84,
+          "blood_pressure_systolic": 116,
+          "blood_pressure_diastolic": 70,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 98.1,
+          "pain_scale": 0,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "BMP",
+          "timestamp": "2025-01-23T14:40:00",
+          "encounter_id": "ENC-20250123-373",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 141.7,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 3.6,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 103.0,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 26.3,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 17.2,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 1.0,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 81.4,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.2,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 80.0,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Lisa Hernandez"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Consultation Note",
+          "encounter_id": "ENC-20250123-373",
+          "timestamp": "2025-01-23T14:28:00",
+          "author": "Dr. Lisa Hernandez",
+          "note_text": "Okay, here is a complete specialist consultation note based on the provided information, formatted in a standard clinical style.\n\n**CONSULTATION NOTE**\n\n**Patient Name:** [Patient Last Name], [Patient First Name]\n**MRN:** [Medical Record Number]\n**Date of Birth:** [Patient DOB]\n**Date of Consultation:** [Date]\n\n**Referring Provider:** Nancy Davis, MD\n**Reason for Consultation:** Neurology follow-up for cognitive assessment and management of dementia.\n\n**HISTORY OF PRESENT ILLNESS:**\nMr. [Patient Last Name] is a 72-year-old male with a known history of dementia, unspecified, presenting for routine neurology follow-up. He is currently managed with Donepezil 5mg daily. Per Dr. Davis, the patient's Mini-Mental State Examination (MMSE) has remained stable at 21 over the past 6 months. Caregiver support and advanced directives have been previously addressed. The primary goal of this visit is to reassess cognitive function and optimize dementia management.\n\n**EXAMINATION:**\n**General:** Alert but oriented to person only. Follows simple commands.\n**Neurological:**\n*   **Mental Status:** MMSE score = 21/30 (stable from prior assessment). Demonstrates impaired recent memory, difficulty with naming, and executive dysfunction. Insight into deficits is limited.\n*   **Cranial Nerves:** II-XII intact.\n*   **Motor:** No focal weakness, normal tone and bulk. Gait is slow but steady, no significant ataxia.\n*   **Sensory:** Intact to light touch.\n*   **Reflexes:** 2+ and symmetric throughout.\n*   **Coordination:** Finger-to-nose and heel-to-shin intact.\n\n**ASSESSMENT:**\nMr. [Patient Last Name] presents with stable, moderate dementia, likely Alzheimer's disease given the clinical presentation, although specific etiology remains unspecified. His MMSE score of 21 indicates significant cognitive impairment. Current management with Donepezil 5mg has maintained stability, but there is potential for further symptomatic benefit with dose optimization.\n\n**RECOMMENDATIONS:**\n1.  **Medication Adjustment:** Increase Donepezil to 10mg PO daily to assess for potential improvement in cognitive symptoms. Monitor for side effects (e.g., nausea, bradycardia).\n2.  **Caregiver Support:** Reinforce the importance of structured daily routines and cognitive stimulation activities. Provide resources for caregiver support groups.\n3.  **Follow-up:** Schedule follow-up appointment in 3 months to reassess cognitive function (repeat MMSE) and evaluate response to Donepezil dose increase.\n4.  **Communication:** Will communicate findings and recommendations to Dr. Davis via EMR.\n\n**[Your Name/Signature]**\n[Your Title/Credentials]\n["
+        }
+      ],
+      "diagnoses": [
+        "Neurology follow-up, cognitive assessment"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20260205-444",
+        "encounter_type": "Outpatient",
+        "facility": "Cedar Creek Medical Center",
+        "admission_datetime": "2026-02-05T12:10:00",
+        "discharge_datetime": null,
+        "attending_provider": "Dr. Rachel Green",
+        "department": "Nursing Home Transfer",
+        "chief_complaint": "Abdominal pain",
+        "disposition": "Follow-up as needed"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2026-02-05T12:23:00",
+          "encounter_id": "ENC-20260205-444",
+          "temperature_f": 99.1,
+          "heart_rate": 92,
+          "blood_pressure_systolic": 138,
+          "blood_pressure_diastolic": 82,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 96.0,
+          "pain_scale": 4,
+          "source": "Triage"
+        },
+        {
+          "timestamp": "2026-02-05T16:23:00",
+          "encounter_id": "ENC-20260205-444",
+          "temperature_f": 99.0,
+          "heart_rate": 67,
+          "blood_pressure_systolic": 140,
+          "blood_pressure_diastolic": 79,
+          "respiratory_rate": 18,
+          "oxygen_saturation": 98.1,
+          "pain_scale": 2,
+          "source": "Nursing"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2026-02-05T12:42:00",
+          "encounter_id": "ENC-20260205-444",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 9.8,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 13.2,
+              "unit": "g/dL",
+              "reference_low": 13.5,
+              "reference_high": 17.5,
+              "flag": "L",
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 40.1,
+              "unit": "%",
+              "reference_low": 38.0,
+              "reference_high": 50.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 350.9,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "CMP + LFT",
+          "timestamp": "2026-02-05T12:42:00",
+          "encounter_id": "ENC-20260205-444",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 138.0,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.0,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 24.0,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 22.0,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": "H",
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 1.1,
+              "unit": "mg/dL",
+              "reference_low": 0.7,
+              "reference_high": 1.3,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 110.0,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": "H",
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.1,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "AST",
+              "value": 25.0,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 30.0,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 85.0,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.6,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "Bilirubin, Direct",
+              "value": 0.2,
+              "unit": "mg/dL",
+              "reference_low": 0.0,
+              "reference_high": 0.3,
+              "flag": null,
+              "loinc_code": "1968-7"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 3.8,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 71.3,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": "L",
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "Lipase",
+          "timestamp": "2026-02-05T12:42:00",
+          "encounter_id": "ENC-20260205-444",
+          "results": [
+            {
+              "test_name": "Lipase",
+              "value": 45.0,
+              "unit": "U/L",
+              "reference_low": 0.0,
+              "reference_high": 60.0,
+              "flag": null,
+              "loinc_code": "3040-3"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        },
+        {
+          "panel_name": "Amylase",
+          "timestamp": "2026-02-05T12:42:00",
+          "encounter_id": "ENC-20260205-444",
+          "results": [
+            {
+              "test_name": "Amylase",
+              "value": 98.3,
+              "unit": "U/L",
+              "reference_low": 28.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "1798-8"
+            }
+          ],
+          "ordering_provider": "Dr. Rachel Green"
+        }
+      ],
+      "imaging_orders": [
+        {
+          "order_id": "IMG-20260205-960",
+          "modality": "CT",
+          "body_region": "Abdomen and Pelvis",
+          "contrast": "with IV contrast",
+          "indication": "Abdominal pain",
+          "ordering_provider": "Dr. Rachel Green",
+          "order_datetime": "2026-02-05T13:13:00",
+          "urgency": "Routine",
+          "status": "Ordered"
+        }
+      ],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "HPI",
+          "encounter_id": "ENC-20260205-444",
+          "timestamp": "2026-02-05T12:10:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "The patient is a 72-year-old male presenting with abdominal pain. The pain began approximately 24 hours ago, described by the patient as a dull, aching sensation. He localizes the pain primarily to the epigastric region, though he has difficulty pinpointing the exact location due to his underlying dementia. He denies any radiation of the pain. The patient rates the pain as a 6 out of 10 on a pain scale, stating it is \"bothersome\" but not unbearable. He reports the pain has been relatively constant since onset, without significant fluctuation.\n\nAssociated symptoms include anorexia and generalized malaise. He denies nausea, vomiting, diarrhea, or constipation. He reports no fever or chills, although his temperature is mildly elevated at 99.1F. He denies any urinary symptoms such as dysuria, frequency, or urgency, which is pertinent given his history of benign prostatic hyperplasia. He denies chest pain, shortness of breath, or cough. The patient was brought in today by his caregiver due to the persistent abdominal pain and decreased oral intake over the past day.\n\nReview of systems is otherwise negative for significant complaints. He denies any recent trauma or changes in diet. His vital signs are notable for a slightly elevated heart rate of 92 bpm and borderline elevated blood pressure of 138/82 mmHg. Laboratory results show a low hemoglobin of 13.2, elevated BUN of 22.0, elevated glucose of 110.0, and a low eGFR of 71.3. The patient's dementia limits his ability to provide a detailed history, but based on the available information, the primary concern is abdominal pain, etiology under evaluation."
+        },
+        {
+          "note_type": "Physical Exam",
+          "encounter_id": "ENC-20260205-444",
+          "timestamp": "2026-02-05T12:10:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "GENERAL: Alert but oriented to person only, secondary to dementia. Appears comfortable, in no acute distress. Cooperative with exam, though limited by cognitive impairment.\n\nHEENT: Normocephalic, atraumatic. PERRLA. EOMI. Conjunctivae anicteric, sclerae anicteric. Mucous membranes moist. Oropharynx clear, no erythema or exudates. Dentition fair. No thyromegaly.\n\nCARDIOVASCULAR: Regular rate and rhythm. S1, S2 normal. No murmurs, rubs, or gallops appreciated. JVP not elevated. Peripheral pulses 2+ bilaterally in upper and lower extremities.\n\nPULMONARY: Clear to auscultation bilaterally. No wheezes, rales, or rhonchi. Respirations non-labored. SpO2 96.0% on room air.\n\nABDOMEN: Soft, non-distended. Bowel sounds normoactive in all four quadrants. Mild tenderness to palpation in the right lower quadrant (RLQ), without rebound or guarding. No hepatosplenomegaly. No masses appreciated. Skin turgor normal.\n\nEXTREMITIES: No edema. Warm and dry. Full range of motion in upper extremities. Lower extremities show mild edema, 1+ bilaterally.\n\nNEUROLOGICAL: Grossly intact motor strength in upper extremities. Lower extremity strength difficult to assess due to patient's limited cooperation and baseline dementia. Sensation intact to light touch in upper extremities. Reflexes 2+ in upper extremities. Gait unsteady, requires assistance. Cranial nerves II-XII grossly intact, though detailed testing limited by cognitive status."
+        },
+        {
+          "note_type": "Assessment & Plan",
+          "encounter_id": "ENC-20260205-444",
+          "timestamp": "2026-02-05T12:10:00",
+          "author": "Dr. Rachel Green",
+          "note_text": "ASSESSMENT:\n72-year-old male with a history of dementia and BPH presenting with abdominal pain. Patient is afebrile but tachycardic. Labs show mild leukocytosis, elevated BUN, hyperglycemia, and decreased eGFR. Given the patient's age, comorbidities, and non-specific abdominal pain, the differential diagnosis is broad and includes infectious (e.g., diverticulitis, cholecystitis, UTI), inflammatory (e.g., pancreatitis, bowel ischemia), obstructive (e.g., bowel obstruction, nephrolithiasis), and potentially neoplastic processes. The CT abdomen/pelvis with contrast is crucial for further evaluation.\n\nPLAN:\n1.  **Abdominal pain, etiology under evaluation** - Continue diagnostic workup. Awaiting results of CT abdomen/pelvis with contrast. Monitor vital signs, including temperature, heart rate, and blood pressure, every 4 hours. Monitor urine output. Maintain NPO status until etiology is clearer or surgical intervention is ruled out. Administer IV fluids (0.9% Normal Saline) at 100 mL/hr for hydration and to address elevated BUN. Administer IV ondansetron 4mg every 8 hours as needed for nausea/vomiting. Administer IV acetaminophen 650mg every 6 hours as needed for pain. Re-evaluate labs including CBC, BMP, and lipase in 6 hours.\n2.  **Dementia** - Continue baseline management. Ensure patient safety, minimize agitation, and provide orientation as needed.\n3.  **Benign Prostatic Hyperplasia** - Continue baseline management. Monitor for urinary retention.\n4.  **Hyperglycemia** - Monitor blood glucose every 6 hours. Hold home oral hypoglycemic agents. Consider sliding scale insulin if glucose remains >180 mg/dL.\n5.  **Elevated BUN/Decreased eGFR** - Monitor renal function with repeat BMP in 6 hours. Ensure adequate hydration with IV fluids. Avoid nephrotoxic medications if possible.\n6.  **Disposition plan** - Admit to inpatient medical service for further evaluation, monitoring, and management pending CT results and clinical course."
+        },
+        {
+          "note_type": "Nursing Note",
+          "encounter_id": "ENC-20260205-444",
+          "timestamp": "2026-02-05T16:10:00",
+          "author": "RN David Lee",
+          "note_text": "Patient is alert and oriented x3, reporting abdominal pain rated at 4/10, slightly improved from initial assessment. Vital signs remain stable with Temp 99.1F, HR 92, BP 138/82, RR 16, SpO2 96.0%. Administered prescribed analgesic (Morphine 2mg IV) at 1400, patient reports mild relief. Continue monitoring abdominal assessment, vital signs, and pain level; no acute concerns at this time."
+        }
+      ],
+      "diagnoses": [
+        "Abdominal pain, etiology under evaluation"
+      ]
+    }
+  ],
+  "problem_list": [
+    {
+      "condition": "Dementia, Unspecified",
+      "icd10": "F03.90",
+      "date_added": "2023-02-17T16:06:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20230217-603"
+    },
+    {
+      "condition": "Benign Prostatic Hyperplasia",
+      "icd10": "N40.0",
+      "date_added": "2024-02-09T10:43:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20240209-399"
+    }
+  ],
+  "medication_history": [
+    {
+      "medication": {
+        "name": "Donepezil",
+        "dose": "10mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Dementia",
+        "rxnorm_code": null
+      },
+      "change_type": "Started",
+      "change_date": "2023-02-17T16:06:00",
+      "encounter_id": "ENC-20230217-603",
+      "reason": "Dementia",
+      "previous_dose": null
+    },
+    {
+      "medication": {
+        "name": "Tamsulosin",
+        "dose": "0.4mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "BPH",
+        "rxnorm_code": null
+      },
+      "change_type": "Started",
+      "change_date": "2024-02-09T10:43:00",
+      "encounter_id": "ENC-20240209-399",
+      "reason": "BPH",
+      "previous_dose": null
+    },
+    {
+      "medication": {
+        "name": "Donepezil",
+        "dose": "10mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": null,
+        "rxnorm_code": null
+      },
+      "change_type": "Increased",
+      "change_date": "2025-01-23T14:28:00",
+      "encounter_id": "ENC-20250123-373",
+      "reason": "Tolerated well, dose optimization",
+      "previous_dose": "5mg"
+    }
+  ],
+  "current_medications": {
+    "home_medications": [
+      {
+        "name": "Donepezil",
+        "dose": "10mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "Dementia",
+        "rxnorm_code": null
+      },
+      {
+        "name": "Tamsulosin",
+        "dose": "0.4mg",
+        "route": "PO",
+        "frequency": "daily",
+        "indication": "BPH",
+        "rxnorm_code": null
+      }
+    ],
+    "inpatient_medications": [
+      {
+        "name": "Ondansetron",
+        "dose": "4mg",
+        "route": "IV",
+        "frequency": "q8h",
+        "indication": "Nausea",
+        "rxnorm_code": "26225"
+      },
+      {
+        "name": "Acetaminophen",
+        "dose": "650mg",
+        "route": "PO",
+        "frequency": "q6h",
+        "indication": "Pain",
+        "rxnorm_code": "161"
+      },
+      {
+        "name": "Docusate",
+        "dose": "100mg",
+        "route": "PO",
+        "frequency": "BID",
+        "indication": "Constipation prevention",
+        "rxnorm_code": null
+      }
+    ]
+  },
+  "allergies": [],
+  "surgical_history": [],
+  "family_history": [
+    "Coronary Artery Disease",
+    "Diabetes Mellitus Type 2"
+  ],
+  "social_history": {
+    "smoking_status": "Former",
+    "smoking_details": null,
+    "alcohol_use": "None",
+    "alcohol_details": null,
+    "drug_use": "None",
+    "drug_details": null,
+    "occupation": "Retired Accountant",
+    "living_situation": "Lives with wife"
+  },
+  "source_vignette": {
+    "vignette_text": "72M. Vitals: T 99.1\u00b0F, HR 92, BP 138/82. Labs: WBC 9,800. PMHx: Dementia, HTN, BPH.",
+    "case_id": "RUQ-075",
+    "case_name": "Nursing Home Transfer - (Not documented)",
+    "source": null,
+    "seed": 116,
+    "ground_truth_diagnosis": "(Not documented)",
+    "ground_truth_appropriate_study": "CT abdomen/pelvis with contrast"
+  },
+  "parsed_vignette": {
+    "age": 72,
+    "sex": "Male",
+    "diagnosis": "(Not documented)",
+    "differential_diagnoses": [],
+    "chief_complaint": "Abdominal pain",
+    "symptom_onset": null,
+    "symptom_character": null,
+    "history_conditions": [
+      "Dementia",
+      "HTN",
+      "BPH"
+    ],
+    "surgical_history": [],
+    "presenting_symptoms": [],
+    "pertinent_negatives": [],
+    "exam_findings": "",
+    "vitals_mentioned": {
+      "temperature_f": 99.1,
+      "heart_rate": 92,
+      "blood_pressure_systolic": 138,
+      "blood_pressure_diastolic": 82
+    },
+    "labs_mentioned": {
+      "wbc": 9.8
+    },
+    "ordered_study": "CT abdomen/pelvis with contrast",
+    "imaging_modality": "CT",
+    "imaging_body_region": "Abdomen and Pelvis",
+    "imaging_contrast": "with IV contrast",
+    "clinical_setting": "Nursing Home Transfer",
+    "acuity": "mild",
+    "special_populations": [],
+    "safety_flags_mentioned": [],
+    "extraction_confidence": 1.0
+  },
+  "source_scenario": null,
+  "generation_metadata": {
+    "generator_version": "2.0.0",
+    "generation_timestamp": "2026-02-18T12:07:10.183662",
+    "narrative_backend": "medgemma",
+    "seed": 116,
+    "model_id": null
+  }
+}

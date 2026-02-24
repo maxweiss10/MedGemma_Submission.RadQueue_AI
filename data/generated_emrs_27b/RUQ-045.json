@@ -1,0 +1,1008 @@
+{
+  "patient": {
+    "first_name": "Wei",
+    "last_name": "Davis",
+    "mrn": "MRN-432901",
+    "date_of_birth": "1995-09-27",
+    "age": 31,
+    "sex": "Female",
+    "race": "Native Hawaiian or Other Pacific Islander",
+    "ethnicity": "Hispanic or Latino",
+    "address": null,
+    "phone": "(924) 714-5975",
+    "insurance": "Aetna HMO",
+    "emergency_contact": "Andrei Davis (Child) - (305) 717-2569"
+  },
+  "encounter_history": [
+    {
+      "encounter": {
+        "encounter_id": "ENC-20230313-189",
+        "encounter_type": "Outpatient",
+        "facility": "St. Mary's Medical Center",
+        "admission_datetime": "2023-03-13T13:03:00",
+        "discharge_datetime": "2023-03-13T13:30:00",
+        "attending_provider": "Dr. Karen Taylor",
+        "department": "Primary Care",
+        "chief_complaint": "Recurrent headaches",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2023-03-13T13:08:00",
+          "encounter_id": "ENC-20230313-189",
+          "temperature_f": 98.2,
+          "heart_rate": 90,
+          "blood_pressure_systolic": 136,
+          "blood_pressure_diastolic": 80,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 98.3,
+          "pain_scale": 3,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "BMP",
+          "timestamp": "2023-03-13T13:19:00",
+          "encounter_id": "ENC-20230313-189",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 141.7,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 5.0,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.4,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 24.9,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 8.9,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.8,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 77.5,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 10.1,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 101.0,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Karen Taylor"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20230313-189",
+          "timestamp": "2023-03-13T13:03:00",
+          "author": "Dr. Karen Taylor",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating professional clinical documentation style and standard medical abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - Placeholder]\n**MRN:** [MRN - Placeholder]\n**Date of Visit:** [Date - Placeholder]\n**Provider:** [Provider Name - Placeholder]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Recurrent headaches.\n\n**History of Present Illness (HPI):** 31 y/o F presents for f/u regarding recurrent headaches. Patient reports headaches occurring 3-4x/month, typically unilateral, throbbing in nature, lasting 4-6 hours if untreated. Associated symptoms include photophobia and nausea. No aura reported. Patient denies recent changes in headache pattern, frequency, or severity. Patient has been using sumatriptan PRN as prescribed, reporting partial relief ~50% of the time. Headache diary initiated at last visit; patient reports completing it consistently. Denies recent trauma, fever, stiff neck, or visual changes.\n\n**Review of Systems (ROS):**\n*   **Constitutional:** Denies fever, chills, weight loss.\n*   **HEENT:** Reports recurrent headaches as above. Denies sinus congestion, ear pain, vision changes, diplopia.\n*   **Neurological:** Denies focal weakness, numbness, tingling, seizures, LOC.\n*   **Psychiatric:** Denies significant stress, anxiety, or depression exacerbating headaches.\n\n**OBJECTIVE**\n\n**Vitals:** BP 136/80 mmHg, HR 90 bpm, RR 18, Temp 98.6\u00b0F (37\u00b0C), SpO2 99% RA.\n\n**Physical Exam:**\n*   **General:** Alert, oriented, NAD.\n*   **HEENT:** Normocephalic, atraumatic. PERRLA, EOMI. TMs clear bilaterally. No sinus tenderness.\n*   **Neurological:** CN II-XII grossly intact. Strength 5/5 throughout. Sensation intact to light touch. Reflexes 2+ and symmetric. Gait stable. No nuchal rigidity.\n\n**ASSESSMENT**\n\n**Diagnoses:**\n1.  **Migraine without aura (G43.901):** Patient meets criteria based on HPI (recurrent, unilateral, throbbing, moderate-severe intensity, associated photophobia/nausea, lasting 4-6 hrs). Partial response to sumatriptan supports diagnosis.\n2.  **Elevated BP (I10):** BP 136/80 mmHg, borderline elevated. Monitor.\n\n**Clinical Reasoning:** Patient presents with classic symptoms of migraine without aura. Headache diary review (assumed based on prompt) likely confirms pattern. Neu"
+        }
+      ],
+      "diagnoses": [
+        "Migraine without Aura",
+        "Recurrent headaches"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20240215-521",
+        "encounter_type": "Outpatient",
+        "facility": "Lakeside Hospital",
+        "admission_datetime": "2024-02-15T10:25:00",
+        "discharge_datetime": "2024-02-15T10:55:36",
+        "attending_provider": "Dr. Christopher Lee",
+        "department": "Neurology Clinic",
+        "chief_complaint": "Migraine follow-up, prophylaxis evaluation",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2024-02-15T10:30:00",
+          "encounter_id": "ENC-20240215-521",
+          "temperature_f": 98.9,
+          "heart_rate": 65,
+          "blood_pressure_systolic": 129,
+          "blood_pressure_diastolic": 87,
+          "respiratory_rate": 17,
+          "oxygen_saturation": 99.0,
+          "pain_scale": 3,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "BMP",
+          "timestamp": "2024-02-15T10:48:00",
+          "encounter_id": "ENC-20240215-521",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 141.5,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.4,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 103.3,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 26.1,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 15.0,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.6,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 92.3,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 8.5,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 123.0,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Christopher Lee"
+        }
+      ],
+      "imaging_orders": [
+        {
+          "order_id": "IMG-20240215-651",
+          "modality": "MRI",
+          "body_region": "Head",
+          "contrast": "without contrast",
+          "indication": "Migraine follow-up, prophylaxis evaluation",
+          "ordering_provider": "Dr. Christopher Lee",
+          "order_datetime": "2024-02-15T11:25:00",
+          "urgency": "Routine",
+          "status": "Completed"
+        }
+      ],
+      "imaging_reports": [
+        {
+          "order_id": "IMG-20240215-651",
+          "modality": "MRI Head",
+          "report_datetime": "2024-02-15T13:25:00",
+          "radiologist": "Dr. Diane Williams",
+          "technique": "MRI of the Head was performed without contrast.",
+          "findings": "Brain parenchyma demonstrates normal signal intensity. No intracranial mass, hemorrhage, or acute infarct. Ventricles and sulci are normal in size. No midline shift.",
+          "impression": "1. Normal MRI brain. No intracranial abnormality."
+        }
+      ],
+      "clinical_notes": [
+        {
+          "note_type": "Consultation Note",
+          "encounter_id": "ENC-20240215-521",
+          "timestamp": "2024-02-15T10:25:00",
+          "author": "Dr. Christopher Lee",
+          "note_text": "Okay, here is a complete specialist consultation note based on the provided information, formatted in a professional clinical style.\n\n**SPECIALIST CONSULTATION NOTE**\n\n**Patient Name:** [Patient Name - *Placeholder*]\n**MRN:** [Medical Record Number - *Placeholder*]\n**Date of Consult:** October 26, 2023\n**Consulting Physician:** [Your Name/Specialty - *Placeholder*]\n**Referring Physician:** Dr. Karen Taylor, MD\n**Reason for Consultation:** Migraine follow-up and evaluation for prophylactic therapy due to persistent high frequency despite abortive treatment.\n\n**HISTORY OF PRESENT ILLNESS:**\nThe patient is a 31-year-old female with a history of migraine without aura, referred by Dr. Taylor for ongoing management. She reports experiencing approximately 4 migraine attacks per month, significantly impacting her quality of life. Current abortive therapy with sumatriptan 50mg provides partial relief but does not prevent attacks. She denies aura, nausea/vomiting, or photophobia/phonophobia with all attacks. A recent MRI brain was unremarkable.\n\n**EXAMINATION:**\n**General:** Alert, oriented, in no acute distress.\n**Neurological:** Cranial nerves II-XII intact. Motor strength 5/5 throughout. Sensation intact to light touch. Reflexes 2+ and symmetric. Gait is steady. No focal neurological deficits identified.\n**Vitals:** BP 120/80 mmHg, HR 72 bpm, RR 16/min, Temp 98.6\u00b0F.\n\n**ASSESSMENT:**\nThe patient has recurrent migraine without aura, meeting criteria for frequent episodic migraine (\u22654 headache days/month). Her current migraine frequency warrants prophylactic therapy to reduce attack frequency and severity. The normal MRI brain rules out secondary causes.\n\n**RECOMMENDATIONS:**\n1.  **Prophylaxis:** Initiated topiramate 25mg PO QHS. Will titrate slowly as tolerated, aiming for 50-100mg daily, to reduce migraine frequency. Discussed potential side effects (paresthesias, cognitive slowing, weight loss) and importance of adherence.\n2.  **Lifestyle Modifications:** Reinforced non-pharmacologic strategies including regular sleep schedule, stress management techniques, trigger identification/avoidance (e.g., dietary triggers, dehydration), and regular exercise.\n3.  **Abortive Therapy:** Continue sumatriptan 50mg PRN for acute attacks. Advised to take medication early in the attack.\n4.  **Follow-up:** Return to clinic in 3 months or sooner if significant side effects or worsening symptoms. Will communicate findings and plan back to Dr. Taylor.\n\n**[Your Signature/Electronic Signature]**\n**[Your Printed Name/Credentials]**\n**[Your Specialty]**"
+        }
+      ],
+      "diagnoses": [
+        "Migraine follow-up, prophylaxis evaluation"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20250419-935",
+        "encounter_type": "Outpatient",
+        "facility": "St. Mary's Medical Center",
+        "admission_datetime": "2025-04-19T12:57:00",
+        "discharge_datetime": "2025-04-19T13:36:00",
+        "attending_provider": "Dr. Karen Taylor",
+        "department": "Primary Care",
+        "chief_complaint": "Routine check-up",
+        "disposition": "Discharged"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2025-04-19T13:02:00",
+          "encounter_id": "ENC-20250419-935",
+          "temperature_f": 97.0,
+          "heart_rate": 77,
+          "blood_pressure_systolic": 111,
+          "blood_pressure_diastolic": 89,
+          "respiratory_rate": 14,
+          "oxygen_saturation": 98.0,
+          "pain_scale": 1,
+          "source": "Triage"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2025-04-19T13:21:00",
+          "encounter_id": "ENC-20250419-935",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 8.4,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 12.9,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 41.3,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 219.7,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            },
+            {
+              "test_name": "MCV",
+              "value": 84.2,
+              "unit": "fL",
+              "reference_low": 80.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "787-2"
+            },
+            {
+              "test_name": "RDW",
+              "value": 13.8,
+              "unit": "%",
+              "reference_low": 11.5,
+              "reference_high": 14.5,
+              "flag": null,
+              "loinc_code": "788-0"
+            }
+          ],
+          "ordering_provider": "Dr. Karen Taylor"
+        },
+        {
+          "panel_name": "CMP",
+          "timestamp": "2025-04-19T13:21:00",
+          "encounter_id": "ENC-20250419-935",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 139.2,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 3.9,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 98.9,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 25.5,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 12.4,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.7,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 85.3,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.4,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.5,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "Total Protein",
+              "value": 7.0,
+              "unit": "g/dL",
+              "reference_low": 6.0,
+              "reference_high": 8.3,
+              "flag": null,
+              "loinc_code": "2885-2"
+            },
+            {
+              "test_name": "AST",
+              "value": 28.2,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 22.0,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 97.7,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.4,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 118.5,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Karen Taylor"
+        }
+      ],
+      "imaging_orders": [],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "Office Visit",
+          "encounter_id": "ENC-20250419-935",
+          "timestamp": "2025-04-19T12:57:00",
+          "author": "Dr. Karen Taylor",
+          "note_text": "Okay, here is a complete outpatient office visit note in SOAP format based on the provided information, incorporating professional clinical documentation style and standard medical abbreviations.\n\n**SOAP Note**\n\n**Patient Name:** [Patient Name - *Use placeholder if not provided*]\n**MRN:** [Medical Record Number - *Use placeholder if not provided*]\n**Date of Visit:** [Date - *Use placeholder if not provided*]\n**Provider:** [Provider Name - *Use placeholder if not provided*]\n\n**SUBJECTIVE**\n\n**Chief Complaint (CC):** Routine check-up.\n\n**History of Present Illness (HPI):** 31 y/o F presents for a routine annual physical exam. Patient reports feeling well overall. Denies any recent acute complaints. Reports migraines are well-controlled with current medications, occurring approximately 1-2x/month. Last migraine episode was ~3 months ago, responded well to Sumatriptan. Patient reports adherence to Topiramate. Discussed smoking cessation; patient expresses interest in quitting and requested resources.\n\n**Review of Systems (ROS):**\n*   **General:** Denies fever, chills, weight loss. Reports good energy levels.\n*   **HEENT:** Denies headache (other than known migraines), vision changes, sore throat.\n*   **Cardiovascular:** Denies chest pain, palpitations, shortness of breath.\n*   **Respiratory:** Denies cough, wheezing, dyspnea.\n*   **GI:** Denies nausea, vomiting, abdominal pain, changes in bowel habits.\n*   **GU:** Denies dysuria, frequency, hematuria.\n*   **MSK:** Denies joint pain, muscle aches.\n*   **Neuro:** Denies dizziness, focal weakness, numbness. Reports migraines as above.\n*   **Psych:** Denies anxiety, depression, sleep disturbance.\n\n**OBJECTIVE**\n\n**Vitals:** BP 111/89 mmHg, HR 77 bpm, RR 16/min, Temp 98.6\u00b0F (37\u00b0C), SpO2 98% on RA. BMI 24.5 kg/m\u00b2.\n\n**Physical Exam:**\n*   **General:** Alert, oriented, NAD. Appears well-nourished, in no acute distress.\n*   **HEENT:** Normocephalic, atraumatic. PERRLA, EOMI. TMs clear bilaterally. Oropharynx clear.\n*   **Neck:** Supple, no JVD, no thyromegaly.\n*   **Lungs:** CTA bilaterally. No wheezes, rales, or rhonchi.\n*   **Cardiovascular:** RRR, S1/S2 normal. No murmurs, rubs, or gallops.\n*   **Abdomen:** Soft, NT/"
+        }
+      ],
+      "diagnoses": [
+        "Routine check-up"
+      ]
+    },
+    {
+      "encounter": {
+        "encounter_id": "ENC-20260212-697",
+        "encounter_type": "Outpatient",
+        "facility": "St. Mary's Medical Center",
+        "admission_datetime": "2026-02-12T11:29:00",
+        "discharge_datetime": null,
+        "attending_provider": "Dr. Thomas Park",
+        "department": "Outpatient Hematology",
+        "chief_complaint": "Right upper quadrant pain",
+        "disposition": "Follow-up as needed"
+      },
+      "vital_signs": [
+        {
+          "timestamp": "2026-02-12T11:36:00",
+          "encounter_id": "ENC-20260212-697",
+          "temperature_f": 98.4,
+          "heart_rate": 74,
+          "blood_pressure_systolic": 120,
+          "blood_pressure_diastolic": 76,
+          "respiratory_rate": 16,
+          "oxygen_saturation": 97.7,
+          "pain_scale": 4,
+          "source": "Triage"
+        },
+        {
+          "timestamp": "2026-02-12T15:57:00",
+          "encounter_id": "ENC-20260212-697",
+          "temperature_f": 98.0,
+          "heart_rate": 73,
+          "blood_pressure_systolic": 137,
+          "blood_pressure_diastolic": 70,
+          "respiratory_rate": 14,
+          "oxygen_saturation": 99.9,
+          "pain_scale": 3,
+          "source": "Nursing"
+        }
+      ],
+      "lab_results": [
+        {
+          "panel_name": "CBC",
+          "timestamp": "2026-02-12T11:57:00",
+          "encounter_id": "ENC-20260212-697",
+          "results": [
+            {
+              "test_name": "WBC",
+              "value": 7.5,
+              "unit": "x10^3/uL",
+              "reference_low": 4.5,
+              "reference_high": 11.0,
+              "flag": null,
+              "loinc_code": "6690-2"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "value": 13.8,
+              "unit": "g/dL",
+              "reference_low": 12.0,
+              "reference_high": 16.0,
+              "flag": null,
+              "loinc_code": "718-7"
+            },
+            {
+              "test_name": "Hematocrit",
+              "value": 41.5,
+              "unit": "%",
+              "reference_low": 36.0,
+              "reference_high": 46.0,
+              "flag": null,
+              "loinc_code": "4544-3"
+            },
+            {
+              "test_name": "Platelets",
+              "value": 272.2,
+              "unit": "x10^3/uL",
+              "reference_low": 150.0,
+              "reference_high": 400.0,
+              "flag": null,
+              "loinc_code": "777-3"
+            }
+          ],
+          "ordering_provider": "Dr. Thomas Park"
+        },
+        {
+          "panel_name": "CMP + LFT",
+          "timestamp": "2026-02-12T11:57:00",
+          "encounter_id": "ENC-20260212-697",
+          "results": [
+            {
+              "test_name": "Sodium",
+              "value": 139.0,
+              "unit": "mEq/L",
+              "reference_low": 136.0,
+              "reference_high": 145.0,
+              "flag": null,
+              "loinc_code": "2951-2"
+            },
+            {
+              "test_name": "Potassium",
+              "value": 4.1,
+              "unit": "mEq/L",
+              "reference_low": 3.5,
+              "reference_high": 5.1,
+              "flag": null,
+              "loinc_code": "2823-3"
+            },
+            {
+              "test_name": "Chloride",
+              "value": 102.0,
+              "unit": "mEq/L",
+              "reference_low": 98.0,
+              "reference_high": 106.0,
+              "flag": null,
+              "loinc_code": "2075-0"
+            },
+            {
+              "test_name": "CO2",
+              "value": 24.0,
+              "unit": "mEq/L",
+              "reference_low": 23.0,
+              "reference_high": 29.0,
+              "flag": null,
+              "loinc_code": "2028-9"
+            },
+            {
+              "test_name": "BUN",
+              "value": 12.0,
+              "unit": "mg/dL",
+              "reference_low": 7.0,
+              "reference_high": 20.0,
+              "flag": null,
+              "loinc_code": "3094-0"
+            },
+            {
+              "test_name": "Creatinine",
+              "value": 0.8,
+              "unit": "mg/dL",
+              "reference_low": 0.6,
+              "reference_high": 1.1,
+              "flag": null,
+              "loinc_code": "2160-0"
+            },
+            {
+              "test_name": "Glucose",
+              "value": 95.0,
+              "unit": "mg/dL",
+              "reference_low": 70.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "2345-7"
+            },
+            {
+              "test_name": "Calcium",
+              "value": 9.5,
+              "unit": "mg/dL",
+              "reference_low": 8.5,
+              "reference_high": 10.5,
+              "flag": null,
+              "loinc_code": "17861-6"
+            },
+            {
+              "test_name": "AST",
+              "value": 25.0,
+              "unit": "U/L",
+              "reference_low": 10.0,
+              "reference_high": 40.0,
+              "flag": null,
+              "loinc_code": "1920-8"
+            },
+            {
+              "test_name": "ALT",
+              "value": 30.0,
+              "unit": "U/L",
+              "reference_low": 7.0,
+              "reference_high": 56.0,
+              "flag": null,
+              "loinc_code": "1742-6"
+            },
+            {
+              "test_name": "ALP",
+              "value": 85.0,
+              "unit": "U/L",
+              "reference_low": 44.0,
+              "reference_high": 147.0,
+              "flag": null,
+              "loinc_code": "6768-6"
+            },
+            {
+              "test_name": "Bilirubin, Total",
+              "value": 0.8,
+              "unit": "mg/dL",
+              "reference_low": 0.1,
+              "reference_high": 1.2,
+              "flag": null,
+              "loinc_code": "1975-2"
+            },
+            {
+              "test_name": "Bilirubin, Direct",
+              "value": 0.2,
+              "unit": "mg/dL",
+              "reference_low": 0.0,
+              "reference_high": 0.3,
+              "flag": null,
+              "loinc_code": "1968-7"
+            },
+            {
+              "test_name": "Albumin",
+              "value": 4.0,
+              "unit": "g/dL",
+              "reference_low": 3.5,
+              "reference_high": 5.0,
+              "flag": null,
+              "loinc_code": "1751-7"
+            },
+            {
+              "test_name": "eGFR",
+              "value": 101.0,
+              "unit": "mL/min/1.73m2",
+              "reference_low": 90.0,
+              "reference_high": 120.0,
+              "flag": null,
+              "loinc_code": "33914-3"
+            }
+          ],
+          "ordering_provider": "Dr. Thomas Park"
+        },
+        {
+          "panel_name": "Lipase",
+          "timestamp": "2026-02-12T11:57:00",
+          "encounter_id": "ENC-20260212-697",
+          "results": [
+            {
+              "test_name": "Lipase",
+              "value": 45.0,
+              "unit": "U/L",
+              "reference_low": 0.0,
+              "reference_high": 60.0,
+              "flag": null,
+              "loinc_code": "3040-3"
+            }
+          ],
+          "ordering_provider": "Dr. Thomas Park"
+        },
+        {
+          "panel_name": "Amylase",
+          "timestamp": "2026-02-12T11:57:00",
+          "encounter_id": "ENC-20260212-697",
+          "results": [
+            {
+              "test_name": "Amylase",
+              "value": 45.5,
+              "unit": "U/L",
+              "reference_low": 28.0,
+              "reference_high": 100.0,
+              "flag": null,
+              "loinc_code": "1798-8"
+            }
+          ],
+          "ordering_provider": "Dr. Thomas Park"
+        }
+      ],
+      "imaging_orders": [
+        {
+          "order_id": "IMG-20260212-524",
+          "modality": "PET/CT",
+          "body_region": "Abdomen",
+          "contrast": "",
+          "indication": "Right upper quadrant pain",
+          "ordering_provider": "Dr. Thomas Park",
+          "order_datetime": "2026-02-12T12:49:00",
+          "urgency": "Routine",
+          "status": "Ordered"
+        }
+      ],
+      "imaging_reports": [],
+      "clinical_notes": [
+        {
+          "note_type": "HPI",
+          "encounter_id": "ENC-20260212-697",
+          "timestamp": "2026-02-12T11:29:00",
+          "author": "Dr. Thomas Park",
+          "note_text": "The patient is a 31-year-old female presenting with right upper quadrant (RUQ) abdominal pain. The pain began approximately 48 hours ago, initially described as a dull ache, which has since become more constant and sharp. The pain is localized primarily to the RUQ, just below the rib cage, and does not radiate to the back, shoulder, or elsewhere. The patient rates the pain as a 6 out of 10 on a pain scale, exacerbated by deep breaths and movement, but not significantly relieved by rest. She denies any preceding trauma or inciting event.\n\nAssociated symptoms include intermittent nausea without vomiting. She reports a subjective feeling of fullness in the epigastrium but denies significant anorexia. She denies fever, chills, jaundice, or changes in bowel habits (diarrhea or constipation). She has not experienced any dysuria, hematuria, or flank pain. The patient states she has been taking her usual medications, Sumatriptan 50mg and Topiramate 25mg, as prescribed for her history of migraine without aura, and denies any recent changes in medication or dosage. She denies recent travel or sick contacts.\n\nThe patient sought medical attention today due to the persistence and increasing severity of the RUQ pain over the past 24 hours. She reports no significant improvement with over-the-counter analgesics. Review of systems is otherwise negative for cough, shortness of breath, chest pain, palpitations, headache, or neurological symptoms. Her vital signs are stable, and initial laboratory results are within normal limits."
+        },
+        {
+          "note_type": "Physical Exam",
+          "encounter_id": "ENC-20260212-697",
+          "timestamp": "2026-02-12T11:29:00",
+          "author": "Dr. Thomas Park",
+          "note_text": "GENERAL: Alert and oriented female in no acute distress. Appears stated age. BMI 25. Vitals stable as noted.\n\nHEENT: Normocephalic, atraumatic. PERRLA. EOMI. Conjunctivae anicteric. Oropharynx clear, no erythema or exudates. No thyromegaly.\n\nCARDIOVASCULAR: Regular rate and rhythm. S1, S2 auscultated. No murmurs, rubs, or gallops. JVP not elevated. Peripheral pulses 2+ bilaterally.\n\nPULMONARY: Clear to auscultation bilaterally. No wheezes, rales, or rhonchi. Respirations non-labored.\n\nABDOMEN: Soft, non-distended. Normoactive bowel sounds auscultated in all four quadrants. Mild tenderness to palpation in the right upper quadrant (RUQ). No rebound tenderness or guarding. No hepatosplenomegaly appreciated. No jaundice noted.\n\nEXTREMITIES: Warm, dry, and intact. No edema. Peripheral pulses 2+ bilaterally.\n\nNEUROLOGICAL: Grossly non-focal. Cranial nerves II-XII intact. Strength 5/5 throughout. Sensation intact to light touch. Reflexes 2+ and symmetric. Gait steady."
+        },
+        {
+          "note_type": "Assessment & Plan",
+          "encounter_id": "ENC-20260212-697",
+          "timestamp": "2026-02-12T11:29:00",
+          "author": "Dr. Thomas Park",
+          "note_text": "ASSESSMENT:\n31-year-old female presenting with right upper quadrant (RUQ) pain, etiology under evaluation. Patient is hemodynamically stable with normal vital signs and unremarkable laboratory results. History is significant for migraines without aura. Given the location of pain, differential diagnoses include biliary colic/cholecystitis, hepatitis, peptic ulcer disease, musculoskeletal pain, and less likely, hepatic or renal pathology. A PET/CT has been ordered to further evaluate for potential underlying causes, including malignancy or inflammatory processes, although these are lower on the differential at this time.\n\nPLAN:\n1.  **Right upper quadrant pain, etiology under evaluation** - Continue diagnostic workup.\n    *   Review results of PET/CT scan upon completion.\n    *   Consider abdominal ultrasound if PET/CT is non-diagnostic or if biliary pathology is strongly suspected based on clinical picture or PET/CT findings.\n    *   Provide symptomatic management for pain:\n        *   Acetaminophen 650mg PO Q6H PRN pain.\n        *   If pain persists or is severe, consider Tramadol 50mg PO Q8H PRN pain (max 200mg/day).\n    *   Encourage hydration and bland diet.\n    *   Monitor for worsening pain, fever, jaundice, or other concerning symptoms.\n2.  **Migraine without Aura** - Continue current management as per patient's established regimen (if any). Advise patient to avoid known triggers.\n3.  **Disposition plan** - Patient discharged home with instructions to return to the Emergency Department or follow up with primary care physician if symptoms worsen or new symptoms develop. Provide clear instructions regarding PET/CT scheduling and follow-up."
+        },
+        {
+          "note_type": "Nursing Note",
+          "encounter_id": "ENC-20260212-697",
+          "timestamp": "2026-02-12T15:29:00",
+          "author": "RN Robert Taylor",
+          "note_text": "Patient is alert and oriented x3, reporting right upper quadrant pain currently rated at 4/10 after initial assessment. Vital signs remain stable and within normal limits since admission, with no significant trends noted. Administered prescribed analgesic (morphine 2mg IV) at 1400, which provided partial relief. Patient denies nausea, vomiting, or fever. Continue monitoring pain levels and vital signs; report any worsening symptoms."
+        }
+      ],
+      "diagnoses": [
+        "Right upper quadrant pain, etiology under evaluation"
+      ]
+    }
+  ],
+  "problem_list": [
+    {
+      "condition": "Migraine without Aura",
+      "icd10": "G43.909",
+      "date_added": "2023-03-13T13:03:00",
+      "date_resolved": null,
+      "status": "Active",
+      "added_encounter_id": "ENC-20230313-189"
+    }
+  ],
+  "medication_history": [
+    {
+      "medication": {
+        "name": "Sumatriptan",
+        "dose": "50mg",
+        "route": "PO",
+        "frequency": "PRN",
+        "indication": "Migraine abortive",
+        "rxnorm_code": "37418"
+      },
+      "change_type": "Started",
+      "change_date": "2023-03-13T13:03:00",
+      "encounter_id": "ENC-20230313-189",
+      "reason": "Migraine abortive",
+      "previous_dose": null
+    },
+    {
+      "medication": {
+        "name": "Topiramate",
+        "dose": "25mg",
+        "route": "PO",
+        "frequency": "BID",
+        "indication": "Migraine prophylaxis",
+        "rxnorm_code": "38404"
+      },
+      "change_type": "Started",
+      "change_date": "2024-02-15T10:25:00",
+      "encounter_id": "ENC-20240215-521",
+      "reason": "Migraine prophylaxis",
+      "previous_dose": null
+    }
+  ],
+  "current_medications": {
+    "home_medications": [
+      {
+        "name": "Sumatriptan",
+        "dose": "50mg",
+        "route": "PO",
+        "frequency": "PRN",
+        "indication": "Migraine abortive",
+        "rxnorm_code": "37418"
+      },
+      {
+        "name": "Topiramate",
+        "dose": "25mg",
+        "route": "PO",
+        "frequency": "BID",
+        "indication": "Migraine prophylaxis",
+        "rxnorm_code": "38404"
+      }
+    ],
+    "inpatient_medications": [
+      {
+        "name": "Ondansetron",
+        "dose": "4mg",
+        "route": "IV",
+        "frequency": "q8h",
+        "indication": "Nausea",
+        "rxnorm_code": "26225"
+      },
+      {
+        "name": "Morphine",
+        "dose": "2mg",
+        "route": "IV",
+        "frequency": "q4h PRN",
+        "indication": "Pain",
+        "rxnorm_code": "7052"
+      }
+    ]
+  },
+  "allergies": [],
+  "surgical_history": [],
+  "family_history": [
+    "Hypertension",
+    "Diabetes Mellitus Type 2"
+  ],
+  "social_history": {
+    "smoking_status": "Never",
+    "smoking_details": null,
+    "alcohol_use": "Social",
+    "alcohol_details": null,
+    "drug_use": "None",
+    "drug_details": null,
+    "occupation": "Accountant",
+    "living_situation": "Lives with partner"
+  },
+  "source_vignette": {
+    "vignette_text": "31F. Vitals: T 98.4\u00b0F, HR 74, BP 120/76. Labs: Normal LFTs. PE: BMI 25, vague RUQ fullness, OCPs x 10 years, incidental finding mentioned. PMHx: Long-term OCP use, migraines.",
+    "case_id": "RUQ-045",
+    "case_name": "Outpatient Hematology - Hepatic adenoma",
+    "source": null,
+    "seed": 86,
+    "ground_truth_diagnosis": "Hepatic adenoma",
+    "ground_truth_appropriate_study": "PET/CT"
+  },
+  "parsed_vignette": {
+    "age": 31,
+    "sex": "Female",
+    "diagnosis": "Hepatic adenoma",
+    "differential_diagnoses": [],
+    "chief_complaint": "Right upper quadrant pain",
+    "symptom_onset": null,
+    "symptom_character": null,
+    "history_conditions": [
+      "Long-term OCP use",
+      "migraines"
+    ],
+    "surgical_history": [],
+    "presenting_symptoms": [],
+    "pertinent_negatives": [],
+    "exam_findings": "BMI 25, vague RUQ fullness, OCPs x 10 years, incidental finding mentioned",
+    "vitals_mentioned": {
+      "temperature_f": 98.4,
+      "heart_rate": 74,
+      "blood_pressure_systolic": 120,
+      "blood_pressure_diastolic": 76
+    },
+    "labs_mentioned": {},
+    "ordered_study": "PET/CT",
+    "imaging_modality": "PET/CT",
+    "imaging_body_region": "Abdomen",
+    "imaging_contrast": "",
+    "clinical_setting": "Outpatient Hematology",
+    "acuity": "stable",
+    "special_populations": [],
+    "safety_flags_mentioned": [],
+    "extraction_confidence": 1.0
+  },
+  "source_scenario": null,
+  "generation_metadata": {
+    "generator_version": "2.0.0",
+    "generation_timestamp": "2026-02-18T09:02:37.431592",
+    "narrative_backend": "medgemma",
+    "seed": 86,
+    "model_id": null
+  }
+}

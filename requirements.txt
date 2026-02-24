@@ -1,0 +1,33 @@
+# MedGemma Protocol Generator Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML dependencies (required for notebooks 03 & 04)
+transformers>=4.50.0
+accelerate>=0.26.0
+torch>=2.0.0
+bitsandbytes>=0.42.0
+
+# HuggingFace
+huggingface_hub>=0.20.0
+
+# Image processing (for multimodal capabilities)
+pillow>=10.0.0
+
+# Data processing
+pandas>=2.0.0
+python-dateutil>=2.8.0
+openpyxl>=3.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Jupyter / Colab
+ipywidgets>=8.0.0
+jupyter>=1.0.0
+nbconvert>=7.0.0
+
+# Optional: HL7/FHIR parsing (not used by current notebooks)
+# hl7>=0.4.5
+# fhir.resources>=7.0.0
